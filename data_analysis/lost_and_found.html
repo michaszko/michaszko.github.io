@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MS | Data</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="icon" href="../img/logos/favicon.ico">
+    <link href="https://fonts.cdnfonts.com/css/linux-libertine-o" rel="stylesheet">
+</head>
+<nav>
+    <ul class="menu">
+
+        <li><a href="../index.html">Home</a></li>
+
+        <li><a href="../research.html">Research</a></li>
+
+        <li><a href="../teaching.html">Teaching</a></li>
+
+        <li><a href="../projects.html">Projects</a></li>
+
+        <li><a href="../contact.html">Contact</a></li>
+
+    </ul>
+
+    <hr class="hr-menu">
+</nav>
+
+<body>
+    <div class="main-text">
+        <h1 id="venue">Lost and found in trains</h1>
+        <p style="margin-top: -20px;">29 August 2024</p>
+
+        <hr style="border-top: 1px solid #F06543; width: 70%;">
+
+        <p>
+            Recently I was traveling with a polish InterCity train and I have 
+            left my water bottle behind. I have checked the website and I was surprised 
+            that there is an online table of things which have been left in trains. 
+            <a href="https://www.intercity.pl/pl/site/dla-pasazera/obsluga-klientow/odbior-zagubionego-bagazu.html" target="_blank"> Here</a>
+            you can find this website.
+        </p>
+        <p>
+            This gave me an idea: I want to see where and what exactly people leave behind 
+            while traveling with trains. For this I have created a simple BASH
+            script which downloads all the websites with the data, and then process it
+            accordingly. What I have left is the <i>.csv</i> file with dates, train numbers, 
+            station where the item was found and the category of the item. Data is heavily
+            flawed, since there is inconsistency in naming of the cities. Sometimes one can 
+            find <i>Wrocław Główny</i> and sometimes <i>Wrocław Gł.</i> and even <i>Wrocław</i>. 
+            I have taken care of it with <i>Vim</i> scripting.
+        </p>
+        <p>
+            First thing I have looked into was the frequency items. 
+
+            <img src="../img/lost_and_found/number_of_lost_items.svg" 
+                    alt="number_of_lost_items" 
+                    style="width: 100%; margin-top: 40px; margin-bottom: 40px;">
+
+            It seems that the number of lost items is still growing. It is unclear 
+            what is the cause of it. I can see potential two reasons: 1) system of 
+            reporting is new (February 2024) and it sill didn't saturated; 2) holiday 
+            season in Poland. Later is also supported by the fact that there is huge
+            grow in June, when students return to home.
+        </p>
+        <p>
+            Weekly cycle can also be seen in the data.
+
+            <img src="../img/lost_and_found/day_of_week.svg" 
+            alt="day_of_week" 
+            style="width: 80%; margin-top: 40px; margin-bottom: 40px;">
+
+            Most of the things are lost on Saturday, and least on Tuesday.
+        </p>
+        <p>
+            Now about the cities where most items are found. Figure below
+            shows the distribution in time for Top 10 stations with most 
+            lost items.
+
+            <img src="../img/lost_and_found/cities.svg" 
+            alt="cities" 
+            style="width: 80%; margin-top: 40px; margin-bottom: 40px;">
+
+            What those stations have in common? That they are all the final stations 
+            for most of the trains. And Kraków is both final station and most 
+            touristic city in Poland.
+
+        </p>
+        <p>
+            And whats is lost the most?
+
+            <img src="../img/lost_and_found/items.svg" 
+            alt="cities" 
+            style="width: 80%; margin-top: 40px; margin-bottom: 40px;">
+
+            It seems that its 1) cloths, 2) electronics, 3) personal belongings, 4) backpacks,
+            5) bags, 6) documents, 7) books, 8) cell phones, 9) tourist equipment and 10) wallets.
+        </p>
+        <p>
+            Let's look at the correlation between items and cities.
+
+            <img src="../img/lost_and_found/lost_things_in_city.svg" 
+            alt="cities" 
+            style="width: 90%; margin-top: 40px; margin-bottom: 40px;">
+
+            It does not tell us much, so lets look at item participation in cities
+            and cities participation in lost items.
+        </p>
+        <p>
+            <img src="../img/lost_and_found/item_participation.svg" 
+            alt="cities" 
+            style="width: 90%; margin-top: 40px; margin-bottom: 40px;">
+
+            It looks like in most of cities most lost items are cloths, but there are exceptions.
+            Take a look at Poznań - only 6% of all items lost in this city are clothing. Another 
+            interesting fact is that every 10th item lost is phone in Poznań and Bydgoszcz.
+        </p>
+        <p>
+            <img src="../img/lost_and_found/city_participation.svg" 
+            alt="cities" 
+            style="width: 90%; margin-top: 40px; margin-bottom: 40px;">
+
+            Most of each item are found in Kraków, but there are also exceptions. 
+            Most backpacks are found in Gdynia, most cell phones are found in 
+            Warszawa Olszynka Grochowska. Wallets are not to be found in big stations - 
+            seems like people are more just in the smaller cities.  
+        </p>
+
+    </div>
+</body>
+<footer>
+    <hr class="hr-menu">
+    <div class="footer-content">
+        <p class="footer-text">©2024 Michał Siemaszko. All right reserved.</p>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,4815 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="574.52pt" height="554.110545pt" viewBox="0 0 574.52 554.110545" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-08-30T10:56:03.403666</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 554.110545 
+L 574.52 554.110545 
+L 574.52 0 
+L 0 0 
+L 0 554.110545 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 131 461.3175 
+L 574.52 461.3175 
+L 574.52 17.7975 
+L 131 17.7975 
+L 131 461.3175 
+z
+" style="fill: none"/>
+   </g>
+   <g clip-path="url(#p5a92729944)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAmgAAAJoCAYAAADS7x1JAAAStklEQVR4nO3Y64/m5UHG8fvZmWWPLNCCXVgoHVTcAoLSVJC6kZZWmxBUCkaLEdAmbUmaWFKNilBJxTZVDMakqUkbTV8opIFCqjRCSywiEGotEtgeFJbD7lpYDkPZA7OzM/P4oq/8B/a60v18/oHr+c3vkO/ck/mFuekIWb7x3NR0zJ1/f3Fs+9pXn49tJz1z7X/Gtt9yy9ti2ym3HLs5tn2kPuOpv/mlv3N3ZHcM31J+9K1K/wAAAP4/gQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBmMr8wN02N/+OJN6amY37tt+6Nbb/xY4/Eto/f+rux7Z0/+Fxs+0h8xv/wwO70TzjifHr9lsiue334pe71GO734eYEDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoMzn02E9M0z8i4fuf+YX0TzjsvnTbRbHt9/3mfbHtM75wemz7pjWnRHavP7gzsjvGGN++6r9j28l7zeHlOeNHnRM0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMrOf2fansfGr9nw8tn3GF06PbefszE3fdlFuO3jd1x/MbN+05pTI7hhjfOm23HbyXif/5qnnDA6HI/XdcoIGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJSZvWrPx2Pjn1z7qdj2zhtujexuvHx7ZHeMMf79w1fGtr/y8OrY9jXjtNj2Z9fsiOzufi33905dc1rybz7WZGavOZh7t556fCm2nfRP5+au+5JvzUZ2rz+4M7Kb5gQNAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgzmV+Ym6Z/RMLyjedGdv/2ry6L7I4xxoc/dkds+wN/8aux7bfPzMa2U/5jeSm2fST+vccY41cu/kZs+4YvZ75nR+q9Tr5f963eFdu+6NDJkd0j8ZrHcIIGAFBHoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJSZTY5v/+XfTs5H7FvKNfHePcfEthfHcmz7wguejG0/vWNLZHffrty9fnD59dj2FVsWY9tz5303tr345XMiuw8u597rpHOm62Lbl//YG2Pb1+zZFdtOeev0qNi2EzQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoMxscnw6ncS2737grZHdi7d9J7I7xhgP3Ht+bPuc6brY9klz/xvb/vMH5iK779/yWmR3jDE++O5vxLbPvvW02Pb2666ObT9w1I7YdspHFnP3+ozg+3XNnpdj29sOnRjbTnls8nps2wkaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAmcn8wtw0Nf74e65KTcdsPW97bPu7j5wZ2/6Th7bEtpN+anljZPd7M/siu2OM8ejsi7Htz285Nrb9zO5jYtt3Lx2I7Kae77Tb1jwd2/7ZpRNi2xfPro/s3jSejeymOUEDACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMrMJsc//8BPxrZ/cfNCZHffaxsiu2OM8a4P/XNs++r/uTK2/eyL62PbYyYzu7icu+ZHg1+Vr+w4JjcedPXmzP/avzf/dGR3jDHOXj7+iNyeC77bB1JnOtFSyXGCBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUmTz/0fdPU+P33v7O1PTYesaOyO6//ttPR3bHGOPE4/fHtu/avS62fe9RO2PbHzh4WmT3vT/zXGR3jDFueGJTbDvpzcsb0j/hsHtuJvdNSf69k9+UrctviG2nvGPp2Nj2zsmh2LYTNACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgzGR+YW6aGt9038bU9PjL9/1RbDvlyg/eHdu+5LPbYtsXLB0X237blr2x7ZSPvPRibPtr2/bFtj9939bY9nMz+2PbKcn3etdkMbZ9JN7r783Mx7bfs3hybNsJGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQZjK/MDdNjd9+6g2p6XH5s38W2U1ec9IXX0r/goyHZ5+P7H7z0l2R3THGuOm2d8S2z1oTmx73LR3MjYeknu8xxrjl2M2x7ftfyD1od615NrY9t7wpsnvO0nGR3THGeGx2PrbtBA0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKDMbHJ8cXEmtj296ZzI7vq1ByO7Y4xx5tlPxrYv3LQvtv03//DO2PbyeFNk97I7NkV2xxjjulNfi21/6Pn52PYfTOZi21+cvBzZPXUl95xd++rzse2fm8m812lPz2Te7ZVJZDbOCRoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUGZ29xWXxMYvu+pfYtvH/PxTkd3vfPLYyO4YY1zwrldj21+/5/zY9tdWvxjb3rlqb2R31x8/HNkdY4ybP3FFbHusno9NP768FNs+YdXayO43Z/dEdscY472Lp8S2t8++Gtv+6KG52PZfr346snvCSub5HmOMF1a9Htt2ggYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlJnML8xNU+MHfv+C1PQR6ftPbolt337PubHtM0/+QWx77rTdkd2vP7Q1sjvGGBvWLse29y/MxLYfXD4Y2/6lDbOR3Rf2rY7sjjHGjnEotr171eux7dOXN8a2vzU7H9k9aWV9ZHeMMb49k7nmMZygAQDUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlZmduPiM2vv7mh2Lbaz/3lsjuzLrFyO4YY3z1zgtj2/unselx/85Nse3dezZGdk845mBkd4wxnnhpXWz7rONfj22vvBKbHjv2ro7s7prkvmcHJsux7VOXN8S2D47cx3TzyvrI7kpk9YfevHJ0bNsJGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQRqABAJQRaAAAZQQaAEAZgQYAUEagAQCUEWgAAGUEGgBAGYEGAFBGoAEAlBFoAABlBBoAQBmBBgBQZjK/MDdNjW96ZE1qehw4cyWy++ilV0R20556aktse88r62Pb9y8eiuzuXrU/sjvGGFtWNsS2D0yWYtsnLa+Lbe+Y3RfZfcNK8Bt+hN7rtWMS294xcyCyuzBZjuymOUEDACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoM5lfmJumxu867brU9Dh/239Fduf3HBfZHWOMk358d2x73ytHx7Y/cefbY9unTFdHdo+aRGbHGGPsi31Rxtg+sz83HnR06Dl7ZtXeyO4YY2yaHhXbTjpxZW36Jxx2j83Ox7bXTmdi207QAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyk/mFuWlq/Og7j09Nj3s+9RuR3bPOeyKyO8YYd9z67tj2hrWHYturVy/Htl9+dW1k9++W5iO7Y4zx6yu593rf8iS2fWDEPqVjdmSu+6jI6g99dfal2Pabputj28+u2hvb3rySue5Dk5XI7hhjbJyujm07QQMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAygg0AIAyAg0AoIxAAwAoI9AAAMoINACAMgINAKCMQAMAKCPQAADKCDQAgDICDQCgjEADACgj0AAAyvwfc7b4fhp6V6cAAAAASUVORK5CYII=" id="imagebf1d40490d" transform="scale(1 -1) translate(0 -443.52)" x="131" y="-17.7975" width="443.52" height="443.52"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m5ad01f9365" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m5ad01f9365" x="142.088" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- KRAKÓW GŁ. -->
+      <g transform="translate(103.713094 517.623835) rotate(-45) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-4b" d="M 211 0 
+L 1738 0 
+L 1738 323 
+L 1254 499 
+L 1254 1747 
+L 1542 2109 
+L 2896 0 
+L 3773 0 
+L 3773 320 
+L 3341 486 
+L 1962 2573 
+L 3213 4150 
+L 3683 4349 
+L 3683 4672 
+L 2278 4672 
+L 2278 4349 
+L 2675 4192 
+L 1254 2320 
+L 1254 4182 
+L 1648 4349 
+L 1648 4672 
+L 211 4672 
+L 211 4349 
+L 643 4173 
+L 643 499 
+L 211 323 
+L 211 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-52" d="M 211 0 
+L 1658 0 
+L 1658 323 
+L 1254 490 
+L 1254 1968 
+L 1626 1968 
+C 1667 1968 1709 1968 1747 1971 
+L 2928 0 
+L 3837 0 
+L 3837 320 
+L 3357 490 
+L 2368 2067 
+C 3085 2275 3546 2787 3546 3453 
+C 3546 4253 2950 4682 1926 4675 
+L 211 4672 
+L 211 4349 
+L 643 4147 
+L 643 499 
+L 211 323 
+L 211 0 
+z
+M 1254 2394 
+L 1254 4240 
+L 1766 4240 
+C 2451 4240 2877 4010 2877 3395 
+C 2877 2803 2477 2394 1683 2394 
+L 1254 2394 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-41" d="M 134 0 
+L 1501 0 
+L 1501 323 
+L 1018 506 
+L 1229 1318 
+L 2602 1318 
+L 2819 490 
+L 2384 326 
+L 2384 3 
+L 3834 3 
+L 3834 326 
+L 3450 525 
+L 2310 4672 
+L 1686 4672 
+L 515 522 
+L 134 323 
+L 134 0 
+z
+M 1338 1741 
+L 1901 3894 
+L 1930 3894 
+L 2493 1741 
+L 1338 1741 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-d3" d="M 1984 -74 
+C 2931 -74 3677 755 3677 2349 
+C 3677 3933 2931 4749 1984 4749 
+C 1037 4749 291 3933 291 2349 
+C 291 755 1037 -74 1984 -74 
+z
+M 950 2339 
+C 950 3741 1398 4298 1984 4298 
+C 2573 4298 3018 3741 3018 2339 
+C 3018 918 2573 378 1984 378 
+C 1398 378 950 934 950 2339 
+z
+M 1747 5248 
+L 2352 6019 
+L 3059 6019 
+L 2192 5248 
+L 1747 5248 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-57" d="M 944 0 
+L 1472 0 
+L 1978 2851 
+L 2019 2851 
+L 2499 0 
+L 3024 0 
+L 3443 4198 
+L 3814 4349 
+L 3814 4672 
+L 2544 4672 
+L 2544 4349 
+L 2995 4163 
+L 2774 1370 
+L 2736 1370 
+L 2246 3981 
+L 1866 3981 
+L 1386 1370 
+L 1350 1370 
+L 1104 4170 
+L 1542 4349 
+L 1542 4672 
+L 154 4672 
+L 154 4349 
+L 525 4198 
+L 944 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-20" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-47" d="M 2259 -77 
+C 2723 -77 3187 38 3603 250 
+L 3603 2378 
+L 2109 2378 
+L 2109 2010 
+L 3034 1901 
+L 3034 518 
+C 2829 426 2582 352 2288 352 
+C 1469 346 944 906 944 2346 
+C 944 3779 1475 4342 2202 4336 
+C 2669 4333 2995 4086 3152 3645 
+L 3229 3424 
+L 3587 3510 
+L 3373 4525 
+C 3037 4672 2691 4749 2314 4749 
+C 1146 4749 291 4022 291 2314 
+C 291 688 1034 -77 2259 -77 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-141" d="M 42 1808 
+L 643 2102 
+L 643 499 
+L 211 323 
+L 211 0 
+L 947 0 
+L 947 -3 
+L 3475 0 
+L 3661 1482 
+L 3274 1482 
+L 2947 438 
+L 1254 438 
+L 1254 2400 
+L 2477 2995 
+L 2477 3485 
+L 1254 2890 
+L 1254 4160 
+L 1856 4349 
+L 1856 4672 
+L 211 4672 
+L 211 4349 
+L 643 4173 
+L 643 2592 
+L 42 2298 
+L 42 1808 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-2e" d="M 1978 -112 
+C 2307 -112 2570 106 2570 467 
+C 2570 832 2307 1040 1978 1040 
+C 1651 1040 1386 832 1386 467 
+C 1386 106 1651 -112 1978 -112 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-d3" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="558.000137"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="164.264" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- GDYNIA GŁ. -->
+      <g transform="translate(125.889094 517.623835) rotate(-45) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-44" d="M 211 0 
+L 1690 0 
+C 3155 0 3702 1091 3702 2400 
+C 3702 3709 3155 4672 1690 4672 
+L 211 4672 
+L 211 4349 
+L 643 4173 
+L 643 499 
+L 211 323 
+L 211 0 
+z
+M 1254 438 
+L 1254 4234 
+L 1600 4234 
+C 2608 4234 3043 3597 3043 2381 
+C 3043 1165 2608 438 1600 438 
+L 1254 438 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-59" d="M 829 0 
+L 3110 0 
+L 3110 323 
+L 2266 502 
+L 2266 1808 
+L 3312 4154 
+L 3798 4352 
+L 3798 4675 
+L 2416 4675 
+L 2416 4352 
+L 2826 4186 
+L 2054 2362 
+L 2016 2362 
+L 1264 4205 
+L 1619 4349 
+L 1619 4672 
+L 170 4672 
+L 170 4349 
+L 646 4154 
+L 1674 1805 
+L 1674 502 
+L 829 323 
+L 829 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-4e" d="M 186 0 
+L 1510 0 
+L 1510 323 
+L 1091 493 
+L 1091 3459 
+L 1130 3459 
+L 2883 0 
+L 3350 0 
+L 3350 4176 
+L 3782 4352 
+L 3782 4675 
+L 2458 4675 
+L 2458 4352 
+L 2877 4170 
+L 2877 1341 
+L 2838 1341 
+L 1174 4672 
+L 186 4672 
+L 186 4349 
+L 618 4173 
+L 618 499 
+L 186 323 
+L 186 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-49" d="M 493 0 
+L 3475 0 
+L 3475 333 
+L 2288 525 
+L 2288 4147 
+L 3475 4339 
+L 3475 4672 
+L 493 4672 
+L 493 4339 
+L 1680 4147 
+L 1680 525 
+L 493 333 
+L 493 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-44" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="558.000137"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="186.44" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- WARSZAWA O.G. -->
+      <g transform="translate(134.912908 530.776021) rotate(-45) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-53" d="M 1776 -77 
+C 2954 -77 3558 483 3558 1293 
+C 3562 2038 3059 2384 2221 2662 
+C 1469 2918 1149 3152 1149 3600 
+C 1149 4102 1520 4333 2048 4333 
+C 2586 4333 2880 4083 3037 3645 
+L 3114 3424 
+L 3469 3510 
+L 3251 4525 
+C 2950 4646 2586 4749 2122 4749 
+C 1171 4749 547 4323 547 3510 
+C 547 2787 1046 2368 1776 2138 
+C 2563 1885 2938 1664 2938 1181 
+C 2938 678 2550 342 1872 342 
+C 1286 342 973 586 822 1030 
+L 742 1258 
+L 368 1171 
+L 582 160 
+C 874 32 1248 -77 1776 -77 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-5a" d="M 493 0 
+L 3571 0 
+L 3757 1600 
+L 3389 1600 
+L 3008 422 
+L 1139 422 
+L 3565 4317 
+L 3482 4672 
+L 550 4672 
+L 362 3072 
+L 733 3072 
+L 1114 4253 
+L 2867 4253 
+L 410 378 
+L 493 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-4f" d="M 1984 -74 
+C 2931 -74 3677 755 3677 2349 
+C 3677 3933 2931 4749 1984 4749 
+C 1037 4749 291 3933 291 2349 
+C 291 755 1037 -74 1984 -74 
+z
+M 950 2339 
+C 950 3741 1398 4298 1984 4298 
+C 2573 4298 3018 3741 3018 2339 
+C 3018 918 2573 378 1984 378 
+C 1398 378 950 934 950 2339 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="744.000183"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="208.616" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- WARSZAWA WSCH. -->
+      <g transform="translate(152.704846 535.160083) rotate(-45) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-43" d="M 2208 -77 
+C 2630 -77 3046 29 3360 160 
+L 3574 1165 
+L 3216 1251 
+L 3136 1030 
+C 2979 589 2672 342 2195 339 
+C 1485 333 941 896 941 2333 
+C 944 3779 1510 4342 2211 4336 
+C 2682 4333 2979 4086 3139 3645 
+L 3216 3424 
+L 3574 3510 
+L 3360 4515 
+C 3046 4656 2694 4749 2294 4749 
+C 1155 4749 282 3994 282 2320 
+C 282 682 1078 -77 2208 -77 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-48" d="M 2278 0 
+L 3757 0 
+L 3757 323 
+L 3325 499 
+L 3325 4173 
+L 3757 4349 
+L 3757 4672 
+L 2278 4672 
+L 2278 4349 
+L 2714 4173 
+L 2714 2592 
+L 1254 2592 
+L 1254 4173 
+L 1690 4349 
+L 1690 4672 
+L 211 4672 
+L 211 4349 
+L 643 4173 
+L 643 499 
+L 211 323 
+L 211 0 
+L 1690 0 
+L 1690 323 
+L 1254 499 
+L 1254 2170 
+L 2714 2170 
+L 2714 499 
+L 2278 323 
+L 2278 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-48" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="806.000198"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="230.792" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- WROCŁAW GŁ. -->
+      <g transform="translate(188.033032 522.007897) rotate(-45) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-57"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="620.000153"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="252.968" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- BIAŁYSTOK -->
+      <g transform="translate(218.977156 513.239773) rotate(-45) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-42" d="M 211 0 
+L 1946 0 
+C 3011 0 3664 509 3664 1338 
+C 3664 2182 2973 2432 2410 2470 
+L 2410 2502 
+C 2899 2570 3402 2922 3402 3613 
+C 3402 4323 2848 4672 2006 4672 
+L 211 4672 
+L 211 4349 
+L 646 4173 
+L 646 499 
+L 211 323 
+L 211 0 
+z
+M 1258 438 
+L 1258 2237 
+L 1782 2237 
+C 2480 2237 2982 2038 2982 1328 
+C 2982 678 2531 438 1782 438 
+L 1258 438 
+z
+M 1258 2640 
+L 1258 4237 
+L 1782 4237 
+C 2461 4237 2726 4000 2726 3530 
+C 2726 2989 2390 2640 1760 2640 
+L 1258 2640 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-54" d="M 858 0 
+L 3082 0 
+L 3082 323 
+L 2275 493 
+L 2275 4262 
+L 3046 4262 
+L 3379 3139 
+L 3744 3139 
+L 3555 4672 
+L 413 4672 
+L 224 3139 
+L 589 3139 
+L 922 4262 
+L 1664 4266 
+L 1664 493 
+L 858 323 
+L 858 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-42"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="496.000122"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="275.144" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- LUBLIN GŁ. -->
+      <g transform="translate(236.769094 517.623835) rotate(-45) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-4c" d="M 211 0 
+L 947 0 
+L 947 -3 
+L 3475 0 
+L 3661 1482 
+L 3274 1482 
+L 2947 438 
+L 1254 438 
+L 1254 4160 
+L 1856 4349 
+L 1856 4672 
+L 211 4672 
+L 211 4349 
+L 643 4173 
+L 643 499 
+L 211 323 
+L 211 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-55" d="M 2003 -74 
+C 2874 -74 3373 342 3373 1344 
+L 3373 4179 
+L 3798 4349 
+L 3798 4672 
+L 2403 4672 
+L 2403 4349 
+L 2851 4170 
+L 2851 1254 
+C 2851 618 2550 400 2032 397 
+C 1514 394 1213 618 1213 1254 
+L 1213 4173 
+L 1648 4349 
+L 1648 4672 
+L 170 4672 
+L 170 4349 
+L 602 4173 
+L 602 1344 
+C 602 301 1123 -74 2003 -74 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-55" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-42" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="558.000137"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="297.32" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- OLSZTYN GŁ. -->
+      <g transform="translate(254.561032 522.007897) rotate(-45) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="620.000153"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="319.496" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- POZNAŃ GŁ. -->
+      <g transform="translate(281.121094 517.623835) rotate(-45) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-50" d="M 211 0 
+L 2096 0 
+L 2096 323 
+L 1254 502 
+L 1254 1693 
+L 1837 1693 
+C 3024 1693 3658 2326 3658 3283 
+C 3658 4256 2998 4672 2026 4672 
+L 211 4672 
+L 211 4349 
+L 643 4160 
+L 643 499 
+L 211 323 
+L 211 0 
+z
+M 1254 2115 
+L 1254 4224 
+L 1885 4224 
+C 2544 4224 2995 3974 2995 3242 
+C 2995 2554 2602 2115 1805 2115 
+L 1254 2115 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-143" d="M 186 0 
+L 1510 0 
+L 1510 323 
+L 1091 493 
+L 1091 3459 
+L 1130 3459 
+L 2883 0 
+L 3350 0 
+L 3350 4176 
+L 3782 4352 
+L 3782 4675 
+L 2458 4675 
+L 2458 4352 
+L 2877 4170 
+L 2877 1341 
+L 2838 1341 
+L 1174 4672 
+L 186 4672 
+L 186 4349 
+L 618 4173 
+L 618 499 
+L 186 323 
+L 186 0 
+z
+M 1747 5248 
+L 2352 6019 
+L 3059 6019 
+L 2192 5248 
+L 1747 5248 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-50"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-143" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="558.000137"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="341.672" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- ŁÓDŹ FABRYCZNA -->
+      <g transform="translate(285.760846 535.160083) rotate(-45) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-179" d="M 493 0 
+L 3571 0 
+L 3757 1600 
+L 3389 1600 
+L 3008 422 
+L 1139 422 
+L 3565 4317 
+L 3482 4672 
+L 550 4672 
+L 362 3072 
+L 733 3072 
+L 1114 4253 
+L 2867 4253 
+L 410 378 
+L 493 0 
+z
+M 1747 5248 
+L 2352 6019 
+L 3059 6019 
+L 2192 5248 
+L 1747 5248 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-46" d="M 211 0 
+L 2054 0 
+L 2054 323 
+L 1254 499 
+L 1254 2022 
+L 2234 2022 
+L 2426 1334 
+L 2707 1334 
+L 2707 3126 
+L 2426 3126 
+L 2230 2419 
+L 1254 2419 
+L 1254 4234 
+L 2976 4234 
+L 3296 3347 
+L 3699 3347 
+L 3510 4672 
+L 211 4672 
+L 211 4349 
+L 643 4173 
+L 643 499 
+L 211 323 
+L 211 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-d3" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-44" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-179" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-46" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-42" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="806.000198"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="363.848" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- PRZEMYŚL GŁ. -->
+      <g transform="translate(316.70497 526.391959) rotate(-45) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-45" d="M 211 0 
+L 3510 0 
+L 3699 1325 
+L 3296 1325 
+L 2979 438 
+L 1254 438 
+L 1254 2189 
+L 2125 2189 
+L 2314 1520 
+L 2595 1520 
+L 2595 3267 
+L 2314 3267 
+L 2122 2586 
+L 1254 2586 
+L 1254 4234 
+L 2870 4234 
+L 3184 3366 
+L 3584 3366 
+L 3395 4672 
+L 211 4672 
+L 211 4349 
+L 643 4176 
+L 643 499 
+L 211 323 
+L 211 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-4d" d="M 198 0 
+L 1507 0 
+L 1507 323 
+L 1030 506 
+L 1030 3584 
+L 1072 3584 
+L 1798 1248 
+L 2042 1248 
+L 2813 3584 
+L 2851 3584 
+L 2851 502 
+L 2403 326 
+L 2403 3 
+L 3770 3 
+L 3770 326 
+L 3395 496 
+L 3395 4170 
+L 3779 4352 
+L 3779 4672 
+L 2752 4672 
+L 2022 2358 
+L 1981 2358 
+L 1280 4672 
+L 189 4672 
+L 189 4349 
+L 573 4163 
+L 573 493 
+L 198 323 
+L 198 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-15a" d="M 1776 -77 
+C 2954 -77 3558 483 3558 1293 
+C 3562 2038 3059 2384 2221 2662 
+C 1469 2918 1149 3152 1149 3600 
+C 1149 4102 1520 4333 2048 4333 
+C 2586 4333 2880 4083 3037 3645 
+L 3114 3424 
+L 3469 3510 
+L 3251 4525 
+C 2950 4646 2586 4749 2122 4749 
+C 1171 4749 547 4323 547 3510 
+C 547 2787 1046 2368 1776 2138 
+C 2563 1885 2938 1664 2938 1181 
+C 2938 678 2550 342 1872 342 
+C 1286 342 973 586 822 1030 
+L 742 1258 
+L 368 1171 
+L 582 160 
+C 874 32 1248 -77 1776 -77 
+z
+M 1747 5248 
+L 2352 6019 
+L 3059 6019 
+L 2192 5248 
+L 1747 5248 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-50"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4d" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-15a" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="682.000168"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="386.024" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- ZAKOPANE -->
+      <g transform="translate(356.417218 508.855711) rotate(-45) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-50" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="434.000107"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="408.2" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- ZIELONA GÓRA GŁ. -->
+      <g transform="translate(343.520722 543.928207) rotate(-45) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-d3" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="930.000229"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="430.376" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <!-- BIELSKO-BIAŁA GŁ. -->
+      <g transform="translate(361.31266 548.312269) rotate(-45) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-2d" d="M 512 1834 
+L 3456 1834 
+L 3456 2358 
+L 512 2358 
+L 512 1834 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-42"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2d" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-42" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="930.000229"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="992.000244"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="452.552" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <!-- BYDGOSZCZ GŁ. -->
+      <g transform="translate(401.024908 530.776021) rotate(-45) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-42"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-44" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="744.000183"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="474.728" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <!-- RZESZÓW GŁ. -->
+      <g transform="translate(431.969032 522.007897) rotate(-45) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-52"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-d3" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-47" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2e" x="620.000153"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="496.904" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <!-- WARSZAWA ZACHODNIA -->
+      <g transform="translate(423.456598 552.696331) rotate(-45) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-57"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-48" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-44" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="930.000229"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="992.000244"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="1054.000259"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="519.08" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <!-- WARSZAWA CENTRALNA -->
+      <g transform="translate(445.632598 552.696331) rotate(-45) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-57"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="930.000229"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="992.000244"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="1054.000259"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="541.256" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <!-- KATOWICE -->
+      <g transform="translate(511.649218 508.855711) rotate(-45) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="434.000107"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m5ad01f9365" x="563.432" y="461.3175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <!-- GLIWICE -->
+      <g transform="translate(538.20928 504.471649) rotate(-45) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-47"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="372.000092"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_21">
+      <defs>
+       <path id="m06eb09e667" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="28.8855" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <!-- UBRANIE -->
+      <g transform="translate(80.6 32.750344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-55"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-42" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="372.000092"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="51.0615" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <!-- SPRZĘT ELEKTRONICZNY -->
+      <g transform="translate(0 54.891187) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-118" d="M 211 0 
+L 3059 0 
+C 2707 -262 2493 -525 2493 -810 
+C 2493 -1059 2643 -1325 3242 -1325 
+L 3475 -1325 
+L 3475 -1040 
+L 3382 -1040 
+C 3168 -1040 3056 -893 3056 -698 
+C 3056 -512 3142 -282 3475 0 
+L 3510 0 
+L 3699 1325 
+L 3296 1325 
+L 2979 438 
+L 1254 438 
+L 1254 2189 
+L 2125 2189 
+L 2314 1520 
+L 2595 1520 
+L 2595 3267 
+L 2314 3267 
+L 2122 2586 
+L 1254 2586 
+L 1254 4234 
+L 2870 4234 
+L 3184 3366 
+L 3584 3366 
+L 3395 4672 
+L 211 4672 
+L 211 4349 
+L 643 4176 
+L 643 499 
+L 211 323 
+L 211 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-50" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-118" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="930.000229"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="992.000244"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="1054.000259"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="1116.000275"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="1178.00029"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="73.2375" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <!-- RZECZY OSOBISTE -->
+      <g transform="translate(31 77.102344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-52"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-42" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="868.000214"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="95.4135" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <!-- WALIZKA / PLECAK -->
+      <g transform="translate(24.8 99.278344) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-2f" d="M 1136 -640 
+L 3350 4672 
+L 2698 4672 
+L 486 -640 
+L 1136 -640 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2f" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-50" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="930.000229"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="117.5895" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <!-- REKLAMÓWKA / TORBA -->
+      <g transform="translate(12.4 121.791844) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-52"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4d" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-d3" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2f" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="930.000229"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-42" x="992.000244"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="1054.000259"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="139.7655" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <!-- DOKUMENT/Y -->
+      <g transform="translate(62 143.630344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-44"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-55" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4d" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2f" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="558.000137"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="161.9415" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <!-- KSIĄŻKA -->
+      <g transform="translate(80.6 166.6415) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-104" d="M 134 0 
+L 1501 0 
+L 1501 323 
+L 1018 506 
+L 1229 1318 
+L 2602 1318 
+L 2819 490 
+L 2384 326 
+L 2384 3 
+L 3418 3 
+C 3066 -256 2854 -518 2854 -803 
+C 2854 -1056 3002 -1322 3600 -1322 
+L 3834 -1322 
+L 3834 -1037 
+L 3741 -1037 
+C 3530 -1037 3418 -890 3418 -694 
+C 3418 -506 3501 -278 3834 3 
+L 3834 326 
+L 3450 525 
+L 2310 4672 
+L 1686 4672 
+L 515 522 
+L 134 323 
+L 134 0 
+z
+M 1338 1741 
+L 1901 3894 
+L 1930 3894 
+L 2493 1741 
+L 1338 1741 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-17b" d="M 493 0 
+L 3571 0 
+L 3757 1600 
+L 3389 1600 
+L 3008 422 
+L 1139 422 
+L 3565 4317 
+L 3482 4672 
+L 550 4672 
+L 362 3072 
+L 733 3072 
+L 1114 4253 
+L 2867 4253 
+L 410 378 
+L 493 0 
+z
+M 1578 5648 
+C 1578 5414 1744 5274 1981 5274 
+C 2218 5274 2381 5414 2381 5648 
+C 2381 5878 2218 6016 1981 6016 
+C 1744 6016 1578 5878 1578 5648 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-104" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-17b" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="372.000092"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="184.1175" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <!-- TELEFON -->
+      <g transform="translate(80.6 187.982344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-54"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-46" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="372.000092"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="206.2935" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <!-- SPRZĘT TURYSTYCZNY -->
+      <g transform="translate(12.4 210.123187) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-53"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-50" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-118" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-55" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="930.000229"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="992.000244"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="1054.000259"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="228.4695" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <!-- PORTFEL -->
+      <g transform="translate(80.6 232.334344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-50"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-46" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="372.000092"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="250.6455" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <!-- ETUI -->
+      <g transform="translate(99.2 254.510344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-45"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-55" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="272.8215" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <!-- SASZETKA / NERKA -->
+      <g transform="translate(24.8 276.686344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-53"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-2f" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="930.000229"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="294.9975" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <!-- PARASOL -->
+      <g transform="translate(80.6 298.862344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-50"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-41" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4c" x="372.000092"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="317.1735" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <!-- SPRZĘT SPORTOWY -->
+      <g transform="translate(31 321.003187) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-53"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-50" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-118" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-50" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="868.000214"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="339.3495" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_35">
+      <!-- ARTYKUŁY DZIECIĘCE -->
+      <g transform="translate(12.4 343.179188) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-41"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-55" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-44" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-118" x="930.000229"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="992.000244"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="1054.000259"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="361.5255" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <!-- ARTYKUŁY MEDYCZNE -->
+      <g transform="translate(18.6 365.390344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-41"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-55" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4d" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-44" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="930.000229"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="992.000244"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="383.7015" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <!-- KOSZTOWNOŚCI -->
+      <g transform="translate(49.6 387.566344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-53" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-15a" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="682.000168"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="405.8775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <!-- ARTYKUŁY MUZYCZNE -->
+      <g transform="translate(18.6 409.742344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-41"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-55" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4d" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-55" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-43" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-5a" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4e" x="930.000229"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="992.000244"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="428.0535" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_39">
+      <!-- ARTYKUŁY BIUROWE -->
+      <g transform="translate(24.8 431.918344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-41"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-54" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4b" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-55" x="310.000076"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-141" x="372.000092"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-59" x="434.000107"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="496.000122"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-42" x="558.000137"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="620.000153"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-55" x="682.000168"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-52" x="744.000183"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f" x="806.000198"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="868.000214"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="930.000229"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m06eb09e667" x="131" y="450.2295" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_40">
+      <!-- OBUWIE -->
+      <g transform="translate(86.8 454.094344) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-4f"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-42" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-55" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-57" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-49" x="248.000061"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-45" x="310.000076"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 131 461.3175 
+L 131 17.7975 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 574.52 461.3175 
+L 574.52 17.7975 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 131 461.3175 
+L 574.52 461.3175 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 131 17.7975 
+L 574.52 17.7975 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_41">
+    <!-- 33 -->
+    <g style="fill: #020035" transform="translate(135.888 31.750344) scale(0.1 -0.1)">
+     <defs>
+      <path id="MonaspiceXeNFM-Regular-33" d="M 1811 -74 
+C 3005 -74 3565 528 3565 1267 
+C 3565 2067 2918 2365 2477 2397 
+L 2477 2442 
+C 2870 2464 3373 2858 3373 3549 
+C 3373 4339 2784 4749 1856 4749 
+C 1408 4749 1002 4646 678 4525 
+L 464 3510 
+L 816 3424 
+L 896 3645 
+C 1050 4083 1366 4333 1866 4333 
+C 2358 4333 2781 4083 2781 3552 
+C 2781 3014 2323 2605 1498 2605 
+L 1498 2173 
+C 2202 2173 2954 1968 2954 1216 
+C 2954 650 2522 342 1894 342 
+C 1306 342 976 586 822 1030 
+L 742 1258 
+L 368 1171 
+L 582 160 
+C 874 32 1293 -74 1811 -74 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-33" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_42">
+    <!-- 8 -->
+    <g style="fill: #020035" transform="translate(161.164 31.750344) scale(0.1 -0.1)">
+     <defs>
+      <path id="MonaspiceXeNFM-Regular-38" d="M 1965 -80 
+C 3056 -80 3590 470 3590 1206 
+C 3590 1859 3171 2202 2656 2438 
+C 3104 2662 3443 2992 3443 3571 
+C 3443 4410 2758 4749 1990 4749 
+C 1139 4749 554 4358 554 3581 
+C 554 3018 874 2662 1322 2403 
+C 838 2202 378 1840 378 1162 
+C 378 470 890 -80 1965 -80 
+z
+M 909 1187 
+C 909 1734 1315 2035 1702 2218 
+C 1718 2208 1738 2202 1754 2195 
+C 2531 1882 2995 1690 2995 1149 
+C 2995 634 2592 358 1955 358 
+C 1366 358 909 605 909 1187 
+z
+M 1107 3616 
+C 1107 4080 1494 4310 2000 4310 
+C 2534 4310 2922 4048 2922 3520 
+C 2922 3069 2624 2790 2262 2598 
+L 2218 2614 
+C 1546 2835 1107 3126 1107 3616 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#MonaspiceXeNFM-Regular-38"/>
+    </g>
+   </g>
+   <g id="text_43">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(183.34 31.750344) scale(0.1 -0.1)">
+     <defs>
+      <path id="MonaspiceXeNFM-Regular-34" d="M 1808 0 
+L 3494 0 
+L 3494 307 
+L 3046 518 
+L 3046 1334 
+L 3478 1334 
+L 3552 1770 
+L 3046 1770 
+L 3046 4675 
+L 2438 4672 
+L 352 1754 
+L 352 1334 
+L 2483 1334 
+L 2483 534 
+L 1808 307 
+L 1808 0 
+z
+M 909 1770 
+L 2483 3958 
+L 2483 1770 
+L 909 1770 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_44">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(205.516 31.750344) scale(0.1 -0.1)">
+     <defs>
+      <path id="MonaspiceXeNFM-Regular-36" d="M 1984 -74 
+C 2880 -74 3555 502 3555 1462 
+C 3555 2381 2973 2845 2182 2845 
+C 1638 2845 1254 2627 966 2374 
+C 973 3882 1539 4336 2080 4336 
+C 2483 4336 2800 4086 2957 3645 
+L 3037 3424 
+L 3395 3510 
+L 3178 4515 
+C 2864 4656 2512 4749 2170 4749 
+C 1286 4749 358 4170 358 2326 
+C 358 643 979 -74 1984 -74 
+z
+M 979 1955 
+C 1258 2237 1638 2448 2061 2448 
+C 2554 2448 2957 2166 2957 1434 
+C 2957 653 2470 358 2006 358 
+C 1475 358 1053 730 979 1955 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_45">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(227.692 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_46">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(249.868 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_47">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(272.044 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_48">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(294.22 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_49">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(316.396 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_50">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(338.572 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_51">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(360.748 31.750344) scale(0.1 -0.1)">
+     <defs>
+      <path id="MonaspiceXeNFM-Regular-32" d="M 403 394 
+L 403 0 
+L 3347 0 
+L 3539 1325 
+L 3200 1325 
+L 2896 499 
+L 938 499 
+C 1014 1069 1277 1382 1952 1760 
+C 2560 2102 3437 2522 3437 3498 
+C 3437 4336 2794 4749 1834 4749 
+C 1379 4749 992 4646 691 4525 
+L 477 3382 
+L 829 3296 
+L 896 3517 
+C 1069 4083 1370 4333 1866 4333 
+C 2342 4333 2826 4109 2826 3485 
+C 2826 2893 2368 2534 1773 2195 
+C 826 1658 403 1171 403 394 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_52">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(382.924 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_53">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(405.1 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_54">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(427.276 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_55">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(449.452 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_56">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(471.628 31.750344) scale(0.1 -0.1)">
+     <defs>
+      <path id="MonaspiceXeNFM-Regular-31" d="M 496 0 
+L 3549 0 
+L 3549 307 
+L 2336 576 
+L 2336 4672 
+L 1917 4672 
+L 496 3942 
+L 496 3574 
+L 1782 4042 
+L 1782 576 
+L 496 307 
+L 496 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_57">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(493.804 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_58">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_59">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_60">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(560.332 31.750344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_61">
+    <!-- 21 -->
+    <g style="fill: #020035" transform="translate(135.888 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-31" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_62">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(161.164 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_63">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(183.34 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_64">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(205.516 53.926344) scale(0.1 -0.1)">
+     <defs>
+      <path id="MonaspiceXeNFM-Regular-35" d="M 1782 -77 
+C 2893 -77 3565 541 3565 1443 
+C 3565 2301 2982 2902 2013 2902 
+C 1677 2902 1328 2829 1037 2685 
+L 1222 4195 
+L 2720 4195 
+L 2995 3517 
+L 3334 3517 
+L 3142 4672 
+L 781 4672 
+L 493 2310 
+L 838 2138 
+C 1117 2336 1520 2490 1910 2490 
+C 2650 2490 2954 1962 2954 1418 
+C 2954 720 2448 342 1798 342 
+C 1264 342 976 586 822 1030 
+L 742 1258 
+L 368 1171 
+L 582 160 
+C 874 32 1283 -77 1782 -77 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_65">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(227.692 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_66">
+    <!-- 5 -->
+    <g style="fill: #020035" transform="translate(249.868 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_67">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(272.044 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_68">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(294.22 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_69">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(316.396 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_70">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(338.572 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_71">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(360.748 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_72">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(382.924 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_73">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(405.1 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_74">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(427.276 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_75">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(449.452 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_76">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(471.628 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_77">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(493.804 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_78">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(515.98 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_79">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_80">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 53.926344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_81">
+    <!-- 24 -->
+    <g style="fill: #020035" transform="translate(135.888 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-34" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_82">
+    <!-- 9 -->
+    <g style="fill: #020035" transform="translate(161.164 76.102344) scale(0.1 -0.1)">
+     <defs>
+      <path id="MonaspiceXeNFM-Regular-39" d="M 1984 4749 
+C 1088 4749 413 4173 413 3213 
+C 413 2294 995 1830 1786 1830 
+C 2330 1830 2714 2048 3002 2301 
+C 2995 794 2429 339 1888 339 
+C 1485 339 1168 589 1011 1030 
+L 931 1251 
+L 573 1165 
+L 790 160 
+C 1104 19 1456 -74 1798 -74 
+C 2682 -74 3610 506 3610 2349 
+C 3610 4032 2989 4749 1984 4749 
+z
+M 1011 3242 
+C 1011 4022 1498 4317 1962 4317 
+C 2493 4317 2915 3946 2989 2720 
+C 2710 2438 2330 2227 1907 2227 
+C 1414 2227 1011 2509 1011 3242 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#MonaspiceXeNFM-Regular-39"/>
+    </g>
+   </g>
+   <g id="text_83">
+    <!-- 10 -->
+    <g style="fill: #020035" transform="translate(180.24 76.102344) scale(0.1 -0.1)">
+     <defs>
+      <path id="MonaspiceXeNFM-Regular-30" d="M 1984 -74 
+C 2992 -74 3670 682 3670 2339 
+C 3670 4022 2992 4749 1984 4749 
+C 976 4749 298 4022 298 2339 
+C 298 682 976 -74 1984 -74 
+z
+M 944 2339 
+C 944 3757 1322 4339 1984 4339 
+C 2650 4339 3024 3757 3024 2339 
+C 3024 918 2650 336 1984 336 
+C 1322 336 944 918 944 2339 
+z
+M 1629 2330 
+C 1629 2019 1757 1834 1984 1834 
+C 2214 1834 2342 2019 2342 2330 
+C 2342 2646 2214 2826 1984 2826 
+C 1757 2826 1629 2646 1629 2330 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_84">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(205.516 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_85">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(227.692 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_86">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(249.868 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_87">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(272.044 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_88">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(294.22 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_89">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(316.396 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_90">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(338.572 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_91">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(360.748 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_92">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(382.924 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_93">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(405.1 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_94">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(427.276 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_95">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(449.452 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_96">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(471.628 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_97">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(493.804 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_98">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(515.98 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_99">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_100">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 76.102344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_101">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(138.988 98.278344) scale(0.1 -0.1)">
+     <defs>
+      <path id="MonaspiceXeNFM-Regular-37" d="M 1264 0 
+L 1952 0 
+L 3517 4278 
+L 3517 4672 
+L 637 4672 
+L 445 3389 
+L 784 3389 
+L 1101 4259 
+L 2931 4259 
+L 1264 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_102">
+    <!-- 10 -->
+    <g style="fill: #020035" transform="translate(158.064 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_103">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(183.34 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_104">
+    <!-- 8 -->
+    <g style="fill: #020035" transform="translate(205.516 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-38"/>
+    </g>
+   </g>
+   <g id="text_105">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(227.692 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_106">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(249.868 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_107">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(272.044 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_108">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(294.22 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_109">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(316.396 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_110">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(338.572 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_111">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(360.748 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_112">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(382.924 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_113">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(405.1 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_114">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(427.276 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_115">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(449.452 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_116">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(471.628 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_117">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(493.804 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_118">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(515.98 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_119">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(538.156 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_120">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 98.278344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_121">
+    <!-- 13 -->
+    <g style="fill: #020035" transform="translate(135.888 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-33" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_122">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(161.164 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_123">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(183.34 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_124">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(205.516 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_125">
+    <!-- 5 -->
+    <g style="fill: #020035" transform="translate(227.692 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_126">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(249.868 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_127">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(272.044 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_128">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(294.22 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_129">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(316.396 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_130">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(338.572 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_131">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(360.748 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_132">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(382.924 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_133">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(405.1 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_134">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(427.276 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_135">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(449.452 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_136">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(471.628 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_137">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(493.804 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_138">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_139">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(538.156 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_140">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 120.454344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_141">
+    <!-- 5 -->
+    <g style="fill: #020035" transform="translate(138.988 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_142">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(161.164 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_143">
+    <!-- 8 -->
+    <g style="fill: #020035" transform="translate(183.34 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-38"/>
+    </g>
+   </g>
+   <g id="text_144">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(205.516 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_145">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(227.692 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_146">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(249.868 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_147">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(272.044 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_148">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(294.22 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_149">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(316.396 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_150">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(338.572 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_151">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(360.748 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_152">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(382.924 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_153">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(405.1 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_154">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(427.276 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_155">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(449.452 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_156">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(471.628 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_157">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(493.804 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_158">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_159">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_160">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 142.630344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_161">
+    <!-- 45 -->
+    <g style="fill: #020035" transform="translate(135.888 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-35" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_162">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(161.164 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_163">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(183.34 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_164">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(205.516 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_165">
+    <!-- 5 -->
+    <g style="fill: #020035" transform="translate(227.692 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_166">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(249.868 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_167">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(272.044 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_168">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(294.22 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_169">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(316.396 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_170">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(338.572 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_171">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(360.748 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_172">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(382.924 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_173">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(405.1 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_174">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(427.276 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_175">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(449.452 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_176">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(471.628 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_177">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(493.804 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_178">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_179">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_180">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 164.806344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_181">
+    <!-- 10 -->
+    <g style="fill: #020035" transform="translate(135.888 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_182">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(161.164 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_183">
+    <!-- 14 -->
+    <g style="fill: #020035" transform="translate(180.24 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-34" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_184">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(205.516 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_185">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(227.692 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_186">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(249.868 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_187">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(272.044 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_188">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(294.22 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_189">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(316.396 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_190">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(338.572 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_191">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(360.748 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_192">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(382.924 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_193">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(405.1 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_194">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(427.276 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_195">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(449.452 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_196">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(471.628 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_197">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(493.804 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_198">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_199">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(538.156 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_200">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 186.982344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_201">
+    <!-- 31 -->
+    <g style="fill: #020035" transform="translate(135.888 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-31" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_202">
+    <!-- 8 -->
+    <g style="fill: #020035" transform="translate(161.164 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-38"/>
+    </g>
+   </g>
+   <g id="text_203">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(183.34 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_204">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(205.516 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_205">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(227.692 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_206">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(249.868 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_207">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(272.044 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_208">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(294.22 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_209">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(316.396 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_210">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(338.572 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_211">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(360.748 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_212">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(382.924 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_213">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(405.1 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_214">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(427.276 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_215">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(449.452 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_216">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(471.628 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_217">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(493.804 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_218">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_219">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_220">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(560.332 209.158344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_221">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(138.988 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_222">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(161.164 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_223">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(183.34 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_224">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(205.516 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_225">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(227.692 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_226">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(249.868 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_227">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(272.044 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_228">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(294.22 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_229">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(316.396 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_230">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(338.572 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_231">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(360.748 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_232">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(382.924 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_233">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(405.1 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_234">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(427.276 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_235">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(449.452 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_236">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(471.628 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_237">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(493.804 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_238">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_239">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(538.156 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_240">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(560.332 231.334344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_241">
+    <!-- 13 -->
+    <g style="fill: #020035" transform="translate(135.888 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-33" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_242">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(161.164 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_243">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(183.34 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_244">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(205.516 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_245">
+    <!-- 8 -->
+    <g style="fill: #020035" transform="translate(227.692 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-38"/>
+    </g>
+   </g>
+   <g id="text_246">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(249.868 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_247">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(272.044 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_248">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(294.22 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_249">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(316.396 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_250">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(338.572 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_251">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(360.748 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_252">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(382.924 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_253">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(405.1 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_254">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(427.276 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_255">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(449.452 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_256">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(471.628 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_257">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(493.804 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_258">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(515.98 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_259">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_260">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 253.510344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_261">
+    <!-- 11 -->
+    <g style="fill: #020035" transform="translate(135.888 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-31" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_262">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(161.164 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_263">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(183.34 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_264">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(205.516 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_265">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(227.692 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_266">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(249.868 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_267">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(272.044 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_268">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(294.22 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_269">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(316.396 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_270">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(338.572 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_271">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(360.748 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_272">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(382.924 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_273">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(405.1 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_274">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(427.276 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_275">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(449.452 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_276">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(471.628 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_277">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(493.804 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_278">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(515.98 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_279">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_280">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 275.686344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_281">
+    <!-- 38 -->
+    <g style="fill: #020035" transform="translate(135.888 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-38" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_282">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(161.164 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_283">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(183.34 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_284">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(205.516 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_285">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(227.692 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_286">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(249.868 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_287">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(272.044 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_288">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(294.22 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_289">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(316.396 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_290">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(338.572 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_291">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(360.748 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_292">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(382.924 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_293">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(405.1 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_294">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(427.276 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_295">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(449.452 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_296">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(471.628 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_297">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(493.804 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_298">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(515.98 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_299">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(538.156 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_300">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(560.332 297.862344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_301">
+    <!-- 18 -->
+    <g style="fill: #020035" transform="translate(135.888 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-38" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_302">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(161.164 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_303">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(183.34 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_304">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(205.516 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_305">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(227.692 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_306">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(249.868 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_307">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(272.044 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_308">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(294.22 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_309">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(316.396 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_310">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(338.572 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_311">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(360.748 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_312">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(382.924 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_313">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(405.1 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_314">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(427.276 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_315">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(449.452 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_316">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(471.628 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_317">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(493.804 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-34"/>
+    </g>
+   </g>
+   <g id="text_318">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_319">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_320">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(560.332 320.038344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_321">
+    <!-- 19 -->
+    <g style="fill: #020035" transform="translate(135.888 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-39" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_322">
+    <!-- 11 -->
+    <g style="fill: #020035" transform="translate(158.064 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-31" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_323">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(183.34 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_324">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(205.516 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_325">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(227.692 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_326">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(249.868 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_327">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(272.044 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_328">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(294.22 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_329">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(316.396 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_330">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(338.572 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_331">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(360.748 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_332">
+    <!-- 5 -->
+    <g style="fill: #020035" transform="translate(382.924 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_333">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(405.1 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_334">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(427.276 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_335">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(449.452 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_336">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(471.628 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_337">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(493.804 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_338">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(515.98 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_339">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_340">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(560.332 342.214344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+    </g>
+   </g>
+   <g id="text_341">
+    <!-- 20 -->
+    <g style="fill: #020035" transform="translate(135.888 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_342">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(161.164 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_343">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(183.34 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_344">
+    <!-- 9 -->
+    <g style="fill: #020035" transform="translate(205.516 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-39"/>
+    </g>
+   </g>
+   <g id="text_345">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(227.692 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_346">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(249.868 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_347">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(272.044 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_348">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(294.22 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_349">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(316.396 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_350">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(338.572 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_351">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(360.748 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_352">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(382.924 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_353">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(405.1 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_354">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(427.276 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+    </g>
+   </g>
+   <g id="text_355">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(449.452 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_356">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(471.628 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_357">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(493.804 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+    </g>
+   </g>
+   <g id="text_358">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_359">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_360">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 364.390344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_361">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(138.988 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_362">
+    <!-- 12 -->
+    <g style="fill: #020035" transform="translate(158.064 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-32" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_363">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(183.34 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_364">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(205.516 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_365">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(227.692 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_366">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(249.868 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_367">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(272.044 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_368">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(294.22 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_369">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(316.396 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_370">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(338.572 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_371">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(360.748 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_372">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(382.924 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_373">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(405.1 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_374">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(427.276 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_375">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(449.452 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_376">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(471.628 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_377">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(493.804 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_378">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_379">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(538.156 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_380">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 386.566344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_381">
+    <!-- 9 -->
+    <g style="fill: #020035" transform="translate(138.988 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-39"/>
+    </g>
+   </g>
+   <g id="text_382">
+    <!-- 9 -->
+    <g style="fill: #020035" transform="translate(161.164 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-39"/>
+    </g>
+   </g>
+   <g id="text_383">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(183.34 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_384">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(205.516 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_385">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(227.692 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_386">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(249.868 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_387">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(272.044 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_388">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(294.22 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_389">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(316.396 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_390">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(338.572 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_391">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(360.748 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_392">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(382.924 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_393">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(405.1 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_394">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(427.276 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_395">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(449.452 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_396">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(471.628 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_397">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(493.804 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_398">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_399">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_400">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 408.742344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_401">
+    <!-- 25 -->
+    <g style="fill: #020035" transform="translate(135.888 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-35" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_402">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(161.164 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_403">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(183.34 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_404">
+    <!-- 6 -->
+    <g style="fill: #020035" transform="translate(205.516 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+    </g>
+   </g>
+   <g id="text_405">
+    <!-- 9 -->
+    <g style="fill: #020035" transform="translate(227.692 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-39"/>
+    </g>
+   </g>
+   <g id="text_406">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(249.868 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_407">
+    <!-- 12 -->
+    <g style="fill: #020035" transform="translate(268.944 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-32" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_408">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(294.22 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_409">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(316.396 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_410">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(338.572 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_411">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(360.748 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_412">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(382.924 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_413">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(405.1 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_414">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(427.276 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_415">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(449.452 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_416">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(471.628 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_417">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(493.804 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_418">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_419">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_420">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 430.918344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_421">
+    <!-- 33 -->
+    <g style="fill: #020035" transform="translate(135.888 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-33" x="62.000015"/>
+    </g>
+   </g>
+   <g id="text_422">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(161.164 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_423">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(183.34 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_424">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(205.516 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_425">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(227.692 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_426">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(249.868 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_427">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(272.044 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_428">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(294.22 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_429">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(316.396 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_430">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(338.572 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_431">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(360.748 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_432">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(382.924 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_433">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(405.1 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_434">
+    <!-- 7 -->
+    <g style="fill: #020035" transform="translate(427.276 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+    </g>
+   </g>
+   <g id="text_435">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(449.452 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-33"/>
+    </g>
+   </g>
+   <g id="text_436">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(471.628 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_437">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(493.804 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_438">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(515.98 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_439">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(538.156 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_440">
+    <!-- - -->
+    <g style="fill: #ffffff" transform="translate(560.332 453.094344) scale(0.1 -0.1)">
+     <use xlink:href="#MonaspiceXeNFM-Regular-2d"/>
+    </g>
+   </g>
+   <g id="text_441">
+    <!-- City participation in a given item -->
+    <g transform="translate(321.56 9.25875) scale(0.12 -0.12)">
+     <defs>
+      <path id="MonaspiceXeNFM-Regular-69" d="M 502 0 
+L 3603 0 
+L 3603 323 
+L 2352 573 
+L 2352 3334 
+L 2269 3373 
+L 506 3117 
+L 506 2794 
+L 1757 2662 
+L 1757 573 
+L 502 323 
+L 502 0 
+z
+M 1491 4528 
+C 1491 4272 1674 4115 1936 4115 
+C 2202 4115 2384 4272 2384 4528 
+C 2384 4784 2202 4938 1936 4938 
+C 1674 4938 1491 4784 1491 4528 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-74" d="M 2269 -77 
+C 2634 -77 3008 10 3302 122 
+L 3517 1069 
+L 3203 1149 
+L 3123 950 
+C 2963 554 2707 342 2339 339 
+C 1958 336 1818 582 1818 966 
+L 1818 2774 
+L 3338 2774 
+L 3427 3219 
+L 1824 3219 
+L 1824 4291 
+L 1581 4291 
+L 1200 3290 
+L 294 3050 
+L 294 2774 
+L 1222 2774 
+L 1222 915 
+C 1222 288 1485 -74 2269 -77 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-79" d="M 1062 -1354 
+C 1667 -1354 1952 -864 2224 -118 
+L 3261 2800 
+L 3709 2989 
+L 3709 3312 
+L 2288 3312 
+L 2288 2989 
+L 2739 2806 
+L 2051 701 
+L 2010 701 
+L 1325 2835 
+L 1706 2989 
+L 1706 3312 
+L 256 3312 
+L 256 2989 
+L 707 2806 
+L 1718 -51 
+C 1552 -544 1392 -851 1078 -851 
+C 835 -851 714 -707 630 -467 
+L 554 -237 
+L 195 -326 
+L 371 -1251 
+C 576 -1312 790 -1354 1062 -1354 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-70" d="M 262 -1280 
+L 1936 -1280 
+L 1936 -957 
+L 1293 -771 
+L 1293 -3 
+C 1475 -45 1670 -74 1885 -74 
+C 3069 -74 3750 656 3750 1802 
+C 3750 2726 3302 3382 2403 3382 
+C 1914 3382 1536 3184 1258 2979 
+L 1258 3334 
+L 1174 3373 
+L 134 3133 
+L 134 2778 
+L 694 2691 
+L 694 -784 
+L 262 -957 
+L 262 -1280 
+z
+M 1293 454 
+L 1293 2672 
+C 1562 2806 1872 2912 2198 2912 
+C 2842 2912 3123 2474 3123 1757 
+C 3123 813 2621 362 1885 362 
+C 1667 362 1475 397 1293 454 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-61" d="M 2698 -38 
+L 2765 -38 
+L 3802 205 
+L 3802 560 
+L 3261 640 
+L 3261 2294 
+C 3261 3117 2858 3389 2006 3389 
+C 1443 3389 1037 3270 707 3133 
+L 573 2413 
+L 931 2323 
+L 998 2477 
+C 1142 2816 1421 2973 1872 2976 
+C 2339 2979 2656 2829 2656 2275 
+L 2656 1955 
+C 1379 1904 387 1686 387 816 
+C 387 246 829 -74 1421 -74 
+C 1901 -74 2355 160 2698 387 
+L 2698 -38 
+z
+M 1053 886 
+C 1053 1462 1894 1590 2656 1600 
+L 2656 688 
+C 2339 490 2010 381 1686 381 
+C 1286 381 1053 582 1053 886 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-72" d="M 426 0 
+L 2614 0 
+L 2614 323 
+L 1674 557 
+L 1674 2592 
+C 1862 2717 2102 2829 2406 2829 
+C 2669 2829 2931 2736 3117 2378 
+L 3226 2166 
+L 3514 2240 
+L 3296 3254 
+C 3123 3338 2928 3389 2704 3389 
+C 2211 3389 1869 3136 1613 2851 
+L 1613 3334 
+L 1526 3373 
+L 426 3133 
+L 426 2778 
+L 1075 2688 
+L 1075 547 
+L 426 323 
+L 426 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-63" d="M 2134 -77 
+C 2557 -77 2960 22 3306 163 
+L 3488 1091 
+L 3123 1178 
+L 3066 1021 
+C 2909 576 2592 336 2115 336 
+C 1498 336 1018 749 1018 1658 
+C 1018 2563 1498 2976 2115 2976 
+C 2592 2976 2909 2736 3066 2291 
+L 3123 2134 
+L 3488 2224 
+L 3306 3149 
+C 2986 3290 2605 3389 2182 3389 
+C 1114 3389 384 2781 384 1658 
+C 384 534 1062 -77 2134 -77 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-6f" d="M 1984 -77 
+C 2874 -77 3616 560 3616 1658 
+C 3616 2752 2874 3389 1984 3389 
+C 1094 3389 352 2752 352 1658 
+C 352 560 1094 -77 1984 -77 
+z
+M 989 1661 
+C 989 2557 1430 2947 1984 2947 
+C 2538 2947 2979 2557 2979 1661 
+C 2979 768 2538 378 1984 378 
+C 1430 378 989 768 989 1661 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-6e" d="M 2352 0 
+L 3802 0 
+L 3802 323 
+L 3379 493 
+L 3379 2483 
+C 3379 3078 3117 3389 2570 3389 
+C 2195 3389 1811 3235 1392 2970 
+L 1392 3338 
+L 1309 3373 
+L 272 3133 
+L 272 2778 
+L 832 2691 
+L 832 499 
+L 400 323 
+L 400 0 
+L 1850 0 
+L 1850 323 
+L 1427 493 
+L 1427 2646 
+C 1770 2835 2070 2906 2291 2906 
+C 2573 2906 2784 2765 2784 2358 
+L 2784 499 
+L 2352 323 
+L 2352 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-67" d="M 1837 -1354 
+C 2790 -1354 3638 -1018 3638 -218 
+C 3638 333 3251 541 2650 541 
+L 1101 541 
+L 1392 1194 
+C 1549 1152 1715 1133 1888 1133 
+C 2630 1133 3280 1510 3280 2262 
+C 3280 2515 3206 2723 3082 2890 
+L 3603 2842 
+L 3766 3187 
+L 3600 3366 
+L 2685 3216 
+C 2458 3334 2179 3392 1888 3392 
+C 1146 3392 499 3014 499 2262 
+C 499 1830 710 1523 1030 1341 
+L 403 109 
+L 490 0 
+L 842 0 
+L 310 -912 
+L 374 -1069 
+C 742 -1216 1210 -1354 1837 -1354 
+z
+M 1034 -390 
+L 1206 0 
+L 2419 0 
+C 2826 0 3050 -122 3050 -384 
+C 3050 -803 2486 -947 1846 -947 
+C 1216 -947 893 -797 1034 -390 
+z
+M 1117 2262 
+C 1117 2752 1459 3002 1882 3002 
+C 2307 3002 2659 2752 2659 2262 
+C 2659 1770 2307 1520 1882 1520 
+C 1459 1520 1117 1770 1117 2262 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-76" d="M 1712 0 
+L 2243 0 
+L 3264 2797 
+L 3712 2989 
+L 3712 3312 
+L 2342 3312 
+L 2342 2989 
+L 2771 2800 
+L 2064 710 
+L 2019 710 
+L 1334 2832 
+L 1741 2989 
+L 1741 3312 
+L 256 3312 
+L 256 2989 
+L 707 2806 
+L 1712 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-65" d="M 2128 -77 
+C 2570 -77 2973 26 3283 170 
+L 3482 893 
+L 3123 979 
+L 3050 829 
+C 2896 474 2605 355 2166 355 
+C 1424 355 995 870 982 1654 
+L 3549 1654 
+L 3549 1872 
+C 3549 2899 2973 3389 2125 3389 
+C 1091 3389 355 2726 355 1622 
+C 355 534 976 -77 2128 -77 
+z
+M 1011 2029 
+C 1110 2627 1494 2944 2067 2944 
+C 2586 2944 2934 2618 2941 2029 
+L 1011 2029 
+z
+" transform="scale(0.015625)"/>
+      <path id="MonaspiceXeNFM-Regular-6d" d="M 1766 2563 
+L 1766 0 
+L 2602 0 
+L 2602 323 
+L 2310 477 
+L 2310 2682 
+C 2310 2726 2307 2771 2304 2813 
+C 2435 2880 2570 2925 2688 2925 
+C 2877 2925 2941 2845 2941 2563 
+L 2941 0 
+L 3779 0 
+L 3779 323 
+L 3482 477 
+L 3482 2707 
+C 3482 3165 3299 3389 2963 3389 
+C 2698 3389 2451 3251 2253 3059 
+C 2173 3274 2013 3389 1776 3389 
+C 1523 3389 1283 3254 1085 3062 
+L 1085 3338 
+L 998 3373 
+L 189 3149 
+L 189 2858 
+L 630 2749 
+L 630 486 
+L 310 323 
+L 310 0 
+L 1446 0 
+L 1446 323 
+L 1171 474 
+L 1171 2832 
+C 1290 2886 1411 2925 1517 2925 
+C 1702 2925 1766 2845 1766 2563 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#MonaspiceXeNFM-Regular-43"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-69" x="62.000015"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-74" x="124.000031"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-79" x="186.000046"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-20" x="248.000061"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-70" x="310.000076"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-61" x="372.000092"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-72" x="434.000107"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-74" x="496.000122"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-69" x="558.000137"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-63" x="620.000153"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-69" x="682.000168"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-70" x="744.000183"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-61" x="806.000198"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-74" x="868.000214"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-69" x="930.000229"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-6f" x="992.000244"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-6e" x="1054.000259"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-20" x="1116.000275"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-69" x="1178.00029"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-6e" x="1240.000305"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-20" x="1302.00032"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-61" x="1364.000336"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-20" x="1426.000351"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-67" x="1488.000366"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-69" x="1550.000381"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-76" x="1612.000397"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-65" x="1674.000412"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-6e" x="1736.000427"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-20" x="1798.000443"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-69" x="1860.000458"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-74" x="1922.000473"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-65" x="1984.000488"/>
+     <use xlink:href="#MonaspiceXeNFM-Regular-6d" x="2046.000504"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5a92729944">
+   <rect x="131" y="17.7975" width="443.52" height="443.52"/>
+  </clipPath>
+ </defs>
+</svg>
