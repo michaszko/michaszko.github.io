@@ -78,9 +78,32 @@ nav {
   background: #E0DFD5;
 }
 
-/* .menu a:active {
-  background-color: #7F5E8D;
-} */
+.logos-footer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  /* font-size: 10px; */
+  /* margin-bottom: -20px; */
+}
+
+.logos-footer li {
+  display: inline-flex;
+  vertical-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+}
+
+.logos-footer a {
+  text-decoration: none;
+  color: #456990;
+  transition: color 0.3s ease;
+  font-size: 40px;
+}
+
+.logos-footer a:hover {
+  color: #F09D51;
+}
 
 @media screen and (max-width: 768px) {
   .menu {
@@ -160,20 +183,33 @@ hr {
   height: 0px;
   border: 0;
   border-top: 3px solid #F06543;
-  margin: 1em 0em 1em 0em;
-  padding: 0;
+  margin: 0em 0em 0em 0em;
+  padding: 0px;
+}
+
+.hr-blog {
+  display: block;
+  height: 0px;
+  border: 0;
+  border-top: 2px solid #F09D51;
+  padding: 0px;
+  width: 70%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 /* Headers */
 h1 {
   line-height: 1.2;
-  font-size: 150%;
+  font-size: 180%;
   text-align: left;
+  margin-bottom: 30px;
 }
 
 h2 {
   line-height: 1.2;
-  font-size: 130%;
+  font-size: 120%;
   text-align: left;
 }
 
@@ -521,4 +557,26 @@ footer {
   .right-logos {
     order: 1;
   }
+}
+
+.date {
+  float: right;
+  font-weight: normal;
+  font-size: 80%;
+}
+
+.img-blog {
+  width: 95%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.github-blog {
+  float: right;
+}
+
+.github-blog a{
+  float: right;
+  font-size: x-large;
+  transition: color 0.3s ease;
 }
