@@ -34,102 +34,124 @@
         <h1 id="venue">Lost and found in trains</h1>
         <p style="margin-top: -20px;">
             29 August 2024
-            <span class="github-blog"><a href="https://github.com/michaszko/lost-and-found-trains" target="_blank"><i class="fa fa-github"></i></a></span>
+            <span class="github-blog"><a href="https://github.com/michaszko/lost-and-found-trains" target="_blank"><i
+                        class="fa fa-github"></i></a></span>
         </p>
 
         <hr style="border-top: 1px solid #F06543; width: 70%;">
 
         <p>
-            Recently I was traveling with a polish InterCity train and I have 
-            left my water bottle behind. I have checked the website and I was surprised 
-            that there is an online table of things which have been left in trains. 
-            <a href="https://www.intercity.pl/pl/site/dla-pasazera/obsluga-klientow/odbior-zagubionego-bagazu.html" target="_blank"> Here</a>
+            Recently I was traveling with a polish InterCity train and I have
+            left my water bottle behind. I have checked the website and I was surprised
+            that there is an online table of things which have been left in trains.
+            <a href="https://www.intercity.pl/pl/site/dla-pasazera/obsluga-klientow/odbior-zagubionego-bagazu.html"
+                target="_blank"> Here</a>
             you can find this website.
         </p>
         <p>
-            This gave me an idea: I want to see where and what exactly people leave behind 
+            This gave me an idea: I want to see where and what exactly people leave behind
             while traveling with trains. For this I have created a simple BASH
-            script which downloads all the websites with the data, and then process it
-            accordingly. What I have left is the <i>.csv</i> file with dates, train numbers, 
-            station where the item was found and the category of the item. Data is heavily
-            flawed, since there is inconsistency in naming of the cities. Sometimes one can 
-            find <i>Wrocław Główny</i> and sometimes <i>Wrocław Gł.</i> and even <i>Wrocław</i>. 
-            I have taken care of it with <i>Vim</i> scripting.
+            script which downloads all the websites with the data, and extracts
+            information about lost items. What I have left is the <i>.csv</i> file with dates, train numbers,
+            stations where the item was found and the category of the item. Data is heavily
+            flawed, since there is inconsistency in naming of the cities. Sometimes one can
+            find <i>Wrocław Główny</i> and sometimes <i>Wrocław Gł.</i> and even <i>Wrocław</i>.
+            I have taken care of it with <i>Vim</i> <i>scripting</i>.
         </p>
         <p>
-            First thing I have looked into was the frequency items. 
+            First thing I have looked into was the frequency items.
 
-            <img src="../img/lost_and_found/number_of_lost_items.svg" 
-                    alt="number_of_lost_items" 
-                    class="img-blog">
+            <img src="../img/lost_and_found/number_of_lost_items.svg" alt="number_of_lost_items" class="img-blog">
 
-            It seems that the number of lost items is still growing. It is unclear 
-            what is the cause of it. I can see potential two reasons: 1) system of 
-            reporting is new (February 2024) and it sill didn't saturated; 2) holiday 
-            season in Poland. Later is also supported by the fact that there is huge
-            grow in June, when students return to home.
+            It seems that the number of lost items is growing. It is unclear
+            what is the cause of it. I can see potential two reasons:
+            1) system of reporting is new (February 2024) and it sill didn't
+            saturated (number of people who reports those items is growing)
+            2) holiday season in Poland, which started in June (first for
+            universities, then for schools). The real answer is probably
+            a mixture of both of them.
         </p>
         <p>
-            Weekly cycle can also be seen in the data.
-
-            <img src="../img/lost_and_found/day_of_week.svg" 
-            alt="day_of_week" 
-            class="img-blog">
-
-            Most of the things are lost on Saturday, and least on Tuesday.
+            Do you see the peak around 1st of May? In Poland there are two national
+            holidays in May: 1<sup>st</sup> (Labour Day) and 3<sup>rd</sup> (Constitution Day). This year they
+            happened to fall on Wednesday and Friday, which means that if you take
+            Monday and Tuesday off then you have 9 free days. And many people
+            used this fact. The peak starts on 27<sup>th</sup> of April, which was the Saturday
+            week before.
         </p>
         <p>
-            Now about the cities where most items are found. Figure below
-            shows the distribution in time for Top 10 stations with most 
+            Looking at the graph above one can see that there is some kind of
+            oscitation with period of few days, especially from June on. Becasue of
+            that I have checked on what day of the week most items are lost.
+
+            <img src="../img/lost_and_found/day_of_week.svg" alt="day_of_week" class="img-blog">
+
+            As most of us would expect: most of the things are lost on Saturday and
+            Sunday, and least on Tuesday. It make sense since most of people have time
+            to travel on weekends.
+        </p>
+        <p>
+            Now let's talk about the cities where most items are found. Figure below
+            shows the distribution in time for Top 10 stations with most
             lost items.
 
-            <img src="../img/lost_and_found/cities.svg" 
-            alt="cities" 
-            class="img-blog">
+            <img src="../img/lost_and_found/cities.svg" alt="cities" class="img-blog">
 
-            What those stations have in common? That they are all the final stations 
-            for most of the trains. And Kraków is both final station and most 
+            What those stations have in common? That they are all the final stations
+            for most of the trains. And Kraków is both final station and most
             touristic city in Poland.
 
         </p>
         <p>
             And whats is lost the most?
 
-            <img src="../img/lost_and_found/items.svg" 
-            alt="cities" 
-            class="img-blog">
+            <img src="../img/lost_and_found/items.svg" alt="cities" class="img-blog">
 
             It seems that its 1) cloths, 2) electronics, 3) personal belongings, 4) backpacks,
             5) bags, 6) documents, 7) books, 8) cell phones, 9) tourist equipment and 10) wallets.
         </p>
         <p>
-            Let's look at the correlation between items and cities.
+            Another interesting question is if there is a city in which some specific items
+            are lost more often. For that, let's look into the correlation between items lost
+            and the cities where they were found.
 
-            <img src="../img/lost_and_found/lost_things_in_city.svg" 
-            alt="cities" 
-            class="img-blog">
+            <img src="../img/lost_and_found/lost_things_in_city.svg" alt="cities" class="img-blog">
 
-            It does not tell us much, so lets look at item participation in cities
-            and cities participation in lost items.
+            Ubranie (cloths) are lost so often that they are making this graph hard to read. Instead of
+            looking at the absolute numbers let's see the participation of a given category in
+            a given city. We obtain it by dividing all the numbers in the previous graph by the sum
+            of all the numbers in the same column.
         </p>
         <p>
-            <img src="../img/lost_and_found/item_participation.svg" 
-            alt="cities" 
-            class="img-blog">
+            <img src="../img/lost_and_found/item_participation.svg" alt="cities" class="img-blog">
 
-            It looks like in most of cities most lost items are cloths, but there are exceptions.
-            Take a look at Poznań - only 6% of all items lost in this city are clothing. Another 
+            It looks like in most of cities most lost items are cloths (with 20-40% of participation), but there are
+            exceptions.
+            Take a look at Poznań - only 6% of all items lost in this city are clothing. Another
             interesting fact is that every 10th item lost is phone in Poznań and Bydgoszcz.
         </p>
         <p>
-            <img src="../img/lost_and_found/city_participation.svg" 
-            alt="cities" 
-            class="img-blog">
+            Similarly we can look at the participation of a given city in a given category. To
+            obtain that we normalize the grid row-wise (in previous graph we did it column-wise).
 
-            Most of each item are found in Kraków, but there are also exceptions. 
-            Most backpacks are found in Gdynia, most cell phones are found in 
-            Warszawa Olszynka Grochowska. Wallets are not to be found in big stations - 
-            seems like people are more just in the smaller cities.  
+            <img src="../img/lost_and_found/city_participation.svg" alt="cities" class="img-blog">
+
+            Most of each category is found in Kraków, but there are exceptions.
+            Most backpacks are found in Gdynia and most cell phones are found in
+            Warszawa Olszynka Grochowska. Wallets and documents are not to be
+            found in big stations. Those two distributions have really long
+            tail - most of wallets/documents are found in small towns only
+            once or twice.
+        </p>
+        <p>
+            To summarize, this data can be used to determine when people have holidays 
+            in Poland, since it can be seen as a peak in the number of lost items. Maybe
+            deeper analysis would also reveal the profile of an average traveler, based on 
+            the items lost, but this probably requires more data. I hope the website 
+            will be updated as long as possible :) 
+        </p>
+        <p style="text-align: right;">
+            MS
         </p>
 
     </div>
