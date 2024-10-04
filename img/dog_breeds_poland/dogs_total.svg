@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="554.528438pt" height="410.578437pt" viewBox="0 0 554.528438 410.578437" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-09-01T14:40:50.736910</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 410.578437 
+L 554.528438 410.578437 
+L 554.528438 0 
+L 0 0 
+L 0 410.578437 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 51.729688 393.84875 
+L 554.528437 393.84875 
+L 554.528437 -0 
+L 51.729688 -0 
+L 51.729688 393.84875 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mf567fbdafc" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mf567fbdafc" x="74.584176" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 2009 -->
+      <g transform="translate(62.184176 408.578437) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-32" d="M 403 394 
+L 403 0 
+L 3347 0 
+L 3539 1325 
+L 3200 1325 
+L 2896 499 
+L 938 499 
+C 1014 1069 1277 1382 1952 1760 
+C 2560 2102 3437 2522 3437 3498 
+C 3437 4336 2794 4749 1834 4749 
+C 1379 4749 992 4646 691 4525 
+L 477 3382 
+L 829 3296 
+L 896 3517 
+C 1069 4083 1370 4333 1866 4333 
+C 2342 4333 2826 4109 2826 3485 
+C 2826 2893 2368 2534 1773 2195 
+C 826 1658 403 1171 403 394 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-30" d="M 1984 -74 
+C 2992 -74 3670 682 3670 2339 
+C 3670 4022 2992 4749 1984 4749 
+C 976 4749 298 4022 298 2339 
+C 298 682 976 -74 1984 -74 
+z
+M 944 2339 
+C 944 3757 1322 4339 1984 4339 
+C 2650 4339 3024 3757 3024 2339 
+C 3024 918 2650 336 1984 336 
+C 1322 336 944 918 944 2339 
+z
+M 1629 2330 
+C 1629 2019 1757 1834 1984 1834 
+C 2214 1834 2342 2019 2342 2330 
+C 2342 2646 2214 2826 1984 2826 
+C 1757 2826 1629 2646 1629 2330 
+z
+" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-39" d="M 1984 4749 
+C 1088 4749 413 4173 413 3213 
+C 413 2294 995 1830 1786 1830 
+C 2330 1830 2714 2048 3002 2301 
+C 2995 794 2429 339 1888 339 
+C 1485 339 1168 589 1011 1030 
+L 931 1251 
+L 573 1165 
+L 790 160 
+C 1104 19 1456 -74 1798 -74 
+C 2682 -74 3610 506 3610 2349 
+C 3610 4032 2989 4749 1984 4749 
+z
+M 1011 3242 
+C 1011 4022 1498 4317 1962 4317 
+C 2493 4317 2915 3946 2989 2720 
+C 2710 2438 2330 2227 1907 2227 
+C 1414 2227 1011 2509 1011 3242 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-39" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="107.233446" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 2010 -->
+      <g transform="translate(94.833446 408.578437) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-31" d="M 496 0 
+L 3549 0 
+L 3549 307 
+L 2336 576 
+L 2336 4672 
+L 1917 4672 
+L 496 3942 
+L 496 3574 
+L 1782 4042 
+L 1782 576 
+L 496 307 
+L 496 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="139.882715" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 2011 -->
+      <g transform="translate(127.482715 408.578437) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="172.531985" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 2012 -->
+      <g transform="translate(160.131985 408.578437) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="205.181254" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 2013 -->
+      <g transform="translate(192.781254 408.578437) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-33" d="M 1811 -74 
+C 3005 -74 3565 528 3565 1267 
+C 3565 2067 2918 2365 2477 2397 
+L 2477 2442 
+C 2870 2464 3373 2858 3373 3549 
+C 3373 4339 2784 4749 1856 4749 
+C 1408 4749 1002 4646 678 4525 
+L 464 3510 
+L 816 3424 
+L 896 3645 
+C 1050 4083 1366 4333 1866 4333 
+C 2358 4333 2781 4083 2781 3552 
+C 2781 3014 2323 2605 1498 2605 
+L 1498 2173 
+C 2202 2173 2954 1968 2954 1216 
+C 2954 650 2522 342 1894 342 
+C 1306 342 976 586 822 1030 
+L 742 1258 
+L 368 1171 
+L 582 160 
+C 874 32 1293 -74 1811 -74 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-33" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="237.830524" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 2014 -->
+      <g transform="translate(225.430524 408.578437) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-34" d="M 1808 0 
+L 3494 0 
+L 3494 307 
+L 3046 518 
+L 3046 1334 
+L 3478 1334 
+L 3552 1770 
+L 3046 1770 
+L 3046 4675 
+L 2438 4672 
+L 352 1754 
+L 352 1334 
+L 2483 1334 
+L 2483 534 
+L 1808 307 
+L 1808 0 
+z
+M 909 1770 
+L 2483 3958 
+L 2483 1770 
+L 909 1770 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-34" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="270.479793" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 2015 -->
+      <g transform="translate(258.079793 408.578437) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-35" d="M 1782 -77 
+C 2893 -77 3565 541 3565 1443 
+C 3565 2301 2982 2902 2013 2902 
+C 1677 2902 1328 2829 1037 2685 
+L 1222 4195 
+L 2720 4195 
+L 2995 3517 
+L 3334 3517 
+L 3142 4672 
+L 781 4672 
+L 493 2310 
+L 838 2138 
+C 1117 2336 1520 2490 1910 2490 
+C 2650 2490 2954 1962 2954 1418 
+C 2954 720 2448 342 1798 342 
+C 1264 342 976 586 822 1030 
+L 742 1258 
+L 368 1171 
+L 582 160 
+C 874 32 1283 -77 1782 -77 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-35" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="303.129062" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 2016 -->
+      <g transform="translate(290.729062 408.578437) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-36" d="M 1984 -74 
+C 2880 -74 3555 502 3555 1462 
+C 3555 2381 2973 2845 2182 2845 
+C 1638 2845 1254 2627 966 2374 
+C 973 3882 1539 4336 2080 4336 
+C 2483 4336 2800 4086 2957 3645 
+L 3037 3424 
+L 3395 3510 
+L 3178 4515 
+C 2864 4656 2512 4749 2170 4749 
+C 1286 4749 358 4170 358 2326 
+C 358 643 979 -74 1984 -74 
+z
+M 979 1955 
+C 1258 2237 1638 2448 2061 2448 
+C 2554 2448 2957 2166 2957 1434 
+C 2957 653 2470 358 2006 358 
+C 1475 358 1053 730 979 1955 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-36" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="335.778332" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 2017 -->
+      <g transform="translate(323.378332 408.578437) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-37" d="M 1264 0 
+L 1952 0 
+L 3517 4278 
+L 3517 4672 
+L 637 4672 
+L 445 3389 
+L 784 3389 
+L 1101 4259 
+L 2931 4259 
+L 1264 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-37" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="368.427601" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 2018 -->
+      <g transform="translate(356.027601 408.578437) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-38" d="M 1965 -80 
+C 3056 -80 3590 470 3590 1206 
+C 3590 1859 3171 2202 2656 2438 
+C 3104 2662 3443 2992 3443 3571 
+C 3443 4410 2758 4749 1990 4749 
+C 1139 4749 554 4358 554 3581 
+C 554 3018 874 2662 1322 2403 
+C 838 2202 378 1840 378 1162 
+C 378 470 890 -80 1965 -80 
+z
+M 909 1187 
+C 909 1734 1315 2035 1702 2218 
+C 1718 2208 1738 2202 1754 2195 
+C 2531 1882 2995 1690 2995 1149 
+C 2995 634 2592 358 1955 358 
+C 1366 358 909 605 909 1187 
+z
+M 1107 3616 
+C 1107 4080 1494 4310 2000 4310 
+C 2534 4310 2922 4048 2922 3520 
+C 2922 3069 2624 2790 2262 2598 
+L 2218 2614 
+C 1546 2835 1107 3126 1107 3616 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-38" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="401.076871" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 2019 -->
+      <g transform="translate(388.676871 408.578437) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-39" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="433.72614" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 2020 -->
+      <g transform="translate(421.32614 408.578437) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="466.37541" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- 2021 -->
+      <g transform="translate(453.97541 408.578437) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-31" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="499.024679" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <!-- 2022 -->
+      <g transform="translate(486.624679 408.578437) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#mf567fbdafc" x="531.673949" y="393.84875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <!-- 2023 -->
+      <g transform="translate(519.273949 408.578437) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-32"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-32" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-33" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_16">
+      <defs>
+       <path id="m7d17ae51c9" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m7d17ae51c9" x="51.729688" y="372.027715" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <!-- 50 k -->
+      <g transform="translate(19.929688 375.892558) scale(0.1 -0.1)">
+       <defs>
+        <path id="MonaspiceXeNFM-Regular-20" transform="scale(0.015625)"/>
+        <path id="MonaspiceXeNFM-Regular-6b" d="M 298 0 
+L 1789 0 
+L 1789 323 
+L 1328 461 
+L 1328 1120 
+L 1741 1507 
+L 2925 0 
+L 3795 0 
+L 3795 320 
+L 3270 499 
+L 2144 1885 
+L 3107 2784 
+L 3683 2989 
+L 3683 3312 
+L 2195 3312 
+L 2195 2989 
+L 2608 2842 
+L 1328 1638 
+L 1328 4909 
+L 1242 4947 
+L 170 4749 
+L 170 4410 
+L 730 4323 
+L 730 499 
+L 298 323 
+L 298 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#MonaspiceXeNFM-Regular-35"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-6b" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m7d17ae51c9" x="51.729688" y="304.809542" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <!-- 60 k -->
+      <g transform="translate(19.929688 308.674386) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-36"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-6b" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m7d17ae51c9" x="51.729688" y="237.591369" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <!-- 70 k -->
+      <g transform="translate(19.929688 241.456213) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-37"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-6b" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m7d17ae51c9" x="51.729688" y="170.373197" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <!-- 80 k -->
+      <g transform="translate(19.929688 174.238041) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-38"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-6b" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m7d17ae51c9" x="51.729688" y="103.155024" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <!-- 90 k -->
+      <g transform="translate(19.929688 107.019868) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-39"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-6b" x="186.000046"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m7d17ae51c9" x="51.729688" y="35.936852" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <!-- 100 k -->
+      <g transform="translate(13.729688 39.801695) scale(0.1 -0.1)">
+       <use xlink:href="#MonaspiceXeNFM-Regular-31"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="62.000015"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-30" x="124.000031"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-20" x="186.000046"/>
+       <use xlink:href="#MonaspiceXeNFM-Regular-6b" x="248.000061"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_22">
+     <!-- Total number -->
+     <g transform="translate(7.729688 234.124375) rotate(-90) scale(0.1 -0.1)">
+      <defs>
+       <path id="MonaspiceXeNFM-Regular-54" d="M 858 0 
+L 3082 0 
+L 3082 323 
+L 2275 493 
+L 2275 4262 
+L 3046 4262 
+L 3379 3139 
+L 3744 3139 
+L 3555 4672 
+L 413 4672 
+L 224 3139 
+L 589 3139 
+L 922 4262 
+L 1664 4266 
+L 1664 493 
+L 858 323 
+L 858 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="MonaspiceXeNFM-Regular-6f" d="M 1984 -77 
+C 2874 -77 3616 560 3616 1658 
+C 3616 2752 2874 3389 1984 3389 
+C 1094 3389 352 2752 352 1658 
+C 352 560 1094 -77 1984 -77 
+z
+M 989 1661 
+C 989 2557 1430 2947 1984 2947 
+C 2538 2947 2979 2557 2979 1661 
+C 2979 768 2538 378 1984 378 
+C 1430 378 989 768 989 1661 
+z
+" transform="scale(0.015625)"/>
+       <path id="MonaspiceXeNFM-Regular-74" d="M 2269 -77 
+C 2634 -77 3008 10 3302 122 
+L 3517 1069 
+L 3203 1149 
+L 3123 950 
+C 2963 554 2707 342 2339 339 
+C 1958 336 1818 582 1818 966 
+L 1818 2774 
+L 3338 2774 
+L 3427 3219 
+L 1824 3219 
+L 1824 4291 
+L 1581 4291 
+L 1200 3290 
+L 294 3050 
+L 294 2774 
+L 1222 2774 
+L 1222 915 
+C 1222 288 1485 -74 2269 -77 
+z
+" transform="scale(0.015625)"/>
+       <path id="MonaspiceXeNFM-Regular-61" d="M 2698 -38 
+L 2765 -38 
+L 3802 205 
+L 3802 560 
+L 3261 640 
+L 3261 2294 
+C 3261 3117 2858 3389 2006 3389 
+C 1443 3389 1037 3270 707 3133 
+L 573 2413 
+L 931 2323 
+L 998 2477 
+C 1142 2816 1421 2973 1872 2976 
+C 2339 2979 2656 2829 2656 2275 
+L 2656 1955 
+C 1379 1904 387 1686 387 816 
+C 387 246 829 -74 1421 -74 
+C 1901 -74 2355 160 2698 387 
+L 2698 -38 
+z
+M 1053 886 
+C 1053 1462 1894 1590 2656 1600 
+L 2656 688 
+C 2339 490 2010 381 1686 381 
+C 1286 381 1053 582 1053 886 
+z
+" transform="scale(0.015625)"/>
+       <path id="MonaspiceXeNFM-Regular-6c" d="M 461 0 
+L 3562 0 
+L 3562 323 
+L 2310 512 
+L 2310 4909 
+L 2224 4947 
+L 461 4704 
+L 461 4381 
+L 1712 4294 
+L 1712 512 
+L 461 323 
+L 461 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="MonaspiceXeNFM-Regular-6e" d="M 2352 0 
+L 3802 0 
+L 3802 323 
+L 3379 493 
+L 3379 2483 
+C 3379 3078 3117 3389 2570 3389 
+C 2195 3389 1811 3235 1392 2970 
+L 1392 3338 
+L 1309 3373 
+L 272 3133 
+L 272 2778 
+L 832 2691 
+L 832 499 
+L 400 323 
+L 400 0 
+L 1850 0 
+L 1850 323 
+L 1427 493 
+L 1427 2646 
+C 1770 2835 2070 2906 2291 2906 
+C 2573 2906 2784 2765 2784 2358 
+L 2784 499 
+L 2352 323 
+L 2352 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="MonaspiceXeNFM-Regular-75" d="M 1517 -77 
+C 1894 -77 2278 80 2701 349 
+L 2701 -26 
+L 2765 -38 
+L 3821 202 
+L 3821 557 
+L 3261 656 
+L 3261 3338 
+L 3178 3376 
+L 2118 3136 
+L 2118 2778 
+L 2659 2701 
+L 2659 669 
+C 2323 480 2016 410 1795 410 
+C 1514 410 1302 547 1302 954 
+L 1302 3334 
+L 1226 3373 
+L 166 3133 
+L 166 2774 
+L 707 2694 
+L 707 829 
+C 707 234 966 -77 1517 -77 
+z
+" transform="scale(0.015625)"/>
+       <path id="MonaspiceXeNFM-Regular-6d" d="M 1766 2563 
+L 1766 0 
+L 2602 0 
+L 2602 323 
+L 2310 477 
+L 2310 2682 
+C 2310 2726 2307 2771 2304 2813 
+C 2435 2880 2570 2925 2688 2925 
+C 2877 2925 2941 2845 2941 2563 
+L 2941 0 
+L 3779 0 
+L 3779 323 
+L 3482 477 
+L 3482 2707 
+C 3482 3165 3299 3389 2963 3389 
+C 2698 3389 2451 3251 2253 3059 
+C 2173 3274 2013 3389 1776 3389 
+C 1523 3389 1283 3254 1085 3062 
+L 1085 3338 
+L 998 3373 
+L 189 3149 
+L 189 2858 
+L 630 2749 
+L 630 486 
+L 310 323 
+L 310 0 
+L 1446 0 
+L 1446 323 
+L 1171 474 
+L 1171 2832 
+C 1290 2886 1411 2925 1517 2925 
+C 1702 2925 1766 2845 1766 2563 
+z
+" transform="scale(0.015625)"/>
+       <path id="MonaspiceXeNFM-Regular-62" d="M 1888 -74 
+C 3046 -74 3770 637 3770 1795 
+C 3770 2707 3322 3382 2435 3382 
+C 1946 3382 1571 3178 1293 2970 
+L 1293 4909 
+L 1210 4947 
+L 170 4749 
+L 170 4390 
+L 730 4304 
+L 730 160 
+C 1024 42 1421 -74 1888 -74 
+z
+M 1328 432 
+L 1328 2682 
+C 1597 2813 1904 2912 2214 2912 
+C 2867 2912 3139 2451 3139 1760 
+C 3139 794 2608 362 1872 362 
+C 1664 362 1482 390 1328 432 
+z
+" transform="scale(0.015625)"/>
+       <path id="MonaspiceXeNFM-Regular-65" d="M 2128 -77 
+C 2570 -77 2973 26 3283 170 
+L 3482 893 
+L 3123 979 
+L 3050 829 
+C 2896 474 2605 355 2166 355 
+C 1424 355 995 870 982 1654 
+L 3549 1654 
+L 3549 1872 
+C 3549 2899 2973 3389 2125 3389 
+C 1091 3389 355 2726 355 1622 
+C 355 534 976 -77 2128 -77 
+z
+M 1011 2029 
+C 1110 2627 1494 2944 2067 2944 
+C 2586 2944 2934 2618 2941 2029 
+L 1011 2029 
+z
+" transform="scale(0.015625)"/>
+       <path id="MonaspiceXeNFM-Regular-72" d="M 426 0 
+L 2614 0 
+L 2614 323 
+L 1674 557 
+L 1674 2592 
+C 1862 2717 2102 2829 2406 2829 
+C 2669 2829 2931 2736 3117 2378 
+L 3226 2166 
+L 3514 2240 
+L 3296 3254 
+C 3123 3338 2928 3389 2704 3389 
+C 2211 3389 1869 3136 1613 2851 
+L 1613 3334 
+L 1526 3373 
+L 426 3133 
+L 426 2778 
+L 1075 2688 
+L 1075 547 
+L 426 323 
+L 426 0 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#MonaspiceXeNFM-Regular-54"/>
+      <use xlink:href="#MonaspiceXeNFM-Regular-6f" x="62.000015"/>
+      <use xlink:href="#MonaspiceXeNFM-Regular-74" x="124.000031"/>
+      <use xlink:href="#MonaspiceXeNFM-Regular-61" x="186.000046"/>
+      <use xlink:href="#MonaspiceXeNFM-Regular-6c" x="248.000061"/>
+      <use xlink:href="#MonaspiceXeNFM-Regular-20" x="310.000076"/>
+      <use xlink:href="#MonaspiceXeNFM-Regular-6e" x="372.000092"/>
+      <use xlink:href="#MonaspiceXeNFM-Regular-75" x="434.000107"/>
+      <use xlink:href="#MonaspiceXeNFM-Regular-6d" x="496.000122"/>
+      <use xlink:href="#MonaspiceXeNFM-Regular-62" x="558.000137"/>
+      <use xlink:href="#MonaspiceXeNFM-Regular-65" x="620.000153"/>
+      <use xlink:href="#MonaspiceXeNFM-Regular-72" x="682.000168"/>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_22">
+    <path d="M 74.584176 278.581011 
+L 107.233446 284.005518 
+L 139.882715 283.293005 
+L 172.531985 317.392784 
+L 205.181254 375.946534 
+L 237.830524 284.758361 
+L 270.479793 268.148751 
+L 303.129062 250.067062 
+L 335.778332 234.835424 
+L 368.427601 200.244953 
+L 401.076871 194.753228 
+L 433.72614 149.918707 
+L 466.37541 64.329808 
+L 499.024679 17.902216 
+L 531.673949 27.406866 
+" clip-path="url(#pc14f5d8180)" style="fill: none; stroke: #1f77b4; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_23">
+    <path d="M 205.181254 375.946534 
+" clip-path="url(#pc14f5d8180)" style="fill: none; stroke: #e8e9eb; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="mc65e20a849" d="M 0 6 
+C 1.591219 6 3.117479 5.367802 4.242641 4.242641 
+C 5.367802 3.117479 6 1.591219 6 0 
+C 6 -1.591219 5.367802 -3.117479 4.242641 -4.242641 
+C 3.117479 -5.367802 1.591219 -6 0 -6 
+C -1.591219 -6 -3.117479 -5.367802 -4.242641 -4.242641 
+C -5.367802 -3.117479 -6 -1.591219 -6 0 
+C -6 1.591219 -5.367802 3.117479 -4.242641 4.242641 
+C -3.117479 5.367802 -1.591219 6 0 6 
+z
+" style="stroke: #1f77b4; stroke-width: 3"/>
+    </defs>
+    <g clip-path="url(#pc14f5d8180)">
+     <use xlink:href="#mc65e20a849" x="205.181254" y="375.946534" style="fill: #e8e9eb; stroke: #1f77b4; stroke-width: 3"/>
+    </g>
+   </g>
+   <g id="line2d_24">
+    <path d="M 401.076871 194.753228 
+" clip-path="url(#pc14f5d8180)" style="fill: none; stroke: #e8e9eb; stroke-width: 1.5; stroke-linecap: square"/>
+    <g clip-path="url(#pc14f5d8180)">
+     <use xlink:href="#mc65e20a849" x="401.076871" y="194.753228" style="fill: #e8e9eb; stroke: #1f77b4; stroke-width: 3"/>
+    </g>
+   </g>
+   <g id="line2d_25">
+    <path d="M 499.024679 17.902216 
+" clip-path="url(#pc14f5d8180)" style="fill: none; stroke: #e8e9eb; stroke-width: 1.5; stroke-linecap: square"/>
+    <g clip-path="url(#pc14f5d8180)">
+     <use xlink:href="#mc65e20a849" x="499.024679" y="17.902216" style="fill: #e8e9eb; stroke: #1f77b4; stroke-width: 3"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 51.729688 393.84875 
+L 51.729688 -0 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 51.729688 393.84875 
+L 554.528437 393.84875 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc14f5d8180">
+   <rect x="51.729688" y="-0" width="502.79875" height="393.84875"/>
+  </clipPath>
+ </defs>
+</svg>
