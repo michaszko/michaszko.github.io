@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MS | Data</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/logos/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<nav>
+    <ul class="menu">
+
+        <li><a href="../index.html">Home</a></li>
+
+        <li><a href="../research.html">Research</a></li>
+
+        <li><a href="../teaching.html">Teaching</a></li>
+
+        <li><a href="../projects.html">Projects</a></li>
+
+        <li><a href="../contact.html">Contact</a></li>
+
+    </ul>
+
+    <hr class="hr-menu">
+</nav>
+
+<body>
+    <div class="main-text">
+        <h2>Graphical Solution of Ax = b</h2>
+        <label>Enter matrix A (2x2):</label><br>
+        <input type="text" id="a11" placeholder="a11"> <input type="text" id="a12" placeholder="a12"><br>
+        <input type="text" id="a21" placeholder="a21"> <input type="text" id="a22" placeholder="a22"><br>
+
+        <label>Enter vector b (2x1):</label><br>
+        <input type="text" id="b1" placeholder="b1"> <input type="text" id="b2" placeholder="b2"><br>
+
+        <button onclick="solveAndPlot()">Solve and Plot</button>
+
+        <canvas id="myChart" width="400" height="400"></canvas>
+
+        <script src="matrix_solver.js"></script>
+
+    </div>
+</body>
+<footer>
+    <hr class="hr-menu">
+    <div class="footer-content">
+        <p class="footer-text">©2024 Michał Siemaszko. All right reserved.</p>
+    </div>
+</footer>
+
+</html>

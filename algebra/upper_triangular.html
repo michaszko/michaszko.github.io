@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MS | Data</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/logos/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+        .matrix-input {
+            width: 50px;
+            margin: 5px;
+        }
+
+        .output {
+            margin-top: 20px;
+        }
+
+        /* Remove arrows in number input fields (for Chrome, Safari, and Edge) */
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Remove arrows in number input fields (for Firefox) */
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+    </style>
+
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+</head>
+<nav>
+    <ul class="menu">
+
+        <li><a href="../index.html">Home</a></li>
+
+        <li><a href="../research.html">Research</a></li>
+
+        <li><a href="../teaching.html">Teaching</a></li>
+
+        <li><a href="../projects.html">Projects</a></li>
+
+        <li><a href="../contact.html">Contact</a></li>
+
+    </ul>
+
+    <hr class="hr-menu">
+</nav>
+
+<body>
+    <div class="main-text">
+        <h2>LDU Decomposition</h2>
+        <form id="matrixForm" style="text-align: center;">
+            <div>
+                <input type="number" class="matrix-input" id="a00" required>
+                <input type="number" class="matrix-input" id="a01" required>
+                <input type="number" class="matrix-input" id="a02" required>
+            </div>
+            <div>
+                <input type="number" class="matrix-input" id="a10" required>
+                <input type="number" class="matrix-input" id="a11" required>
+                <input type="number" class="matrix-input" id="a12" required>
+            </div>
+            <div>
+                <input type="number" class="matrix-input" id="a20" required>
+                <input type="number" class="matrix-input" id="a21" required>
+                <input type="number" class="matrix-input" id="a22" required>
+            </div>
+            <br>
+            <button type="button" onclick="calculateLDU()">Calculate</button>
+        </form>
+
+        <div class="output" id="output"></div>
+
+        <script src="LDU.js"></script>
+
+    </div>
+</body>
+<footer>
+    <hr class="hr-menu">
+    <div class="footer-content">
+        <p class="footer-text">©2024 Michał Siemaszko. All right reserved.</p>
+    </div>
+</footer>
+
+</html>
