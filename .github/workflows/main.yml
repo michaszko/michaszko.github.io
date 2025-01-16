@@ -2,17 +2,17 @@ name: lost_and_found
 
 on:
   schedule:
-    - cron: "20 22 * * *"    # Runs at 11:15 UTC every day
+    - cron: "0 23 * * *"    # Runs at 23:00 UTC every day
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout repo content
+      - name: Checkout repository content
         uses: actions/checkout@v2 # Checkout the repository content to GitHub runner.
-        
-      - name: setup python
+
+      - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: 3.12 # Install the Python version needed
@@ -20,10 +20,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas csv request bs4 json
+          pip install pandas requests beautifulsoup4
 
-      - name: execute py script # Run Python scripts
+      - name: Execute Python scripts
         run: |
-          python ~/LF/scraping.py
-          python ~/LF/items_lost.py
+          python LF/scraping.py
+          python LF/items_lost.py
 
