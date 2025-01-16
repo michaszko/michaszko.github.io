@@ -2,7 +2,7 @@ name: lost_and_found
 
 on:
   schedule:
-    - cron: "15 23 * * *"    # Runs at 11:15 UTC every day
+    - cron: "20 22 * * *"    # Runs at 11:15 UTC every day
 
 jobs:
   build:
