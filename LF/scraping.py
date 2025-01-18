@@ -2,6 +2,9 @@ import pandas as pd
 import requests
 import json
 from bs4 import BeautifulSoup
+import time
+import random
+
 
 def scraping():
     """
@@ -11,13 +14,18 @@ def scraping():
     # We assume that there will be no more than 20 pages of items a day
     N = 20
 
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "keep-alive",
+    }
+
+    url_template = "https://www.intercity.pl/pl/site/dla-pasazera/obsluga-klientow/odbior-zagubionego-bagazu.html?page={}"
+
     for i in range(1, N):
         # URL of the website you want to scrape (replace with the actual URL)
-        url = f"https://www.intercity.pl/pl/site/dla-pasazera/obsluga-klientow/odbior-zagubionego-bagazu.html?page={i}"
-
-        headers =  {
-                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' -s",
-                }
+        url = url_template.format(i)
+        time.sleep(random.uniform(1, 5))  # Random delay
 
         response = requests.get(url, headers=headers)
 
