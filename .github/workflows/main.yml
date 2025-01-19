@@ -1,8 +1,8 @@
-name: lost_and_found
+name: Lost and found in trains
 
-on:
-  schedule:
-    - cron: "0 23 * * *"    # Runs at 23:00 UTC every day
+on: [workflow_dispatch]
+  # schedule:
+  #   - cron: "0 23 * * *"    # Runs at 23:00 UTC every day
 
 jobs:
   build:
@@ -10,10 +10,10 @@ jobs:
 
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@v2 # Checkout the repository content to GitHub runner.
+        uses: actions/checkout@v3 # Checkout the repository content to GitHub runner.
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.12 # Install the Python version needed
 
@@ -26,4 +26,10 @@ jobs:
         run: |
           python LF/scraping.py
           python LF/items_lost.py
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update data file
+        id: auto-commit-action
 
