@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MS | Data</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/logos/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+<nav>
+    <ul class="menu">
+
+        <li><a href="../index.html">Home</a></li>
+
+        <li><a href="../research.html">Research</a></li>
+
+        <li><a href="../teaching.html">Teaching</a></li>
+
+        <li><a href="../projects.html">Projects</a></li>
+
+        <li><a href="../contact.html">Contact</a></li>
+
+    </ul>
+
+    <hr class="hr-menu">
+</nav>
+<style>
+</style>
+
+<body>
+    <div class="main-text">
+        <h1 id="venue">Polish Academy of Science - money distribution</h1>
+        <p style="margin-top: -20px;">
+            05 August 2025
+            <span class="github-blog"><a href="https://github.com/michaszko/lost-and-found-trains" target="_blank"><i
+                        class="fa fa-github"></i></a></span>
+        </p>
+
+        <hr style="border-top: 1px solid #F06543; width: 70%;">
+
+        <p>
+            Recently I found and interesint data, namely how does the public money gets
+            distributed among all the institues of Polish Academy of Sciences (PAN). Data is
+            publicly available on the Government website.
+        </p>
+
+        <p>
+            Let's start with plotting each Institute on the map of Poland with the size
+            related to the amount of money they get.
+        </p>
+
+        <svg id="map" width="100%" height="800"></svg>
+
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="../other/pan_map.js"></script>
+
+        <p>
+            Some observations:
+        <ul>
+            <li>
+                Clearly we see that the vast majority of Institutes are located in <b>Warsaw</b>.
+                After Warsaw is Kraków, then Poznań, Wrocław, Gdańsk, Łódź, Lublin, Olsztyn,
+                Białowieża, Gliwice, and Zabrze.
+            </li>
+            <li>
+                The largest Institute is <b>Institute of Nuclear Physics</b> in Kraków.
+            </li>
+            <li>
+                The smallest Institute is <b>European Regional Centre for Ecohydrology</b> in Łódź.
+            </li>
+            <li>
+                All but on Institutes of Humanities and Social Sciences are located in Warsaw.
+            </li>
+        </ul>
+        </p>
+
+        <p>
+            Now lets take a look at the categories of the Institutes alltogether.
+        </p>
+
+    </div>
+</body>
+<footer>
+    <hr class="hr-menu">
+    <div class="footer-content">
+        <p class="footer-text">©2024-2025 Michał Siemaszko. All right reserved.</p>
+    </div>
+</footer>
+
+</html>
