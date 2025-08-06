@@ -11,6 +11,7 @@
     <link rel="icon" href="../img/logos/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <nav>
     <ul class="menu">
@@ -56,7 +57,6 @@
 
         <svg id="map" width="100%" height="800"></svg>
 
-        <script src="https://d3js.org/d3.v7.min.js"></script>
         <script src="../other/pan_map.js"></script>
 
         <p>
@@ -82,6 +82,35 @@
         <p>
             Now lets take a look at the categories of the Institutes alltogether.
         </p>
+
+        <div id="swarm-container">
+            <svg id="swarm" width="800" height="500"></svg>
+        </div>
+
+        <script src="../other/pan_swarm.js"></script>
+
+        <p>
+            We can see the differences in finansing different categories. Humanities are
+            not exeeding 20MLN while many technical institues are getting far more money.
+        </p>
+
+        <div id="slope-container">
+            <svg id="slope" width="800" height="400"></svg>
+        </div>
+
+        <script src="../other/slope.js"></script>
+        
+        <p>
+            It is also visible in the percent of institutes which got any increase at all. 
+            From humanities it was less than 30% while for technical institutes it was almost 70%.
+        </p>
+
+        <div id="increase-container">
+            <svg id="increase" width="800" height="400"></svg>
+        </div>
+
+        <script src="../other/increase.js"></script>
+
 
     </div>
 </body>
