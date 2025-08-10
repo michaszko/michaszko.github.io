@@ -1,8 +1,12 @@
 (function () {
-    const width = 680, height = 400, margin = { top: 50, right: 20, bottom: 50, left: 20 };
+    const width = 800;
+    const height = 400;
+    const margin = 20
+
     const svg = d3.select("#slope")
-        .attr("width", width)
-        .attr("height", height);
+        .attr("viewBox", `0 ${-margin} ${width} ${height}`)
+        .attr("preserveAspectRatio", "xMidYMid meet");
+    const g = svg.append("g");
 
     d3.csv("../other/slope.csv").then(data => {
         data.forEach(d => d.percent = +d.percent);
@@ -12,12 +16,12 @@
 
         const yScale = d3.scalePoint()
             .domain(data.map(d => d.cat))
-            .range([margin.top, height - margin.bottom])
+            .range([margin, height - margin])
             .padding(0.5);
 
         const xScale = d3.scaleLinear()
             .domain([1, d3.max(rightValues)]) // from 100 to max of right side
-            .range([margin.left, width - margin.right]);
+            .range([margin, width - margin]);
 
         const color = d3.scaleOrdinal(d3.schemeTableau10).domain(data.map(d => d.cat));
 
@@ -34,19 +38,6 @@
             .attr("stroke", d => color(d.cat))
             .attr("stroke-width", 8);
 
-        // Left labels
-        // svg.selectAll(".left-label")
-        //     .data(data)
-        //     .enter()
-        //     .append("text")
-        //     .attr("class", "left-label")
-        //     .attr("x", xScale(leftValue) - 10)
-        //     .attr("y", d => yScale(d.cat) + 4)
-        //     .attr("text-anchor", "end")
-        //     .attr("fill", d => color(d.cat))
-        //     .attr("font-size", "12px")
-        //     .text(d => d.cat);
-
         // Right labels
         const rightLabels = svg.selectAll(".right-label")
             .data(data)
@@ -60,17 +51,18 @@
             .text(d => (d.percent).toFixed(1) + "%");
 
         // Axes (optional)
-        svg.append("g")
-            .attr("transform", `translate(0,${margin.top})`)
-            .call(d3.axisTop(xScale).ticks(5).tickFormat(d => d + "%"));
+        // svg.append("g")
+        //     .attr("transform", `translate(0,${margin+10})`)
+        //     .style("font-size", "16px")
+        //     .call(d3.axisTop(xScale).ticks(5).tickFormat(d => d + "%"));
 
         svg.append("text")
             // .attr("transform", "rotate(0)")
             .attr("x", width / 2)
-            .attr("y", 20)
+            .attr("y", 0)
             .attr("text-anchor", "middle")
             .attr("fill", "#456990") // ← text color
-            .style("font-size", "14px")
+            .style("font-size", "16px")
             .text("Change 2024 vs 2025");
 
         // --- Animation trigger when visible ---

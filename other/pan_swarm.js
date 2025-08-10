@@ -1,12 +1,12 @@
 (function () {
-    const width = 680, height = 400, margin = { top: 50, right: 20, bottom: 50, left: 50 };
-    const svg = d3.select("#swarm")
-        .attr("width", width)
-        .attr("height", height);
+    const width = 800;
+    const height = 600;
+    const margin = 10
 
-    const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
-    const plotWidth = width - margin.left - margin.right;
-    const plotHeight = height - margin.top - margin.bottom;
+    const svg = d3.select("#swarm")
+        .attr("viewBox", `0 0 ${width + margin} ${height + margin}`)
+        .attr("preserveAspectRatio", "xMidYMid meet");
+    const g = svg.append("g");
 
     // Load CSV
     d3.csv("../other/pan_institutes.csv").then(data => {
@@ -22,7 +22,7 @@
             .style("border", "1px solid #999")
             .style("border-radius", "4px")
             .style("pointer-events", "none")
-            .style("font-size", "10px")
+            .style("font-size", "12px")
             .style("font-family", "'Rubik', sans-serif");
 
         // Extract categories
@@ -31,12 +31,12 @@
         // Scales
         const xScale = d3.scalePoint()
             .domain(categories)
-            .range([0, plotWidth])
+            .range([0, width])
             .padding(0.5);
 
         const yScale = d3.scaleLinear()
             .domain([0, d3.max(data, d => d.money)]).nice()
-            .range([plotHeight, 0]);
+            .range([height, 0]);
 
         const color = d3.scaleOrdinal()
             .domain(categories)
@@ -89,15 +89,17 @@
         observer.observe(document.querySelector("#swarm-container"));
 
         g.append("g")
-            .call(d3.axisLeft(yScale).ticks(3));
+            .attr("transform", `translate(${50},${0})`)
+            .style("font-size", "16px")
+            .call(d3.axisLeft(yScale).ticks(5));
 
         svg.append("text")
             .attr("transform", "rotate(-90)")
             .attr("x", -height / 2)
-            .attr("y", 20)
+            .attr("y", margin+2)
             .attr("text-anchor", "middle")
             .attr("fill", "#456990") // ← text color
-            .style("font-size", "14px")
+            .style("font-size", "16px")
             .text("Dotation (in mln zł)");
 
         // Legend
@@ -115,7 +117,7 @@
                 .attr("y", 10)
                 .text(cat)
                 .attr("fill", "#456990")
-                .style("font-size", "12px");
+                .style("font-size", "16px");
         });
     });
 })();

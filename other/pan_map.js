@@ -1,6 +1,10 @@
 (function () {
-    const width = 640, height = 600;
-    const svg = d3.select("#map");
+    const width = 800;
+    const height = 600;
+
+    const svg = d3.select("#map")
+        .attr("viewBox", `0 0 ${width} ${height}`)
+        .attr("preserveAspectRatio", "xMidYMid meet");
     const g = svg.append("g");
 
     let points, markers;
@@ -16,22 +20,22 @@
     // Projection & path
     const projection = d3.geoMercator()
         .center([19.1451, 52.237])  // Center of Poland
-        .scale(3000)
-        .translate([width / 2, height / 2]);
+        .scale(3300)
+        .translate([width / 2 + 100, height / 2 - 20]);
 
     const path = d3.geoPath().projection(projection);
 
     const tooltip = d3.select("body").append("div")
         .style("position", "absolute")
         .style("text-align", "center")
-        .style("background", "white")
+        .style("opacity", 0.1)
+        .style("background", "#E8E9EB")
         .style("padding", "5px")
         .style("border", "1px solid #999")
         .style("border-radius", "4px")
         .style("pointer-events", "none")
         .style("font-size", "12px")
-        .style("font-family", "'Rubik', sans-serif")
-        .style("opacity", 0);
+        .style("font-family", "'Rubik', sans-serif");
 
     const majorCities = [
         // { name: "Warszawa", lon: 21.0122, lat: 52.2297 },
@@ -197,38 +201,53 @@
 
     // --- Legend with toggles
     function createLegend(categories) {
-        const legendWidth = 150;
-        const legend = svg.append("g")
+        // Assuming you already have your categories and colors
+        let activeCategories = new Set(categories); // start with all categories visible
+
+        const legend = svg.selectAll(".legend")
+            .data(categories)
+            .enter()
+            .append("g")
             .attr("class", "legend")
-            .attr("font-size", "10px")
-            .attr("coursor", "pointer")
-            .attr("font-family", "'Rubik', sans-serif")
-            .attr("transform", `translate(${(width - legendWidth) / 2}, ${height})`);
-
-        categories.forEach((cat, i) => {
-            const row = legend.append("g")
-                .attr("transform", `translate(0, ${i * 25})`)
-                .style("cursor", "pointer");
-
-            row.append("rect")
-                .attr("width", 18)
-                .attr("height", 18)
-                .attr("fill", color(cat))
-                .attr("stroke", "#333");
-
-            row.append("text")
-                .attr("x", 24)
-                .attr("y", 14)
-                .text(cat)
-                .attr("fill", "#456990")
-                .attr("class", "legend-label");
-
-            row.on("click", () => {
+            .attr("transform", (d, i) => `translate(0,${i * 20})`)
+            .style("cursor", "pointer")
+            .on("click", function (event, cat) {
+                if (activeCategories.has(cat)) {
+                    activeCategories.delete(cat);
+                } else {
+                    activeCategories.add(cat);
+                }
                 const isHidden = points.some(p => p.cat === cat && !p.hidden);
                 points.forEach(p => { if (p.cat === cat) p.hidden = isHidden; });
                 markers.attr("display", d => d.hidden ? "none" : null);
+
                 updateMarkerPositions();
+
+                // Toggle point visibility
+                svg.selectAll("markers")
+                    .style("opacity", d => activeCategories.has(d.cat) ? 1 : 0.1);
+
+                // Dim legend squares
+                legend.selectAll("rect")
+                    .style("opacity", d => activeCategories.has(d) ? 1 : 0.3);
             });
-        });
+
+        // Legend color box
+        legend.append("rect")
+            .attr("x", 50)
+            .attr("y", height - 100)
+            .attr("width", 12)
+            .attr("height", 12)
+            .style("fill", d => color(d));
+
+        // Legend text
+        legend.append("text")
+            .attr("x", 50 + 26)
+            .attr("y", height - 100 + 6)
+            .attr("dy", ".35em")
+            .text(d => d)
+            .style("font-size", "16px")
+            .style("fill", "#456990") // ← text color
+            .style("font-family", "'Rubik', sans-serif");
     }
 })();
