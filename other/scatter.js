@@ -56,7 +56,7 @@
         const y = d3.scaleLinear()
             .domain([-1, 11])
             .nice()
-            .range([height, 0]);
+            .range([height - 100, 0]);
 
         svg.append("g")
             .attr("transform", `translate(${margin},0)`)
@@ -73,7 +73,7 @@
             .attr("x1", d => x(d))
             .attr("x2", d => x(d))
             .attr("y1", 0)
-            .attr("y2", height)
+            .attr("y2", height - 100)
             .attr("stroke", "gray")
             .attr("stroke-dasharray", "4,4");
 
@@ -82,7 +82,7 @@
             .enter()
             .append("text")
             .attr("x", d => x(d))
-            .attr("y", height + 20) // above the axis
+            .attr("y", height - 100 + 20) // above the axis
             .attr("text-anchor", "middle")
             .text(d => tickLabels[specialTicks.indexOf(d)])
             .style("font-size", "16px")
@@ -120,11 +120,11 @@
             });
 
         svg.append("text")
-            .attr("x", -height / 2)
+            .attr("x", -height / 2 + 50)
             .attr("y", 2)
             .attr("transform", "rotate(-90)")
             .attr("text-anchor", "middle")
-            .text("Zmiana (%)")
+            .text("Change 24/25 (%)")
             .style("font-size", "16px")
             .style("fill", "#456990") // ← text color
             .style("font-family", "'Rubik', sans-serif");
@@ -173,7 +173,7 @@
         // Legend color box
         legend.append("rect")
             .attr("x", width / 2 - 100)
-            .attr("y", height + 50)
+            .attr("y", height - 70)
             .attr("width", 12)
             .attr("height", 12)
             .style("fill", d => colorScale(d));
@@ -181,7 +181,7 @@
         // Legend text
         legend.append("text")
             .attr("x", width / 2 - 100 + 26)
-            .attr("y", height + 50 + 6)
+            .attr("y", height - 70 + 6)
             .attr("dy", ".35em")
             .text(d => d)
             .style("font-size", "14px")

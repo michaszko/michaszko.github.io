@@ -104,7 +104,7 @@
 
         // Legend
         const legend = svg.append("g")
-            .attr("transform", `translate(${width - 250}, 30)`);
+            .attr("transform", `translate(${width - 320}, 30)`);
         categories.forEach((cat, i) => {
             const row = legend.append("g")
                 .attr("transform", `translate(0, ${i * 20})`);

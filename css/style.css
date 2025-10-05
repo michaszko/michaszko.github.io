@@ -329,3 +329,30 @@ footer {
   font-size: x-large;
   transition: color 0.3s ease;
 }
+
+.compact {
+    margin: 0;
+    padding-left: 1.2em;
+}
+
+.compact li {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.footnote-ref {
+  text-decoration: none;
+  font-size: 0.8em;
+  vertical-align: super;
+}
+
+.footnotes {
+  font-size: 0.9em;
+  margin-top: 2em;
+  border-top: 1px solid #ccc;
+}
+
+.footnote-back {
+  text-decoration: none;
+  margin-left: 0.5em;
+}

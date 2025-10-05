@@ -62,12 +62,27 @@
         <p>
             Recently I found and interesint data, namely how does the public money gets
             distributed among all the institues of Polish Academy of Sciences (PAN). Data is
-            publicly available on the Government website.
+            publicly available on the Government website (data for
+            <a href="https://www.gov.pl/web/nauka/komunikat-ministra-nauki-z-dnia-14-czerwca-2024-r-o-wysokosci-subwencji-ze-srodkow-finansowych-na-utrzymanie-i-rozwoj-potencjalu-dydaktycznego-oraz-potencjalu-badawczego-przyznanych-na-rok-2024-dla-uczelni-publicznych-niepublicznych-uczelni-akademickich-instytutow-pan-instytutow-badawczych-miedzynarodowych-instytutow-naukowych-oraz-pau2"
+                target="_blank">2024</a>
+            and <a
+                href="https://www.gov.pl/web/nauka/komunikat-ministra-nauki-i-szkolnictwa-wyzszego-z-dnia-6-sierpnia-2025-r-o-zwiekszeniach-wysokosci-subwencji-ze-srodkow-finansowych-na-utrzymanie-i-rozwoj-potencjalu-badawczego-przyznanych-na-rok-2025-instytutom-naukowym-polskiej-akademii-nauk2"
+                target="_blank">2025</a>).
         </p>
 
         <p>
             Let's start with plotting each Institute on the map of Poland with the size
-            related to the amount of money they get.
+            related to the amount of money they got in 2025 and the color related to the category
+            it belongs to.
+
+            We will have five categories:
+        <ul class="compact">
+            <li>I – Humanities and Social Sciences</li>
+            <li>II – Biological and Farmer Sciences</li>
+            <li>III – Exact Sciences and Geological Sciences</li>
+            <li>IV – Technical Sciences</li>
+            <li>V – Medical Sciences</li>
+        </ul>
         </p>
 
         <div id="map-container">
@@ -77,27 +92,32 @@
         <script src="../other/pan_map.js"></script>
 
         <p>
-            Some observations:
+            We can now make some observations:
         <ul>
             <li>
-                Clearly we see that the vast majority of Institutes are located in <b>Warsaw</b>.
-                After Warsaw is Kraków, then Poznań, Wrocław, Gdańsk, Łódź, Lublin, Olsztyn,
+                We can clearly see that the vast majority of Institutes are located in <b>Warsaw</b>.
+                After it there is Kraków, then Poznań, Wrocław, Gdańsk, Łódź, Lublin, Olsztyn,
                 Białowieża, Gliwice, and Zabrze.
             </li>
             <li>
                 The largest Institute is <b>Institute of Nuclear Physics</b> in Kraków.
             </li>
             <li>
-                The smallest Institute is <b>European Regional Centre for Ecohydrology</b> in Łódź.
+                There is plenty of small Institutes, but the smallest Institute is <b>European Regional Centre for
+                    Ecohydrology</b> in Łódź.
             </li>
             <li>
                 All but on Institutes of Humanities and Social Sciences are located in Warsaw.
+            </li>
+            <li>
+                Only Institutes of Biological and Farmer Sciences are located outisde of big cities.
             </li>
         </ul>
         </p>
 
         <p>
-            Now lets take a look at the categories of the Institutes alltogether.
+            Looking at the goegraphic location does not allow us to compare different catogories.
+            So lets take a look at all the Institutes split in different categories.
         </p>
 
         <div id="swarm-container">
@@ -107,8 +127,19 @@
         <script src="../other/pan_swarm.js"></script>
 
         <p>
-            We can see the differences in finansing different categories. Humanities are
-            not exeeding 20MLN while many technical institues are getting far more money.
+            Now many thing become more clear. Most notably there is no institute of Humanities and Social Sciences in
+            Poland that exides 20MLN PLN. This is in high contrast with other catogories where many institutes get more
+            than that. The possible reason for it is that other institutes are using their money not only for salaries
+            for their scientis but also for buying expensive aparatures/utilities.
+        </p>
+        <p>
+            What is also interesting is the gap in the III category (Exact Sciences and Geological Sciences). The
+            poorest institute in this category is having more money than many other institutes in other categories. Our
+            initial guess on why is that could be that you need more money on apparature and also the quality of those
+            institutes is high. Let us dive deeper if that is true claim.
+        </p>
+        <p>
+            Lets take a look at the change of the amount of money between 2024 and 2025 in each category.
         </p>
 
         <div id="slope-container">
@@ -118,8 +149,22 @@
         <script src="../other/slope.js"></script>
 
         <p>
-            It is also visible in the percent of institutes which got any increase at all.
-            From humanities it was less than 30% while for technical institutes it was almost 70%.
+            The official communicate says that the incrase was <b>5%</b> and it was highest ever <a href="#fn1"
+                id="ref1" class="footnote-ref">[1]</a>. We can see that, even if on average it is the case, the truth is
+            more complex. Looking at different categories separatelly we see that Humanities and Social Sciences got
+            only <b>2%</b> increase, while Biological and Farmer Sciences got more than <b>7%</b>. Other categories are
+            close to the average value of 5%.
+        </p>
+        <p>
+            This information is quite bizzare. Least funded category got the lowest increase. Humanties seems to be a
+            victim of Mathew effect. But the final effect will be that those institutes slowly die out. Maybe its the
+            results that the rulers dont see studing humanities as a worth to a polish society. But I think its really
+            short sighted thinking.
+        </p>
+
+        <p>
+            Browsing through the data I have noticed that many of the Institutes did not get any increase at all. Lets
+            now quantify this. Plot bellow shows the percent of institutes in a given category which got the increase.
         </p>
 
         <div id="increase-container">
@@ -129,7 +174,15 @@
         <script src="../other/increase.js"></script>
 
         <p>
-            bjdnfjdsndfjdsnjfndsj nsjfn jsdnf jdsnj fnsdj nfjds jsad j
+            Only 30% of Institutes in the Humanities and Social Sciences category got the increase. On the other hand
+            almost 70% of Institutes from the Biological and Farmer Sciences category got the increase. The other
+            categories are somewhere in the middle. It expalins why the avearage change was so small in the first
+            catoegry. Vast majority of them did not get any increase.
+        </p>
+        <p>
+            Let us look even deeper. The plot below shows the percent change for each institute but this time we
+            categorized it with the average scientific score (the higher the better) <a href="#fn2" id="ref2"
+                class="footnote-ref">[2]</a>.
         </p>
 
         <div id="scatter-container">
@@ -137,6 +190,32 @@
         </div>
 
         <script src="../other/scatter.js"></script>
+
+        <p>
+            Lets break down this plot. First on the x-axis there is a score of each Institute. The higher the score the
+            better the Institute is. The highest score is A+ [more details]. On y-axis there is a percent change of the
+            money between 2024-2025. Maximum increase was 10%. The rules for the increase are well defined in the
+            [ustawa], and the final score depeneds on many conditions. Most of them are not public (especially those
+            related to the personel) but at least one is public, which is this score. So we can plot this scatter plot.
+            What we see is that there is a corelation -- the higher the score the bigger the increease. But there is
+            maaaany exceptions. There are insitutts whcih have a score of B+ and got maximum increase and those who have
+            A+ which got 0% increase. What is interesting is that most of the institutes are in the cateogry of A and
+            most of them did not get any increase.
+        </p>
+
+        <section class="footnotes">
+            <ol>
+                <li id="fn1">
+                    <a href="https://naukawpolsce.pl/aktualnosci/news%2C108232%2Cministerstwo-nauki-laczny-wzrost-subwencji-dla-instytutow-pan-rok-do-roku"
+                        target="_blank">Article from NaukaWPolsce [PL]</a>
+                    <a href="#ref1" class="footnote-back">↩︎</a>
+                </li>
+                <li id="fn1">
+                    Describe the score
+                    <a href="#ref1" class="footnote-back">↩︎</a>
+                </li>
+            </ol>
+        </section>
 
 
     </div>
