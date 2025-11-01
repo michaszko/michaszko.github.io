@@ -46,44 +46,96 @@
         display: block;
         /* removes extra bottom space */
     }
+
+    h2 {
+        line-height: 1.2;
+        font-size: 120%;
+        text-align: left;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
 </style>
 
 <body>
     <div class="main-text">
-        <h1 id="venue">Polish Academy of Science - money distribution</h1>
+        <h1 id="venue">Polish Academy of Sciences: High Score, Low Funding – The Crisis of Unequal Distribution.
+        </h1>
         <p style="margin-top: -20px;">
             05 August 2025
-            <span class="github-blog"><a href="https://github.com/michaszko/lost-and-found-trains" target="_blank"><i
-                        class="fa fa-github"></i></a></span>
+            <!-- <span class="github-blog"><a href="https://github.com/michaszko/lost-and-found-trains" target="_blank"><i
+                        class="fa fa-github"></i></a></span> -->
         </p>
 
         <hr style="border-top: 1px solid #F06543; width: 70%;">
 
+        <h2>
+            What is the Polish Academy of Sciences (PAS)?
+        </h2>
+
         <p>
-            Recently I found and interesint data, namely how does the public money gets
-            distributed among all the institues of Polish Academy of Sciences (PAN). Data is
-            publicly available on the Government website (data for
-            <a href="https://www.gov.pl/web/nauka/komunikat-ministra-nauki-z-dnia-14-czerwca-2024-r-o-wysokosci-subwencji-ze-srodkow-finansowych-na-utrzymanie-i-rozwoj-potencjalu-dydaktycznego-oraz-potencjalu-badawczego-przyznanych-na-rok-2024-dla-uczelni-publicznych-niepublicznych-uczelni-akademickich-instytutow-pan-instytutow-badawczych-miedzynarodowych-instytutow-naukowych-oraz-pau2"
-                target="_blank">2024</a>
-            and <a
-                href="https://www.gov.pl/web/nauka/komunikat-ministra-nauki-i-szkolnictwa-wyzszego-z-dnia-6-sierpnia-2025-r-o-zwiekszeniach-wysokosci-subwencji-ze-srodkow-finansowych-na-utrzymanie-i-rozwoj-potencjalu-badawczego-przyznanych-na-rok-2025-instytutom-naukowym-polskiej-akademii-nauk2"
-                target="_blank">2025</a>).
+            When there are so many universities, why would a country invest in something like the Polish Academy of
+            Sciences? This debate is still ongoing globally. However, it’s hard to ignore the Academy’s importance.
+            Institutions like PAN are part of a global network of national academies that play a crucial role in
+            advancing science outside of the immediate demands of higher education.
+        </p>
+        <p>
+            Take the <b>CNRS</b> in France or the <b>Max Planck Society</b> in Germany. These models, like PAN, support
+            long-term,
+            high-quality research across all fields. This shows that a dedicated network of research institutes –
+            separate from universities – is a global standard.
+
+        </p>
+        <p>
+            Even in other countries, national academies and research institutes face financial challenges, struggling
+            with limited budgets and rising costs. In this global context, the financial crisis of the Polish Academy of
+            Sciences is not unique – but its impact is particularly severe, especially as underfunding threatens the
+            very survival of smaller institutes and the humanities.
+        </p>
+
+        <h2>
+            The Critical Financial State
+        </h2>
+
+        <p>
+            The Polish Academy of Sciences (PAN) is in a terrible financial state, and nothing suggests that it may
+            change in the near future. The systemic crisis has been a topic of public discussion for years. For years,
+            Parliament and the Academy have been discussing a new version of the PAN Act, but the only thing that seems
+            clear is that Parliament expects to reform PAN <b>without spending more money</b>. As the directors of PAN
+            institutes wrote in an open letter, <b><i>“For us, this is a poverty budget.”</i></b> <a href="#fn1"
+                id="ref1" class="footnote-ref">[1]</a>
         </p>
 
         <p>
-            Let's start with plotting each Institute on the map of Poland with the size
-            related to the amount of money they got in 2025 and the color related to the category
-            it belongs to.
-
-            We will have five categories:
-        <ul class="compact">
-            <li>I – Humanities and Social Sciences</li>
-            <li>II – Biological and Farmer Sciences</li>
-            <li>III – Exact Sciences and Geological Sciences</li>
-            <li>IV – Technical Sciences</li>
-            <li>V – Medical Sciences</li>
+            The numbers confirm the desperation:
+        <ul>
+            <li>
+                In 2023, the President of PAN, Prof. Marek Konarzewski, warned that "some institutes... still lack funds
+                even to cover the <b>minimum wage</b> for their employees. According to estimates, PLN 63 million is
+                needed for this purpose.” <a href="#fn2" id="ref2" class="footnote-ref">[2]</a>
+            </li>
+            <li>
+                Following a government pay raise for academics in 2024, the Ministry of Education allocated only PLN 40
+                million for that purpose – a completely insufficient amount <a href="#fn3" id="ref3"
+                    class="footnote-ref">[3]</a>.
+            </li>
+            <li>
+                The <b> "highest ever"</b> increase announced for 2025 still did not cover basic needs; many institutes
+                survive solely thanks to external grants <a href="#fn4" id="ref4" class="footnote-ref">[4]</a>.
+            </li>
         </ul>
         </p>
+
+        <p>
+            Even more concerning is the planned 2026 budget, in which funding for science (as a percentage of GDP) will
+            be the <b>lowest in many years</b>. The total amount planned for PAN is approximately PLN 1.2 billion – a 5%
+            nominal increase. However, with inflation projected at around 2.5%, the problem lies not in the total number
+            but in the <b>money distribution that is most concerning</b> <a href="#fn5" id="ref5"
+                class="footnote-ref">[5]</a>.
+        </p>
+
+        <h2>
+            Visualizing the Distribution of PAN Funding: Geographic Concentration
+        </h2>
 
         <div id="map-container">
             <svg id="map"></svg>
@@ -92,33 +144,39 @@
         <script src="../other/pan_map.js"></script>
 
         <p>
-            We can now make some observations:
+            Let's start by plotting each institute on a map of Poland, where the size of each point represents the
+            amount of funding received in 2025 and the color corresponds to its scientific discipline.
+        </p>
+        <p>
+            The five PAN disciplines are:
+        <ul class="compact">
+            <li>I – Humanities and Social Sciences</li>
+            <li>II – Biological and Farmer Sciences</li>
+            <li>III – Exact Sciences and Geological Sciences</li>
+            <li>IV – Technical Sciences</li>
+            <li>V – Medical Sciences</li>
+        </ul>
+        </p>
+        <p>
+            Several trends are immediately visible:
         <ul>
             <li>
-                We can clearly see that the vast majority of Institutes are located in <b>Warsaw</b>.
-                After it there is Kraków, then Poznań, Wrocław, Gdańsk, Łódź, Lublin, Olsztyn,
-                Białowieża, Gliwice, and Zabrze.
+                The vast majority of institutes are concentrated in <b>Warsaw</b>, followed by Kraków and Poznań.
             </li>
             <li>
-                The largest Institute is <b>Institute of Nuclear Physics</b> in Kraków.
+                The largest institute, the <b>Institute of Nuclear Physics in Kraków</b>, stands out for its sheer size.
             </li>
             <li>
-                There is plenty of small Institutes, but the smallest Institute is <b>European Regional Centre for
-                    Ecohydrology</b> in Łódź.
-            </li>
-            <li>
-                All but on Institutes of Humanities and Social Sciences are located in Warsaw.
-            </li>
-            <li>
-                Only Institutes of Biological and Farmer Sciences are located outisde of big cities.
+                Crucially, <b>all but one Humanities and Social Sciences institutes are located in Warsaw</b>, while
+                Biological and Agricultural Sciences are the only disciplines to have a significant presence outside of
+                big cities.
             </li>
         </ul>
         </p>
 
-        <p>
-            Looking at the goegraphic location does not allow us to compare different catogories.
-            So lets take a look at all the Institutes split in different categories.
-        </p>
+        <h2>
+            Funding Distribution Across Disciplines
+        </h2>
 
         <div id="swarm-container">
             <svg id="swarm"></svg>
@@ -127,20 +185,26 @@
         <script src="../other/pan_swarm.js"></script>
 
         <p>
-            Now many thing become more clear. Most notably there is no institute of Humanities and Social Sciences in
-            Poland that exides 20MLN PLN. This is in high contrast with other catogories where many institutes get more
-            than that. The possible reason for it is that other institutes are using their money not only for salaries
-            for their scientis but also for buying expensive aparatures/utilities.
+            When we compare institutes by discipline, several patterns emerge.
         </p>
         <p>
-            What is also interesting is the gap in the III category (Exact Sciences and Geological Sciences). The
-            poorest institute in this category is having more money than many other institutes in other categories. Our
-            initial guess on why is that could be that you need more money on apparature and also the quality of those
-            institutes is high. Let us dive deeper if that is true claim.
+            First, <b>no institute in the Humanities and Social Sciences receives more than PLN 20 million</b>. This
+            stands in sharp contrast to other disciplines, many of which exceed that amount easily.
         </p>
         <p>
-            Lets take a look at the change of the amount of money between 2024 and 2025 in each category.
+            Interestingly, even within well-funded categories like <b>Exact and Geological Sciences</b>, there is a
+            significant internal gap. The poorest institute in this group still receives more funding than many
+            institutes from other disciplines.
         </p>
+        <p>
+            This contrast is often rationalized by the high cost of apparatus and utilities in natural and technical
+            sciences. However, it establishes a baseline where some disciplines are <b>structurally starved</b> before
+            any budget increase even occurs.
+        </p>
+
+        <h2>
+            How 5% Becomes a Budget Cut
+        </h2>
 
         <div id="slope-container">
             <svg id="slope"></svg>
@@ -149,23 +213,30 @@
         <script src="../other/slope.js"></script>
 
         <p>
-            The official communicate says that the incrase was <b>5%</b> and it was highest ever <a href="#fn1"
-                id="ref1" class="footnote-ref">[1]</a>. We can see that, even if on average it is the case, the truth is
-            more complex. Looking at different categories separatelly we see that Humanities and Social Sciences got
-            only <b>2%</b> increase, while Biological and Farmer Sciences got more than <b>7%</b>. Other categories are
-            close to the average value of 5%.
-        </p>
-        <p>
-            This information is quite bizzare. Least funded category got the lowest increase. Humanties seems to be a
-            victim of Mathew effect. But the final effect will be that those institutes slowly die out. Maybe its the
-            results that the rulers dont see studing humanities as a worth to a polish society. But I think its really
-            short sighted thinking.
+            The central plot is exposed when we examine the percentage change in funding between 2024 and 2025. The
+            official communication suggests a 5% average increase. However, when broken down by discipline:
+
+        <ul>
+            <li>
+                Humanities and Social Sciences received only a 2% increase.
+            </li>
+            <li>
+                Biological and Agricultural Sciences saw more than a 7% increase.
+            </li>
+            <li>
+                The remaining disciplines hover around the average 5%.
+            </li>
+        </ul>
+
+        This pattern is troubling. The least-funded field received the smallest raise – a clear manifestation of the
+        Matthew effect, where “the rich get richer.” As a result, underfunded humanities institutes risk slow
+        demise. It seems that policymakers do not perceive the humanities as valuable to Polish society – an
+        unfortunately short-sighted view.
         </p>
 
-        <p>
-            Browsing through the data I have noticed that many of the Institutes did not get any increase at all. Lets
-            now quantify this. Plot bellow shows the percent of institutes in a given category which got the increase.
-        </p>
+        <h2>
+            Who Actually Got a Raise?
+        </h2>
 
         <div id="increase-container">
             <svg id="increase"></svg>
@@ -174,16 +245,19 @@
         <script src="../other/increase.js"></script>
 
         <p>
-            Only 30% of Institutes in the Humanities and Social Sciences category got the increase. On the other hand
-            almost 70% of Institutes from the Biological and Farmer Sciences category got the increase. The other
-            categories are somewhere in the middle. It expalins why the avearage change was so small in the first
-            catoegry. Vast majority of them did not get any increase.
+            A closer look at the data shows that <b>many institutes received no increase at all</b>. The chart below
+            illustrates the percentage of institutes in each category that received additional funding.
         </p>
         <p>
-            Let us look even deeper. The plot below shows the percent change for each institute but this time we
-            categorized it with the average scientific score (the higher the better) <a href="#fn2" id="ref2"
-                class="footnote-ref">[2]</a>.
+            Only 30% of institutes in the Humanities and Social Sciences saw any increase. In contrast, almost 70% of
+            Biological and Agricultural Sciences institutes benefited from additional funds. Other categories fall
+            somewhere in between. This explains why the average change for Humanities was so small – <b>the vast
+                majority were simply given 0% increase</b>.
         </p>
+
+        <h2>
+            Funding vs. Scientific Quality
+        </h2>
 
         <div id="scatter-container">
             <svg id="scatter"></svg>
@@ -192,27 +266,94 @@
         <script src="../other/scatter.js"></script>
 
         <p>
-            Lets break down this plot. First on the x-axis there is a score of each Institute. The higher the score the
-            better the Institute is. The highest score is A+ [more details]. On y-axis there is a percent change of the
-            money between 2024-2025. Maximum increase was 10%. The rules for the increase are well defined in the
-            [ustawa], and the final score depeneds on many conditions. Most of them are not public (especially those
-            related to the personel) but at least one is public, which is this score. So we can plot this scatter plot.
-            What we see is that there is a corelation -- the higher the score the bigger the increease. But there is
-            maaaany exceptions. There are insitutts whcih have a score of B+ and got maximum increase and those who have
-            A+ which got 0% increase. What is interesting is that most of the institutes are in the cateogry of A and
-            most of them did not get any increase.
+            Finally, let’s look at how changes in funding relate to the official measure of research quality – the
+            <b>Scientific Score</b> (A+, A, B+, etc.). By this metric, the Polish Academy of Sciences performs
+            impressively well. But does that excellence actually translate into more funding?
         </p>
+
+        <p>
+            In theory, a general algorithm decides how much money each institute receives. In practice, though, the
+            details behind these calculations – especially those tied to staffing and internal criteria – remain behind
+            closed doors <a href="#fn6" id="ref6" class="footnote-ref">[6]</a>.
+        </p>
+        <p>
+            Each point in the plot below represents an institute, with the x-axis showing its scientific score and the
+            y-axis showing its percent change in funding between 2024 and 2025.
+        </p>
+        <p>
+            Theoretically, higher-rated institutes should receive larger increases – and indeed, a general correlation
+            is visible. However, there are numerous exceptions.
+        <ul>
+            <li>
+                Some B+ institutes received the <b>maximum 10% increase</b>.
+            </li>
+            <li>
+                Others with A+ ratings saw <b>no increase at all</b>.
+            </li>
+            <li>
+                Most institutes fall into high-scoring <b>Category A</b>, and many of them did not receive any
+                additional funds.
+            </li>
+        </ul>
+        These exceptions show that the distribution of funds is not based only on merit. The allocation process
+        depends on <b>unclear, non-public factors</b>. In a time of financial crisis, this lack of transparency helps a
+        selected few while leaving about 70% of Humanities and Social Science Institutes on the <b>edge of
+            bankruptcy</b>.
+        </p>
+
+        <h2>
+            Conclusion
+        </h2>
+
+        <p>
+            This selective funding threatens the unity and future of the Polish Academy of Sciences. It is a form of
+            <b>strategic neglect</b> that widens the gap between disciplines and allows the success of a few to come at
+            the cost of the country’s intellectual and cultural foundation.
+        </p>
+        <p>
+            The nominal budget increase is a smokescreen. The actual distribution is an exercise in <b>selective
+                funding</b> that rewards a chosen few based on opaque criteria, while systematically starving
+            disciplines like the Humanities.
+        </p>
+        <p>
+            The scientific community and the Polish public must demand <b>full transparency</b> about how subsidies are
+            awarded. Without structural reform and a genuine, equitable appreciation for all fields of knowledge, the
+            current "poverty budget" will remain a self-inflicted wound that ensures the stagnation, or worse, the
+            decline of Polish science.
+        </p>
+        <p style="text-align: right;font-weight: 500;">M.S & J.M</p>
 
         <section class="footnotes">
             <ol>
                 <li id="fn1">
-                    <a href="https://naukawpolsce.pl/aktualnosci/news%2C108232%2Cministerstwo-nauki-laczny-wzrost-subwencji-dla-instytutow-pan-rok-do-roku"
-                        target="_blank">Article from NaukaWPolsce [PL]</a>
+                    <a href="https://wyborcza.pl/7,75398,32337669,instytuty-naukowe-pan-na-lodzie-dyrektorzy-pisza-ze-sytuacja.html"
+                        target="_blank">Article from Gazeta Wyborcza [PL]</a>
                     <a href="#ref1" class="footnote-back">↩︎</a>
                 </li>
-                <li id="fn1">
-                    Describe the score
-                    <a href="#ref1" class="footnote-back">↩︎</a>
+                <li id="fn2">
+                    <a href="https://naukawpolsce.pl/aktualnosci/news%2C96256%2Cprezes-pan-czesci-instytutow-pan-brakuje-srodkow-na-pokrycie-pensji"
+                        target="_blank"> Article from Nauka Polsce [PL] </a>
+                    <a href="#ref2" class="footnote-back">↩︎</a>
+                </li>
+                <li id="fn3">
+                    <a href="https://naukawpolsce.pl/aktualnosci/news%2C96292%2Cresort-edukacji-i-nauki-planuje-przekazac-pan-40-mln-zl-na-podwyzki"
+                        target="_blank"> Article from Nauka Polsce [PL] </a>
+                    <a href="#ref3" class="footnote-back">↩︎</a>
+                </li>
+                <li id="fn4">
+                    <a href="https://naukawpolsce.pl/aktualnosci/news%2C107909%2Cdyrektorzy-instytutow-pan-z-samej-subwencji-budzet-sie-nie-spina-ratuja-nas"
+                        target="_blank"> Article from Nauka Polsce [PL] </a>
+                    <a href="#ref4" class="footnote-back">↩︎</a>
+                </li>
+                <li id="fn5">
+                    <a href="https://pan.pl/stanowisko-nr-4-2025-prezydium-polskiej-akademii-nauk-w-sprawie-finansowania-nauki/"
+                        target="_blank"> PAS Statement [PL] </a>
+                    <a href="#ref5" class="footnote-back">↩︎</a>
+                </li>
+                <li id="fn6">
+                    <a href="https://naukawpolsce.pl/aktualnosci/news%2C108232%2Cministerstwo-nauki-laczny-wzrost-subwencji-dla-instytutow-pan-rok-do-roku"
+                        target="_blank"> Article from Nauka Polsce [PL] </a>
+                    <a href="#ref6" class="footnote-back">↩︎</a>
                 </li>
             </ol>
         </section>
