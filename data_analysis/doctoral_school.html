@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <title>MS | Data</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/logos/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<nav>
+    <ul class="menu">
+
+        <li><a href="../index.html">Home</a></li>
+
+        <li><a href="../research.html">Research</a></li>
+
+        <li><a href="../teaching.html">Teaching</a></li>
+
+        <li><a href="../projects.html">Projects</a></li>
+
+        <li><a href="../contact.html">Contact</a></li>
+
+    </ul>
+
+    <hr class="hr-menu">
+</nav>
+<style>
+    .map-container {
+        width: 95%;
+        /* or whatever % you want */
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* Make SVG fill the container */
+    .map-container svg {
+        width: 100%;
+        height: auto;
+        /* or set a max-height if you want */
+        display: block;
+        /* removes extra bottom space */
+    }
+</style>
+
+<body>
+    <div class="main-text">
+        <h1 id="venue">Doctoral school of University of Warsaw</h1>
+        <p style="margin-top: -20px;">
+            20 October 2025
+            <!-- <span class="github-blog"><a href="https://github.com/michaszko/lost-and-found-trains" target="_blank"><i
+                        class="fa fa-github"></i></a></span> -->
+        </p>
+
+        <hr style="border-top: 1px solid #F06543; width: 70%;">
+
+        <p>
+            New academic year has started. With it the Doctoral School of the University of Warsaw has
+            published the results of acceptacne of doctoral candidates. I wanted to understand what is the
+            structure of each doctoral school and of each field. Here are my observations.
+        </p>
+
+        <h3>
+            First look
+        </h3>
+
+        <p>
+            First I want to talk shortly about the structure of the doctoral schools. At the University of Warsaw
+            we have 4 doctoral schools <a href="#fn1" id="ref1" class="footnote-ref">[1]</a>. They are:
+        <ul>
+            <li>Interdisciplinary Doctoral School</li>
+            <li>Doctoral School of Humanities (DSH)</li>
+            <li>Doctoral School of Social Sciences (DSSS)</li>
+            <li>Doctoral School of Exact and Natural Sciences (DSENS)</li>
+        </ul>
+        We will not consider the Interdisciplinary Doctoral School as in order to get there you need to
+        be accepted into another doctoral school.
+        </p>
+
+        <p>
+            Each of them take care of few dyscyplines, and each dysciipline has a freedome of accepting or
+            rejecting each candiate. Candidates are however accepted or rejected based on their performance,
+            which differs between schools but more or less its like this:
+        <ul>
+            <li>Entry exam (DSENS) / Project proposal(SDH & SDSS) ( <sup>40</sup>&frasl;<sub>100</sub> points )</li>
+            <li>Scientific backgroud ( <sup>20</sup>&frasl;<sub>100</sub> points [SDH & SDSS];
+                <sup>15+5</sup>&frasl;<sub>100</sub> points [DSENS])
+            </li>
+            <li>Initial interview ( <sup>40</sup>&frasl;<sub>100</sub> points )</li>
+        </ul>
+        Total number of points is 100, each dyscipline has its own number of places and they acept top candidates.
+        </p>
+
+        <p>
+            The data is official and public. Each student's performance is visible, together with the information
+            about the acceptance. The data is published in PDF table and it is not well formated, so the data had to
+            be manually extracted.
+        </p>
+
+        <h3>
+            Acceptance rate
+        </h3>
+
+        <p>
+            Lets first take a look at the acceptance rate of each dyscipline.
+        </p>
+
+        <div id="acceptance-container">
+        </div>
+
+        <!-- <script src="../img/doctoral_schools/acceptance_rate.js"></script> -->
+        <img src="../img/doctoral_schools/acceptance.svg" alt="km" class="img-blog">
+
+        <p>
+            We can see that the lowest acceptance and the most submissions were into the Law Faculty.
+            Also international relations had the same acceptance rate – around 1/5. Highest acceptance rate
+            on the other hand have disciplines like Earth Sciences, Astronomy and Pedagolical Studies – around 3/5.
+            What is also clearly visible is that the acceptance rate is lower in DSH and DSSS than in DSENS.
+            Maybe it can indicate that many of the natural sciences students have many other opportunities
+            for work, and not so many in humanities and social sciences. But on the other hand DSENS have the most
+            places for PhD students, what probably indicates that those are the most profitable faculties.
+        </p>
+
+        <p>
+            Now lets take a look at the acceptance rate splited into sex and ethnicity.
+        </p>
+
+        <h5>
+            Sex division
+        </h5>
+
+        <div id="km-container">
+        </div>
+
+        <!-- <script src="../img/doctoral_schools/male_female.js"></script> -->
+        <img src="../img/doctoral_schools/acceptance_km.svg" alt="km" class="img-blog">
+
+        <p>
+            It is clearly visible that there are many disciplines where the proportions of men and women
+            are not the same. Most visible examples are physics and mathematics and infomratics, where it is majority
+            of man who was applying and got accepted. Woman however dominate in the psychology department.
+        </p>
+
+        <p>
+            It looks like woman and man has on average the same chances to get accepted. Of course there are 
+            on average its ok. 
+        </p>
+
+        <h5>
+            Ethnicity division
+        </h5>
+
+        <img src="../img/doctoral_schools/acceptance_pl.svg" alt="km" class="img-blog">
+
+        <p>
+            I was surprised when I saw how not so many foreign students got accepted. It is only
+            international relations where more foreign students got accepted than polish ones.
+            There is actually quite a lot of interesting observations to be made here.
+        </p>
+
+        <p>
+            One of the interesting observations is chemistry department. There were more foreign students
+            applying for the possition than Polish ones. But only 10% of foreign students got accepted, while 76%
+            were polsish. We will have a closer look on chemistry later.
+        </p>
+
+        <p>
+            Most of the faculties had lower acceptacne rate for foreign students than for Polish ones. Only
+            two faculties accepted more foreign students than Polish ones: astornomy and international relations.
+
+        </p>
+
+        <h3>
+            Distribution of points
+        </h3>
+
+        <p>
+            Now let's take a look at the distribution of points for each dyscipline. First we look
+            at the total points in each dyscypline and doctoral school. In addition the color indicate the status of
+            <span style="color:#44BBA4;">recommended to admision </span>, <span style="color:#F09D51;">reserve
+                list</span> and <span style="color:#d55f5f">rejected</span>.
+        </p>
+
+        <div id="scatter_all-container">
+        </div>
+
+        <!-- <script src="../img/doctoral_schools/scatter_all.js"></script> -->
+        <img src="../img/doctoral_schools/results_swarm.svg" alt="km" class="img-blog">
+
+        <p>
+            Here are some observations:
+        <ul>
+            <li>Maths and computer science together with physics have the most spread results</li>
+            <li>Bilogy has an anomaly since acceptance threshold was around 90%</li>
+            <li>There is a visibly more people in the Social and Humanities Doctoral School around 20-40%, but it is due
+                to
+                the rules<a href="#fn2" id="ref2" class="footnote-ref">[2]</a></li>
+            <li>There is no reserve candidates in the Law Department</li>
+        </ul>
+        </p>
+
+        <p>
+            We can also examine the paritcular parts of the final points. The plot below shows the distribution
+            split in 3 categories: Activity (0-20), Interview (0-40) and Exam/Proposal (0-40). The color coding is the
+            same as in the previous plot.
+        </p>
+
+        <img src="../img/doctoral_schools/results_split.svg" alt="km" class="img-blog">
+
+        <p>
+            Observations:
+        <ul>
+            <li>The most fair exam was at the Math and Comupter Science together with Physcis faculty</li>
+            <li>The worst exam was at the biology, but more about it later</li>
+            <li>Most of the candidates maxed out the activity part – they are the most prepared for PhD (?)</li>
+            <li>Most of Laywers have less than 50% for the activity – not thiking of a long term plan for PhD</li>
+            <li>Humanities have a good spread in all the categories</li>
+        </ul>
+        </p>
+
+        <hr style="border-top: 2px solid #456990; width: 70%; margin:auto;">
+
+        <h3>
+            Anomalies
+        </h3>
+
+        <p>
+            There is few anomalies I want to point out.
+        </p>
+
+        <h5>
+            Biology
+        </h5>
+
+        <p>
+            The exam was too easy (or some students knew the answers before) and the interviews were badly graded.
+            There is a candidate which got max points from the exam and from the interview and yet she was not accepted.
+            The most differenting factor in this case was the activity.
+        </p>
+
+        <img src="../img/doctoral_schools/biology_max.svg" alt="km" class="img-blog">
+
+        <h5>
+            Chemistry
+        </h5>
+
+        <p>
+            Many international students were just outside of the acceptacne threshold and got rejected.
+        </p>
+
+        <img src="../img/doctoral_schools/chem_pl.svg" alt="km" class="img-blog">
+
+        <p>
+            It get even worse when we look at the individual categories.
+        </p>
+
+        <img src="../img/doctoral_schools/chem_pl_split.svg" alt="km" class="img-blog">
+
+
+        <p>
+            Activity and Interviews went quite well for polish and non-polish people, however the exam was too easy for
+            polish candidates. Most of the polish people have more around 90% points from the exam, while non-polish
+            poeple have spread thhrough the whole range.
+        </p>
+
+        <section class="footnotes">
+            <ol>
+                <li id="fn1">
+                    <a href="https://szkolydoktorskie.uw.edu.pl/en/" target="_blank">Link</a>
+                    <a href="#ref1" class="footnote-back">↩︎</a>
+                </li>
+                <li id="fn2">
+                    In the social sciences and humanities doctoral school you need to first have more than 50% on the
+                    project proposal
+                    to be invited for the interview. So there are meny people who get less than 20 points from the
+                    proposal and from 0 to 20 for activity, leaving us with the 20-40 points range of disqulified
+                    people.
+                    <a href="#ref2" class="footnote-back">↩︎</a>
+                </li>
+            </ol>
+        </section>
+
+
+    </div>
+</body>
+<footer>
+    <hr class="hr-menu">
+    <div class="footer-content">
+        <p class="footer-text">©2024-2025 Michał Siemaszko. All right reserved.</p>
+    </div>
+</footer>
+
+</html>
