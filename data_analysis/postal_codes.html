@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <title>MS | Data</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/logos/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<nav>
+    <ul class="menu">
+
+        <li><a href="../index.html">Home</a></li>
+
+        <li><a href="../research.html">Research</a></li>
+
+        <li><a href="../teaching.html">Teaching</a></li>
+
+        <li><a href="../projects.html">Projects</a></li>
+
+        <li><a href="../contact.html">Contact</a></li>
+
+    </ul>
+
+    <hr class="hr-menu">
+</nav>
+
+<!-- 
+- To make footnote:
+    <a href="#fn1" id="ref1" class="footnote-ref">[1]</a>
+-->
+
+<style>
+    .code {
+        /* background-color: #F06543; */
+        /* color: #F06543; */
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <div class="main-text">
+        <h1 id="venue">Postal codes in Poland</h1>
+        <p style="margin-top: -20px;">
+            25 February 2026
+            <!-- <span class="github-blog"><a href="https://github.com/michaszko/lost-and-found-trains" target="_blank"><i
+                        class="fa fa-github"></i></a></span> -->
+        </p>
+
+        <hr style="border-top: 1px solid #F06543; width: 70%;">
+
+        <p>
+            Recently I got interested in the structre of <b>Polish postal codes</b>. I also wanted to find the database
+            of all postal codes and try to visaulize them. Here is my quick attempt to do it.
+        </p>
+
+        <h3>
+            Structure of the postal codes
+        </h3>
+
+        <p>
+            Postal codes in Poland consist of 5 digits in the following format:
+        </p>
+
+        <p class="code">
+            <span style="color:#44BBA4">XX</span> – <span style="color:#F09D51">X</span><span
+                style="color:#d55f5f">XX</span>
+        </p>
+
+        <p>
+            where <span style="color:#44BBA4;font-weight: bold">XX</span> is the region, <span
+                style="color:#F09D51;font-weight: bold">X</span> points at <i>code sector</i> and <span
+                style="color:#d55f5f;font-weight: bold">XX</span> indicates a post office <a href="#fn1" id="ref1"
+                class="footnote-ref">[1]</a>.
+        </p>
+
+        <p>
+            Given the database of all polish postal codes with the addresses one can build the map of postal codes. This
+            was already done and I highly recomend the
+            <a href="https://mapa-kodow-pocztowych.pl/" target="_blank"><i>Mapa kodow pocztowych</i></a> for Polish
+            postal codes.
+            You can clearly see the geograpical distictions and some funny regions.
+        </p>
+
+        <p>
+            But here we will not worry about the maps, but rather about the way we can visualize the postal codes as
+            just a numbers.
+        </p>
+
+        <h3>
+            Visualizing postal codes
+        </h3>
+
+        <p>
+            I wanted to visualize all tho postal codes in one, small and coherent picture. I came up with the idea to
+            plot the matrix 100 x 100, where on x-axis we have two first numbers of a postal code and on the y-axis we
+            have last two numbers. By this we keep the natural structre of the postal codes intacked. The problem is
+            with the 3rd number which does not have really any meaning. So did two plots.
+        </p>
+
+        <h4>
+            3rd number sum
+        </h4>
+
+        <p>
+            First let's take a look at the codes of the form <span
+                style="color:#44BBA4;font-weight: bold">XX</span>-<span
+                style="font-weight: bold;font-size: 24px">&#9744;</span><span
+                style="color:#F09D51;font-weight: bold">YY</span>, where <span
+                style="color:#44BBA4;font-weight: bold">XX</span> are plotted on the x-axis and <span
+                style="color:#F09D51;font-weight: bold">YY</span> on the y-axis. The color indicates the number of
+            postal.
+            In each cell we plot a color coresponding to the number of the third number in this combination.
+        </p>
+
+        <img src="../img/postal_codes/heatmap_sum.svg" alt="" class="img-blog">
+
+        <p>
+            We obtain intereting plot; lets try to explain what do we see. First, the dark big patch on the left is
+            Warsaw and neighbourin cities. Since it is highly populated area we see that almost all possible codes are
+            used.
+        </p>
+        <p>
+            Secondly, every 5 cells we see rather dark vertical strip. It means that this code belongs to a bigger
+            city or a bigger region. Bigger strips can be seen at 30 (Kraków), 50 (Wrocław), 70 (Szczecin), 60 (Poznań),
+            70 (Szczecin), 80 (Gdańsk) and 90 (Łódź). What is interesting is that most of the cities use 2 stripes
+            except Wrocław and Łódź, which uses 5, similarly to Warsaw. It make sense since those are the biggest cities
+            in the country. It also means that the postal codes are not that <i>densly</i> packed in those cities,
+            meaning that there is some room to squeeze a postal number with different 3rd number.
+        </p>
+        <p>
+            Third, we can see regions where people are more spread. We can see lots of cells with 1 or 2 postal codes
+            between 30-50, which are Lower Poland and Silesia. Similar (but less) can be said about 90-100 (Central
+            Poland). There is much more vilages so it means more than avarage post offices with different postal codes.
+        </p>
+
+        <h4>
+            3rd number separate
+        </h4>
+
+        <p>
+            Now let's take a look at the same plot but for each 3rd digit separatelly. We use different colors to help
+            the viewer to distinguish them.
+        </p>
+
+        <img src="../img/postal_codes/pna_heatmap.svg" alt="" class="img-blog">
+
+        <p>
+            Once again, few observations:
+        <ul>
+            <li> We see horizontal stripes for lower numbers. It means that small post offices outsie the big cities
+                like to use <i>round</i> last two digits together with low 3rd digit
+            </li>
+            <li>
+                Number 7,8 and 9 are non-present in Lower Silesia (around 50 on x-axis).
+            </li>
+            <li>
+                Number 9 is almost exclusivelly for Warsaw and Kraków <a href="#fn2" id="ref2"
+                    class="footnote-ref">[2]</a>
+
+            </li>
+        </ul>
+        </p>
+
+        <p>
+            To summarize, this is short post about ideas how to viualize all the postal codes in on graph. It does not
+            show anything new, it is rather a fun exercise and solely for art reasons.
+        </p>
+
+
+        <section class="footnotes">
+            <ol>
+                <li id="fn1">
+                    <a href="https://pl.wikipedia.org/wiki/Kody_pocztowe_w_Polsce" target="_blank">Wikipedia
+                        article</a>
+                    <a href="#ref1" class="footnote-back">↩︎</a>
+                </li>
+                <li id="fn2">
+                    Indeed, the Wikipedia says that number 9 is reserved for special places in those two cities.
+                </li>
+            </ol>
+        </section>
+
+
+    </div>
+</body>
+<footer>
+    <hr class="hr-menu">
+    <div class="footer-content">
+        <p class="footer-text">©2024-2025 Michał Siemaszko. All right reserved.</p>
+    </div>
+</footer>
+
+</html>
