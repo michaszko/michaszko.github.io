@@ -340,19 +340,39 @@ footer {
     line-height: 1.2;
 }
 
-.footnote-ref {
+.footnote-ref, [data-footnote-ref] {
   text-decoration: none;
   font-size: 0.8em;
   vertical-align: super;
 }
 
-.footnotes {
+.footnotes, [data-footnotes] {
   font-size: 0.9em;
   margin-top: 2em;
   border-top: 1px solid #ccc;
 }
 
-.footnote-back {
+.footnotes li {
+  padding-bottom: 0px;
+}
+
+.footnotes li p {
+  margin: 10px;
+}
+
+.footnote-back, [data-footnote-backref] {
   text-decoration: none;
   margin-left: 0.5em;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }

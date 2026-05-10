@@ -4,142 +4,67 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MS | Data</title>
+    <title>MS | Dog breed in Poland</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/fonts.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="../img/logos/favicon.ico">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"></head>
-<nav>
-    <ul class="menu">
-
-        <li><a href="../index.html">Home</a></li>
-
-        <li><a href="../research.html">Research</a></li>
-
-        <li><a href="../teaching.html">Teaching</a></li>
-
-        <li><a href="../projects.html">Projects</a></li>
-
-        <li><a href="../contact.html">Contact</a></li>
-
-    </ul>
-
-    <hr class="hr-menu">
-</nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    
+</head>
 
 <body>
+    <nav>
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../research.html">Research</a></li>
+            <li><a href="../teaching.html">Teaching</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <hr class="hr-menu">
+    </nav>
+
     <div class="main-text">
-        <h1 id="venue">Dog breeds in Poland</h1>
+        <h1>Dog breed in Poland</h1>
         <p style="margin-top: -20px;">
             29 August 2024
-            <span class="github-blog"><a href="https://github.com/michaszko/lost-and-found-trains" target="_blank"><i
-                        class="fa fa-github"></i></a></span>
         </p>
-
         <hr style="border-top: 1px solid #F06543; width: 70%;">
 
-        <p>
-            There is a lot of interesting details hidden in official data of
-            Polish Kennel Club ... TBC
-        </p>
-        <h3>Source of data</h3>
-        <p>
-            The data used for this analysis was once available on the website
-            <i>https://www.zkwp.pl/sprawozdania/spr_hod_{year}.pdf</i> , where
-            <i>year</i> ranges from 2009 to 2023. Unfortunately, this website
-            is not available anymore. To overcome this we can use the archived
-            version of those websites using
-            <a href="https://web.archive.org/" target="_blank">Web Archive</a>.
-            Fortunately, all of the years are available. Now we need to download
-            all PDFs and convert them to .csv files. For that I have use
-            <a href="https://github.com/tabulapdf/tabula-java" target="_blank"><i>tabula-java</i></a>
-            tool. No tool is perfect, so after that some corrections has to be made
-            by hand. One remark: in 2020 the way of recording data has changed.
-            Before all breeds were in alphabetical order, after they are first
-            grouped into breeds group and the alphabetically. However, for our
-            statistical analysis it does not change anything.
-        </p>
-        <p>
-            Once we have complete and corrected .csv files we can take a look
-            at it. We see 7 columns, which are:
-        <ul>
-            <li>total number of dogs (bitches)</li>
-            <li>including breeding dogs (bitches)</li>
-            <li>puppies dogs (bitches)</li>
-            <li>litters</li>
-        </ul>
-        </p>
-        <h3>Data</h3>
-        <p>
-            First let us look at the total number of dogs registered in Poland.
+        <p>There is a lot of interesting details hidden in official data of Polish Kennel Club ... TBC</p>
+<h3>Source of data</h3>
+<p>The data used for this analysis was once available on the website <em><a href="https://www.zkwp.pl/sprawozdania/spr%5C_hod%5C_%7Byear%7D.pdf">https://www.zkwp.pl/sprawozdania/spr\_hod\_{year}.pdf</a></em> , where <em>year</em> ranges from 2009 to 2023. Unfortunately, this website is not available anymore. To overcome this we can use the archived version of those websites using <a href="https://web.archive.org/">Web Archive</a>. Fortunately, all of the years are available. Now we need to download all PDFs and convert them to .csv files. For that I have use <a href="https://github.com/tabulapdf/tabula-java"><em>tabula-java</em></a> tool. No tool is perfect, so after that some corrections has to be made by hand. One remark: in 2020 the way of recording data has changed. Before all breeds were in alphabetical order, after they are first grouped into breeds group and the alphabetically. However, for our statistical analysis it does not change anything.</p>
+<p>Once we have complete and corrected .csv files we can take a look at it. We see 7 columns, which are:</p>
+<ul>
+<li>total number of dogs (bitches)</li>
+<li>including breeding dogs (bitches)</li>
+<li>puppies dogs (bitches)</li>
+<li>litters</li>
+</ul>
+<h3>Data</h3>
+<p>First let us look at the total number of dogs registered in Poland. <img src="../img/dog_breeds_poland/dogs_total.svg" alt="cities" title="" class="img-blog"> We can observe here an interesting trend. We see first a substantial decline in number of registered dogs, with the lowest point in 2013. After this there is a rebound and steady (linear) grow until 2020. From 2020 to 2022 there is once again a linear grow, but twice as fast as it was before. During the pandemic more people got interested in breeding dogs. In 2023, for the first time in 10 years, there is a decline. The dots were added to the plot to highlight those key moments in recent history.<br>It is easy to determine what exactly happened between 2011 and 2014. It could be internal issue (e.g. bad decisions of a president of a Kennel Club) or external (e.g. new law).<br>Not only total number of dogs have this trend. All categories behave similarly.</p>
+<p>Next we can take a look at the percentage of breeding dogs. <img src="../img/dog_breeds_poland/breeding_dogs_percent.svg" alt="cities" title="" class="img-blog"> One can see that percent of breeding dogs from total number of dogs is growing linearly. In 2009 about 39% of all dogs were breeding dogs and 14 years later it is around 49%. In 2020 (first pandemic year) this percentage was artificially raised by may people who decided to start their own <em>dog farms</em> while sitting at home.</p>
+<p>How many breeds are present in Poland? Let&#39;s take a look at breed with at least one dog registered. <img src="../img/dog_breeds_poland/register_breeds.svg" alt="register\_breeds" title="" class="img-blog"> There is a clear linear trend. In 2009 there were 260 breeds registered and in 2023 it is 380, which is 45% grow! It means that each year we have around 8 new breeds present in Poland.</p>
+<p>Some other interesting statistics:</p>
+<ul>
+<li>a breeding bitch has two partners on average</li>
+<li>in an average litter 4.9 puppies are born</li>
+<li>in a year around 45% of breeding bitches litters</li>
+<li>in other words, each bitch litters every 2 years</li>
+</ul>
+<h3>Breeds</h3>
+<p>Now let&#39;s analyze each breed separately. First, we take a look at Top10 popular breed acrros the years. <img src="../img/dog_breeds_poland/top_10_dogs.svg" alt="top\_10" title="" class="img-blog"> It is hard to read so let&#39;s try moving version: <img src="../img/dog_breeds_poland/psy.gif" alt="top\_10\_gif" title="" class="img-blog"></p>
 
-            <img src="../img/dog_breeds_poland/dogs_total.svg" alt="cities" class="img-blog">
-
-            We can observe here an interesting trend. We see first a substantial decline
-            in number of registered dogs, with the lowest point in 2013. After this
-            there is a rebound and steady (linear) grow until 2020. From 2020 to
-            2022 there is once again a linear grow, but twice as fast as it was
-            before. During the pandemic more people got interested in breeding dogs.
-            In 2023, for the first time in 10 years, there is a decline.
-            The dots were added to the plot to highlight those key moments in
-            recent history. <br>
-
-            It is easy to determine what exactly happened between 2011 and 2014.
-            It could be internal issue (e.g. bad decisions of a president
-            of a Kennel Club) or external (e.g. new law). <br>
-
-            Not only total number of dogs have this trend. All categories
-            behave similarly.
-        </p>
-        <p>
-            Next we can take a look at the percentage of breeding dogs.
-
-            <img src="../img/dog_breeds_poland/breeding_dogs_percent.svg" alt="cities" class="img-blog">
-
-            One can see that percent of breeding dogs from total number of dogs is growing
-            linearly. In 2009 about 39% of all dogs were breeding dogs and 14 years later
-            it is around 49%. In 2020 (first pandemic year) this percentage was artificially
-            raised by may people who decided to start their own <i>dog farms</i> while
-            sitting at home.
-        </p>
-        <p>
-            How many breeds are present in Poland? Let's take a look at
-            breed with at least one dog registered.
-
-            <img src="../img/dog_breeds_poland/register_breeds.svg" alt="register_breeds" class="img-blog">
-
-            There is a clear linear trend. In 2009 there were 260 breeds registered and in 2023
-            it is 380, which is 45% grow! It means that each year we have around 8 new
-            breeds present in Poland.
-        </p>
-        <p>
-            Some other interesting statistics:
-        <ul>
-            <li>a breeding bitch has two partners on average</li>
-            <li>in an average litter 4.9 puppies are born</li>
-            <li>in a year around 45% of breeding bitches litters</li>
-            <li>in other words, each bitch litters every 2 years</li>
-        </ul>
-        </p>
-        <h3>Breeds</h3>
-        <p>
-            Now let's analyze each breed separately. First, we take a look
-            at Top10 popular breed acrros the years.
-
-            <img src="../img/dog_breeds_poland/top_10_dogs.svg" alt="top_10" class="img-blog">
-
-            It is hard to read so let's try moving version:
-
-            <img src="../img/dog_breeds_poland/psy.gif" alt="top_10_gif" class="img-blog">
-        </p>
     </div>
+
+    <footer>
+        <hr class="hr-menu">
+        <div class="footer-content">
+            <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
+        </div>
+    </footer>
 </body>
-<footer>
-    <hr class="hr-menu">
-    <div class="footer-content">
-        <p class="footer-text">©2024-2025 Michał Siemaszko. All right reserved.</p>
-    </div>
-</footer>
 
 </html>
