@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000">
+<style>@font-face{font-family:'Rubik';font-weight:bold;font-style:normal;src:url("data:application/font-woff;charset=utf-8;base64,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")format("woff");}</style>
+<style>text{font-family:'Rubik';font-weight:bold;font-style:normal;}</style>
+<text transform="translate(14,759)" font-size="309" style="fill:#d97706">Katarzyna</text>
+<text transform="translate(639,568)" font-size="295" style="fill:#f59e0b">Anna</text>
+<text transform="translate(587,272)" font-size="280" style="fill:#d97706">Marta</text>
+<text transform="translate(5,908)" font-size="196" style="fill:#ea580c">Magdalena</text>
+<text transform="translate(786,388)" font-size="147" style="fill:#d97706">Aleksandra</text>
+<text transform="translate(3,378)" font-size="137" style="fill:#ea580c">Agnieszka</text>
+<text transform="translate(1083,953)" font-size="132" style="fill:#f59e0b">Maja</text>
+<text transform="translate(18,258)" font-size="122" style="fill:#d97706">Zuzanna</text>
+<text transform="translate(118,514)" font-size="116" style="fill:#e11d48">Monika</text>
+<text transform="translate(114,187)" font-size="115" style="fill:#d97706">Karolina</text>
+<text transform="translate(804,111)" font-size="115" style="fill:#c026d3">Ewa</text>
+<text transform="translate(178,89)" font-size="115" style="fill:#be123c">Natalia</text>
+<text transform="translate(585,976)" font-size="91" style="fill:#ea580c">Małgorzata</text>
+<text transform="translate(1373,83)" font-size="91" style="fill:#d97706">Julia</text>
+<text transform="translate(1116,837)" font-size="91" style="fill:#9333ea">Joanna</text>
+<text transform="translate(1043,67)" font-size="87" style="fill:#9333ea">Paulina</text>
+<text transform="translate(3,991)" font-size="76" style="fill:#e11d48">Ewelina</text>
+<text transform="translate(416,428)" font-size="65" style="fill:#9333ea">Justyna</text>
+<text transform="translate(1560,941) rotate(-90)" font-size="65" style="fill:#be123c">Maria</text>
+<text transform="translate(1595,717) rotate(-90)" font-size="65" style="fill:#ea580c">Weronika</text>
+<text transform="translate(486,577)" font-size="61" style="fill:#ea580c">Zofia</text>
+<text transform="translate(1515,282) rotate(-90)" font-size="57" style="fill:#ea580c">Beata</text>
+<text transform="translate(346,995)" font-size="57" style="fill:#ea580c">Urszula</text>
+<text transform="translate(244,562)" font-size="57" style="fill:#c026d3">Agata</text>
+<text transform="translate(585,60)" font-size="52" style="fill:#f59e0b">Wiktoria</text>
+<text transform="translate(55,534) rotate(-90)" font-size="52" style="fill:#ea580c">Alicja</text>
+<text transform="translate(1496,996) rotate(-90)" font-size="52" style="fill:#be123c">Adrianna</text>
+<text transform="translate(1383,527)" font-size="47" style="fill:#ea580c">Iwona</text>
+<text transform="translate(1387,454)" font-size="47" style="fill:#e11d48">Kamila</text>
+<text transform="translate(319,300)" font-size="47" style="fill:#ea580c">Hanna</text>
+<text transform="translate(188,416)" font-size="47" style="fill:#9333ea">Martyna</text>
+<text transform="translate(1393,575)" font-size="47" style="fill:#9333ea">Sylwia</text>
+<text transform="translate(239,800)" font-size="47" style="fill:#d97706">Dominika</text>
+<text transform="translate(19,96)" font-size="41" style="fill:#e11d48">Elżbieta</text>
+<text transform="translate(199,122)" font-size="41" style="fill:#f59e0b">Rodzina</text>
+<text transform="translate(821,790) rotate(-90)" font-size="41" style="fill:#db2777">Dorota</text>
+<text transform="translate(1226,109)" font-size="41" style="fill:#f59e0b">Klaudia</text>
+<text transform="translate(26,40)" font-size="41" style="fill:#f59e0b">Mariola</text>
+<text transform="translate(1434,273) rotate(-90)" font-size="41" style="fill:#f59e0b">Angelika</text>
+<text transform="translate(906,46)" font-size="41" style="fill:#ea580c">Lena</text>
+<text transform="translate(855,798)" font-size="41" style="fill:#e11d48">Barbara</text>
+<text transform="translate(393,948)" font-size="41" style="fill:#be123c">Emilia</text>
+<text transform="translate(1085,983)" font-size="34" style="fill:#f59e0b">Wiesława</text>
+<text transform="translate(1101,304)" font-size="34" style="fill:#be123c">Klara</text>
+<text transform="translate(1384,871)" font-size="34" style="fill:#f59e0b">Kaja</text>
+<text transform="translate(1245,303)" font-size="34" style="fill:#e11d48">Michalina</text>
+<text transform="translate(598,300)" font-size="34" style="fill:#be123c">Marcelina</text>
+<text transform="translate(89,289)" font-size="34" style="fill:#ea580c">Aneta</text>
+<text transform="translate(1544,184)" font-size="34" style="fill:#be123c">Iga</text>
+<text transform="translate(687,327)" font-size="34" style="fill:#9333ea">Aldona</text>
+<text transform="translate(1426,415)" font-size="34" style="fill:#db2777">Laura</text>
+<text transform="translate(1391,485)" font-size="34" style="fill:#d97706">Gabriela</text>
+<text transform="translate(519,501)" font-size="34" style="fill:#d97706">Bożena</text>
+<text transform="translate(1322,980)" font-size="34" style="fill:#be123c">Renata</text>
+<text transform="translate(519,790)" font-size="34" style="fill:#c026d3">Janina</text>
+<text transform="translate(595,210) rotate(-90)" font-size="34" style="fill:#9333ea">Jagoda</text>
+<text transform="translate(1441,112)" font-size="34" style="fill:#9333ea">Antonina</text>
+<text transform="translate(707,588)" font-size="34" style="fill:#9333ea">Róża</text>
+<text transform="translate(1259,785)" font-size="34" style="fill:#c026d3">Marlena</text>
+<text transform="translate(1043,265)" font-size="34" style="fill:#d97706">Ania</text>
+<text transform="translate(12,164)" font-size="34" style="fill:#c026d3">Oliwia</text>
+<text transform="translate(658,264)" font-size="34" style="fill:#db2777">Kasia</text>
+<text transform="translate(119,569) rotate(-90)" font-size="34" style="fill:#e11d48">Amelia</text>
+<text transform="translate(444,120)" font-size="34" style="fill:#e11d48">Zosia</text>
+<text transform="translate(1146,531) rotate(-90)" font-size="34" style="fill:#9333ea">Ada</text>
+<text transform="translate(1590,913) rotate(-90)" font-size="34" style="fill:#f59e0b">Patrycja</text>
+<text transform="translate(212,447)" font-size="26" style="fill:#db2777">Natasza</text>
+<text transform="translate(923,304)" font-size="26" style="fill:#db2777">Karina</text>
+<text transform="translate(1519,982)" font-size="26" style="fill:#e11d48">Alina</text>
+<text transform="translate(1394,184) rotate(-90)" font-size="26" style="fill:#d97706">Zhanna</text>
+<text transform="translate(73,931)" font-size="26" style="fill:#ea580c">Sara</text>
+<text transform="translate(681,799)" font-size="26" style="fill:#d97706">Marina</text>
+<text transform="translate(330,587)" font-size="26" style="fill:#9333ea">Basia</text>
+<text transform="translate(702,348)" font-size="26" style="fill:#db2777">Sabina</text>
+<text transform="translate(563,273) rotate(-90)" font-size="26" style="fill:#9333ea">Milena</text>
+<text transform="translate(925,593)" font-size="26" style="fill:#d97706">Pietruszka</text>
+<text transform="translate(525,466)" font-size="26" style="fill:#db2777">Bogumiła</text>
+<text transform="translate(4,135)" font-size="26" style="fill:#c026d3">Kornelia</text>
+<text transform="translate(803,589)" font-size="26" style="fill:#be123c">Kalina</text>
+<text transform="translate(855,490) rotate(-90)" font-size="26" style="fill:#c026d3">Roksana</text>
+<text transform="translate(1128,762)" font-size="26" style="fill:#f59e0b">Idalia</text>
+<text transform="translate(1056,220)" font-size="26" style="fill:#ea580c">Zlata</text>
+<text transform="translate(1072,912) rotate(-90)" font-size="26" style="fill:#c026d3">Julita</text>
+<text transform="translate(1504,300)" font-size="26" style="fill:#e11d48">Nicola</text>
+<text transform="translate(1071,589)" font-size="26" style="fill:#c026d3">Krystyna</text>
+<text transform="translate(1288,718) rotate(-90)" font-size="26" style="fill:#ea580c">Mela</text>
+<text transform="translate(541,523)" font-size="26" style="fill:#db2777">Grażyna</text>
+<text transform="translate(1032,97)" font-size="26" style="fill:#c026d3">Lucyna</text>
+<text transform="translate(805,22)" font-size="26" style="fill:#f59e0b">Wioleta</text>
+<text transform="translate(31,61)" font-size="26" style="fill:#e11d48">Dorosława</text>
+<text transform="translate(987,409)" font-size="26" style="fill:#c026d3">Helena</text>
+<text transform="translate(192,932)" font-size="26" style="fill:#e11d48">Izabela</text>
+<text transform="translate(1520,228)" font-size="26" style="fill:#9333ea">Edyta</text>
+<text transform="translate(713,774) rotate(-90)" font-size="26" style="fill:#f59e0b">Maryna</text>
+<text transform="translate(941,716)" font-size="26" style="fill:#f59e0b">Liliana</text>
+<text transform="translate(1190,872)" font-size="26" style="fill:#9333ea">Magda</text>
+<text transform="translate(1528,262)" font-size="26" style="fill:#e11d48">Daria</text>
+<text transform="translate(210,712) rotate(-90)" font-size="26" style="fill:#ea580c">Anastasiia</text>
+<text transform="translate(191,291)" font-size="26" style="fill:#c026d3">Zoja</text>
+<text transform="translate(129,538)" font-size="26" style="fill:#e11d48">Victoria</text>
+<text transform="translate(1520,137)" font-size="26" style="fill:#d97706">Łucja</text>
+<text transform="translate(178,790)" font-size="26" style="fill:#db2777">Zula</text>
+<text transform="translate(1187,594)" font-size="26" style="fill:#f59e0b">Emilka</text>
+<text transform="translate(478,666)" font-size="26" style="fill:#be123c">Aurelia</text>
+<text transform="translate(1182,196)" font-size="26" style="fill:#db2777">Pola</text>
+<text transform="translate(397,761) rotate(-90)" font-size="26" style="fill:#ea580c">Matylda</text>
+<text transform="translate(531,950)" font-size="26" style="fill:#be123c">Olga</text>
+<text transform="translate(1174,410)" font-size="26" style="fill:#c026d3">Izabella</text>
+<text transform="translate(1353,596)" font-size="26" style="fill:#d97706">Zupa</text>
+<text transform="translate(665,98)" font-size="26" style="fill:#9333ea">Anita</text>
+</svg>

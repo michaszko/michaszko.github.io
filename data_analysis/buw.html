@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MS | University of Warsaw library occupation</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="icon" href="../img/logos/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../research.html">Research</a></li>
+            <li><a href="../teaching.html">Teaching</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <hr class="hr-menu">
+    </nav>
+
+    <div class="main-text">
+        <h1>University of Warsaw library occupation</h1>
+        <p style="margin-top: -20px;">
+            10 April 2026
+        </p>
+        <hr style="border-top: 1px solid #F06543; width: 70%;">
+
+        <p>University of Warsaw has a very beautiful library located in the down
+town. It is rather modern and has amazing garden on the roof. And
+most importantly for this post – it has an occupation counter publicly
+available on their website. Each time the student comes in or goes out
+they have to tap the library card and the system automatically count
+the number of students inside. The number is displayed on the website
+<sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup>. </p>
+<p>So for the last year or so I have collected the total number of
+students in the library with the resolution of 5 minutes. Here I present
+some of the most interesting findings. </p>
+<p><em>Disclaimer</em>: The data is sometimes missing as the scarping script was
+breaking from time to time, so the missing data was approximated using
+the Random Forest Method and the historic data available.</p>
+<h2>The Data</h2>
+<p>First, let&#39;s take a look at the data itself. In the plot below we
+present the daily <em>student-hours</em> (SH) of the library which is defined
+as a unit of work where 1SH is 1 student working for 1 hour. This
+gives us the collective information for how many students visited the
+library given day but also how long the library was operational.</p>
+<p><img src="../img/buw/timeline_student_hours.svg" alt="timeline" title="" class="img-blog"></p>
+<p>We can clearly see the university season: May and June rise just
+before the exam session, quick drop in July, retake exams in
+September, winter holidays in December and the winter exam session in
+January, quick drop in February and a steady grow in the spring. Those
+global seasonal changes are to be expected.</p>
+<p>What can be more surprising are the more local seasonal changes. Let&#39;s
+take a look at the weekly distribution of students, where plot the
+averaged normalized week and the standard deviation.</p>
+<p><img src="../img/buw/weekly_occupancy_profile.svg" alt="weekend" title="" class="img-blog"></p>
+<p>What is obvious by looking at the data is low Fridays occupancy. We
+can see clear trend where from Monday till Wednesday we do not see
+much deviation, then we see on Thursday and Friday the drop, but to my
+surprise we see on weekend the growth in number. It can highlight the
+fact that there could be two different populations in the library on
+weekdays and weekends, like students who only study and students who
+are having part time job. But to decide this we would nee more data.</p>
+<p>If you take a closer look on the peaks on each day you can spot the
+small spikes on the on the weekdays line but not on the weekend. It is
+surprising as the average line should smooth all the randomness through
+the days so those peaks are a signal for some additional mechanism in
+the library occupancy number – nearby faculties and university classes.</p>
+<h2>University Classes</h2>
+<p>Lets take first a look at days during the <em>normal</em> period, days which
+are not holidays nether the exam session. We can smooth each day with
+a moving average of 3h and compared this smooth-out signal to the
+original one. We plot the difference between those two below:</p>
+<p><img src="../img/buw/dips_residuals.svg" alt="oscilations" title="" class="img-blog"></p>
+<p>We can see the gaps every 1.5h which is exactly the duration of the
+classes in the University of Warsaw. We can see both students who are
+leaving for the classes and around 10~15 minutes later we see the
+students coming back from the classes. So if you want to come during
+the weekdays and you want to find the place to sit then come during
+the breaks in university classes. But be on time, since the dips are
+really short!</p>
+<h2>Homicide in May 2025</h2>
+<p>The tragic event happened on May 7th 2025, where a student of UW
+murdered an administrative worker on the main campus. It was a tragic
+event, no one expected it. As the attack was close to the library of
+the UW (~10 minutes walk) the library was closed earlier that day and it
+was closed the next day. Let&#39;s take a look at that very day.</p>
+<p><img src="../img/buw/homicide_day.svg" alt="homicide" title="" class="img-blog"></p>
+<p>The incident took place at 6:40PM. The library was behaving as usual
+till 9PM where it was suddenly closed with more than 250 students
+inside. The library counter went offline at 9PM so we cannot track how
+fast people were leaving the building.</p>
+<p>What is surprising to me is the fact that the library was functioning
+normally from the incident till 9PM and there is no sign that the
+students were leaving earlier. The curve above is the standard curve
+for a day. The next day after the tragedy was a grief day in the whole
+university and everything was closed including the library. After that
+one day break everything went back to normal.</p>
+<p>On Friday after the incident library was already opened and one could
+see that students are filling up the library in the standard way.
+Other days did not stand out neither. The only change which was
+visible was the closure of the library for the night in May. It
+lowered the total number of Student-Hours in May.</p>
+<h2>Summarize</h2>
+<p>In short I wanted to show the cyclic behaviour of the university
+library. From the global trends of normal time, exam sessions and
+holiday, through the weekly oscillations and Friday&#39;s breaks to 1.5h
+cycle of the lectures of the nearby faculties. Even though hundreds 
+of students pass thought the library every day, the occupancy is very
+predictable.</p>
+<section class="footnotes" data-footnotes>
+<h2 id="footnote-label" class="sr-only">Footnotes</h2>
+<ol>
+<li id="footnote-1">
+<p><a href="https://www.buw.uw.edu.pl/">Link</a> <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+
+    <footer>
+        <hr class="hr-menu">
+        <div class="footer-content">
+            <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
+        </div>
+    </footer>
+</body>
+
+</html>

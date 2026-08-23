@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="928.8pt" height="676.8pt" viewBox="0 0 928.8 676.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-22T08:18:21.344560</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 676.8 
+L 928.8 676.8 
+L 928.8 0 
+L 0 0 
+L 0 676.8 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 7.2 669.6 
+L 921.6 669.6 
+L 921.6 7.2 
+L 7.2 7.2 
+L 7.2 669.6 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 368.605714 128.64 
+L 451.337143 128.64 
+Q 460.045714 128.64 460.045714 120.610909 
+L 460.045714 54.370909 
+Q 460.045714 46.341818 451.337143 46.341818 
+L 368.605714 46.341818 
+Q 359.897143 46.341818 359.897143 54.370909 
+L 359.897143 120.610909 
+Q 359.897143 128.64 368.605714 128.64 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #7fb9da; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 477.462857 128.64 
+L 560.194286 128.64 
+Q 568.902857 128.64 568.902857 120.610909 
+L 568.902857 54.370909 
+Q 568.902857 46.341818 560.194286 46.341818 
+L 477.462857 46.341818 
+Q 468.754286 46.341818 468.754286 54.370909 
+L 468.754286 120.610909 
+Q 468.754286 128.64 477.462857 128.64 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #3b8bc2; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 314.177143 229.003636 
+L 396.908571 229.003636 
+Q 405.617143 229.003636 405.617143 220.974545 
+L 405.617143 154.734545 
+Q 405.617143 146.705455 396.908571 146.705455 
+L 314.177143 146.705455 
+Q 305.468571 146.705455 305.468571 154.734545 
+L 305.468571 220.974545 
+Q 305.468571 229.003636 314.177143 229.003636 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #dbe9f6; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 423.034286 229.003636 
+L 505.765714 229.003636 
+Q 514.474286 229.003636 514.474286 220.974545 
+L 514.474286 154.734545 
+Q 514.474286 146.705455 505.765714 146.705455 
+L 423.034286 146.705455 
+Q 414.325714 146.705455 414.325714 154.734545 
+L 414.325714 220.974545 
+Q 414.325714 229.003636 423.034286 229.003636 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #3b8bc2; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 531.891429 229.003636 
+L 614.622857 229.003636 
+Q 623.331429 229.003636 623.331429 220.974545 
+L 623.331429 154.734545 
+Q 623.331429 146.705455 614.622857 146.705455 
+L 531.891429 146.705455 
+Q 523.182857 146.705455 523.182857 154.734545 
+L 523.182857 220.974545 
+Q 523.182857 229.003636 531.891429 229.003636 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #91c3de; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 259.748571 329.367273 
+L 342.48 329.367273 
+Q 351.188571 329.367273 351.188571 321.338182 
+L 351.188571 255.098182 
+Q 351.188571 247.069091 342.48 247.069091 
+L 259.748571 247.069091 
+Q 251.04 247.069091 251.04 255.098182 
+L 251.04 321.338182 
+Q 251.04 329.367273 259.748571 329.367273 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #dceaf6; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 368.605714 329.367273 
+L 451.337143 329.367273 
+Q 460.045714 329.367273 460.045714 321.338182 
+L 460.045714 255.098182 
+Q 460.045714 247.069091 451.337143 247.069091 
+L 368.605714 247.069091 
+Q 359.897143 247.069091 359.897143 255.098182 
+L 359.897143 321.338182 
+Q 359.897143 329.367273 368.605714 329.367273 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #bdd7ec; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 477.462857 329.367273 
+L 560.194286 329.367273 
+Q 568.902857 329.367273 568.902857 321.338182 
+L 568.902857 255.098182 
+Q 568.902857 247.069091 560.194286 247.069091 
+L 477.462857 247.069091 
+Q 468.754286 247.069091 468.754286 255.098182 
+L 468.754286 321.338182 
+Q 468.754286 329.367273 477.462857 329.367273 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #4997c9; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 586.32 329.367273 
+L 669.051429 329.367273 
+Q 677.76 329.367273 677.76 321.338182 
+L 677.76 255.098182 
+Q 677.76 247.069091 669.051429 247.069091 
+L 586.32 247.069091 
+Q 577.611429 247.069091 577.611429 255.098182 
+L 577.611429 321.338182 
+Q 577.611429 329.367273 586.32 329.367273 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #bdd7ec; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 205.32 429.730909 
+L 288.051429 429.730909 
+Q 296.76 429.730909 296.76 421.701818 
+L 296.76 355.461818 
+Q 296.76 347.432727 288.051429 347.432727 
+L 205.32 347.432727 
+Q 196.611429 347.432727 196.611429 355.461818 
+L 196.611429 421.701818 
+Q 196.611429 429.730909 205.32 429.730909 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 314.177143 429.730909 
+L 396.908571 429.730909 
+Q 405.617143 429.730909 405.617143 421.701818 
+L 405.617143 355.461818 
+Q 405.617143 347.432727 396.908571 347.432727 
+L 314.177143 347.432727 
+Q 305.468571 347.432727 305.468571 355.461818 
+L 305.468571 421.701818 
+Q 305.468571 429.730909 314.177143 429.730909 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #caddf0; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 423.034286 429.730909 
+L 505.765714 429.730909 
+Q 514.474286 429.730909 514.474286 421.701818 
+L 514.474286 355.461818 
+Q 514.474286 347.432727 505.765714 347.432727 
+L 423.034286 347.432727 
+Q 414.325714 347.432727 414.325714 355.461818 
+L 414.325714 421.701818 
+Q 414.325714 429.730909 423.034286 429.730909 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #4a98c9; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 531.891429 429.730909 
+L 614.622857 429.730909 
+Q 623.331429 429.730909 623.331429 421.701818 
+L 623.331429 355.461818 
+Q 623.331429 347.432727 614.622857 347.432727 
+L 531.891429 347.432727 
+Q 523.182857 347.432727 523.182857 355.461818 
+L 523.182857 421.701818 
+Q 523.182857 429.730909 531.891429 429.730909 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #b7d4ea; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 640.748571 429.730909 
+L 723.48 429.730909 
+Q 732.188571 429.730909 732.188571 421.701818 
+L 732.188571 355.461818 
+Q 732.188571 347.432727 723.48 347.432727 
+L 640.748571 347.432727 
+Q 632.04 347.432727 632.04 355.461818 
+L 632.04 421.701818 
+Q 632.04 429.730909 640.748571 429.730909 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #d6e6f4; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 150.891429 530.094545 
+L 233.622857 530.094545 
+Q 242.331429 530.094545 242.331429 522.065455 
+L 242.331429 455.825455 
+Q 242.331429 447.796364 233.622857 447.796364 
+L 150.891429 447.796364 
+Q 142.182857 447.796364 142.182857 455.825455 
+L 142.182857 522.065455 
+Q 142.182857 530.094545 150.891429 530.094545 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #dbe9f6; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 259.748571 530.094545 
+L 342.48 530.094545 
+Q 351.188571 530.094545 351.188571 522.065455 
+L 351.188571 455.825455 
+Q 351.188571 447.796364 342.48 447.796364 
+L 259.748571 447.796364 
+Q 251.04 447.796364 251.04 455.825455 
+L 251.04 522.065455 
+Q 251.04 530.094545 259.748571 530.094545 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #cadef0; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 368.605714 530.094545 
+L 451.337143 530.094545 
+Q 460.045714 530.094545 460.045714 522.065455 
+L 460.045714 455.825455 
+Q 460.045714 447.796364 451.337143 447.796364 
+L 368.605714 447.796364 
+Q 359.897143 447.796364 359.897143 455.825455 
+L 359.897143 522.065455 
+Q 359.897143 530.094545 368.605714 530.094545 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #bfd8ed; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 477.462857 530.094545 
+L 560.194286 530.094545 
+Q 568.902857 530.094545 568.902857 522.065455 
+L 568.902857 455.825455 
+Q 568.902857 447.796364 560.194286 447.796364 
+L 477.462857 447.796364 
+Q 468.754286 447.796364 468.754286 455.825455 
+L 468.754286 522.065455 
+Q 468.754286 530.094545 477.462857 530.094545 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #bfd8ed; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 586.32 530.094545 
+L 669.051429 530.094545 
+Q 677.76 530.094545 677.76 522.065455 
+L 677.76 455.825455 
+Q 677.76 447.796364 669.051429 447.796364 
+L 586.32 447.796364 
+Q 577.611429 447.796364 577.611429 455.825455 
+L 577.611429 522.065455 
+Q 577.611429 530.094545 586.32 530.094545 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #94c4df; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 695.177143 530.094545 
+L 777.908571 530.094545 
+Q 786.617143 530.094545 786.617143 522.065455 
+L 786.617143 455.825455 
+Q 786.617143 447.796364 777.908571 447.796364 
+L 695.177143 447.796364 
+Q 686.468571 447.796364 686.468571 455.825455 
+L 686.468571 522.065455 
+Q 686.468571 530.094545 695.177143 530.094545 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #d3e3f3; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 96.462857 630.458182 
+L 179.194286 630.458182 
+Q 187.902857 630.458182 187.902857 622.429091 
+L 187.902857 556.189091 
+Q 187.902857 548.16 179.194286 548.16 
+L 96.462857 548.16 
+Q 87.754286 548.16 87.754286 556.189091 
+L 87.754286 622.429091 
+Q 87.754286 630.458182 96.462857 630.458182 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 205.32 630.458182 
+L 288.051429 630.458182 
+Q 296.76 630.458182 296.76 622.429091 
+L 296.76 556.189091 
+Q 296.76 548.16 288.051429 548.16 
+L 205.32 548.16 
+Q 196.611429 548.16 196.611429 556.189091 
+L 196.611429 622.429091 
+Q 196.611429 630.458182 205.32 630.458182 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 314.177143 630.458182 
+L 396.908571 630.458182 
+Q 405.617143 630.458182 405.617143 622.429091 
+L 405.617143 556.189091 
+Q 405.617143 548.16 396.908571 548.16 
+L 314.177143 548.16 
+Q 305.468571 548.16 305.468571 556.189091 
+L 305.468571 622.429091 
+Q 305.468571 630.458182 314.177143 630.458182 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #d0e1f2; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 423.034286 630.458182 
+L 505.765714 630.458182 
+Q 514.474286 630.458182 514.474286 622.429091 
+L 514.474286 556.189091 
+Q 514.474286 548.16 505.765714 548.16 
+L 423.034286 548.16 
+Q 414.325714 548.16 414.325714 556.189091 
+L 414.325714 622.429091 
+Q 414.325714 630.458182 423.034286 630.458182 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #94c4df; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 531.891429 630.458182 
+L 614.622857 630.458182 
+Q 623.331429 630.458182 623.331429 622.429091 
+L 623.331429 556.189091 
+Q 623.331429 548.16 614.622857 548.16 
+L 531.891429 548.16 
+Q 523.182857 548.16 523.182857 556.189091 
+L 523.182857 622.429091 
+Q 523.182857 630.458182 531.891429 630.458182 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #d0e1f2; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 640.748571 630.458182 
+L 723.48 630.458182 
+Q 732.188571 630.458182 732.188571 622.429091 
+L 732.188571 556.189091 
+Q 732.188571 548.16 723.48 548.16 
+L 640.748571 548.16 
+Q 632.04 548.16 632.04 556.189091 
+L 632.04 622.429091 
+Q 632.04 630.458182 640.748571 630.458182 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #6aaed6; stroke: #0284c7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 749.605714 630.458182 
+L 832.337143 630.458182 
+Q 841.045714 630.458182 841.045714 622.429091 
+L 841.045714 556.189091 
+Q 841.045714 548.16 832.337143 548.16 
+L 749.605714 548.16 
+Q 740.897143 548.16 740.897143 556.189091 
+L 740.897143 622.429091 
+Q 740.897143 630.458182 749.605714 630.458182 
+z
+" clip-path="url(#p29f76b6039)" style="fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <!-- 46 -->
+    <g style="fill: #0f172a" transform="translate(395.29846 81.167273) scale(0.22 -0.22)">
+     <defs>
+      <path id="Rubik-Bold-34" d="M 2490 0 
+Q 2426 0 2378 48 
+Q 2330 96 2330 160 
+L 2330 883 
+L 339 883 
+Q 275 883 227 928 
+Q 179 973 179 1043 
+L 179 1651 
+Q 179 1709 201 1757 
+Q 224 1805 250 1850 
+L 2112 4371 
+Q 2195 4480 2349 4480 
+L 3283 4480 
+Q 3347 4480 3395 4435 
+Q 3443 4390 3443 4320 
+L 3443 1837 
+L 4006 1837 
+Q 4083 1837 4128 1789 
+Q 4173 1741 4173 1677 
+L 4173 1043 
+Q 4173 973 4125 928 
+Q 4077 883 4013 883 
+L 3443 883 
+L 3443 160 
+Q 3443 96 3395 48 
+Q 3347 0 3283 0 
+L 2490 0 
+z
+M 1280 1792 
+L 2355 1792 
+L 2355 3302 
+L 1280 1792 
+z
+" transform="scale(0.015625)"/>
+      <path id="Rubik-Bold-36" d="M 2118 -64 
+Q 1549 -64 1120 141 
+Q 691 346 451 707 
+Q 211 1069 211 1536 
+Q 211 1734 272 1929 
+Q 333 2125 422 2301 
+Q 512 2477 601 2614 
+Q 691 2752 749 2835 
+L 1875 4352 
+Q 1907 4384 1958 4432 
+Q 2010 4480 2106 4480 
+L 2957 4480 
+Q 3014 4480 3052 4438 
+Q 3091 4397 3091 4339 
+Q 3091 4314 3084 4291 
+Q 3078 4269 3066 4256 
+L 2202 3078 
+Q 2240 3091 2294 3094 
+Q 2349 3098 2394 3098 
+Q 2682 3085 2963 2969 
+Q 3245 2854 3475 2656 
+Q 3706 2458 3843 2179 
+Q 3981 1901 3981 1562 
+Q 3981 1114 3750 746 
+Q 3520 378 3101 157 
+Q 2682 -64 2118 -64 
+z
+M 2106 858 
+Q 2291 858 2451 938 
+Q 2611 1018 2710 1171 
+Q 2810 1325 2810 1542 
+Q 2810 1766 2714 1916 
+Q 2618 2067 2458 2144 
+Q 2298 2221 2106 2221 
+Q 1914 2221 1750 2144 
+Q 1587 2067 1491 1916 
+Q 1395 1766 1395 1542 
+Q 1395 1325 1494 1171 
+Q 1594 1018 1754 938 
+Q 1914 858 2106 858 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-Bold-34"/>
+     <use xlink:href="#Rubik-Bold-36" transform="translate(68.299988 0)"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- 0M / 1F -->
+    <g style="fill: #0f172a" transform="translate(383.436663 109.456364) scale(0.15 -0.15)">
+     <defs>
+      <path id="Rubik-SemiBold-30" d="M 2138 -64 
+Q 1677 -64 1347 67 
+Q 1018 198 803 432 
+Q 589 666 483 976 
+Q 378 1286 358 1638 
+Q 352 1811 349 2025 
+Q 346 2240 349 2457 
+Q 352 2675 358 2854 
+Q 371 3206 483 3513 
+Q 595 3821 812 4051 
+Q 1030 4282 1360 4413 
+Q 1690 4544 2138 4544 
+Q 2586 4544 2912 4413 
+Q 3238 4282 3456 4051 
+Q 3674 3821 3786 3513 
+Q 3898 3206 3917 2854 
+Q 3923 2675 3926 2457 
+Q 3930 2240 3926 2025 
+Q 3923 1811 3917 1638 
+Q 3898 1286 3789 976 
+Q 3680 666 3465 432 
+Q 3251 198 2921 67 
+Q 2592 -64 2138 -64 
+z
+M 2138 768 
+Q 2509 768 2681 1011 
+Q 2854 1254 2867 1670 
+Q 2874 1856 2877 2054 
+Q 2880 2253 2877 2451 
+Q 2874 2650 2867 2822 
+Q 2854 3219 2681 3468 
+Q 2509 3718 2138 3725 
+Q 1760 3718 1590 3468 
+Q 1421 3219 1408 2822 
+Q 1402 2650 1398 2451 
+Q 1395 2253 1398 2054 
+Q 1402 1856 1408 1670 
+Q 1421 1254 1593 1011 
+Q 1766 768 2138 768 
+z
+" transform="scale(0.015625)"/>
+      <path id="Rubik-SemiBold-4d" d="M 634 0 
+Q 570 0 522 45 
+Q 474 90 474 160 
+L 474 4320 
+Q 474 4390 522 4435 
+Q 570 4480 634 4480 
+L 1229 4480 
+Q 1325 4480 1373 4429 
+Q 1421 4378 1440 4352 
+L 2618 2182 
+L 3808 4352 
+Q 3821 4378 3869 4429 
+Q 3917 4480 4013 4480 
+L 4608 4480 
+Q 4678 4480 4723 4435 
+Q 4768 4390 4768 4320 
+L 4768 160 
+Q 4768 90 4723 45 
+Q 4678 0 4608 0 
+L 3955 0 
+Q 3891 0 3846 45 
+Q 3802 90 3802 160 
+L 3802 2746 
+L 2989 1222 
+Q 2957 1165 2905 1120 
+Q 2854 1075 2771 1075 
+L 2470 1075 
+Q 2387 1075 2336 1120 
+Q 2285 1165 2253 1222 
+L 1440 2746 
+L 1440 160 
+Q 1440 90 1395 45 
+Q 1350 0 1286 0 
+L 634 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Rubik-SemiBold-20" transform="scale(0.015625)"/>
+      <path id="Rubik-SemiBold-2f" d="M 288 -538 
+Q 230 -538 192 -496 
+Q 154 -454 154 -403 
+Q 154 -371 166 -339 
+L 2342 4883 
+Q 2362 4934 2410 4982 
+Q 2458 5030 2554 5030 
+L 3046 5030 
+Q 3104 5030 3142 4988 
+Q 3181 4947 3181 4896 
+Q 3181 4870 3168 4832 
+L 986 -390 
+Q 966 -435 918 -486 
+Q 870 -538 768 -538 
+L 288 -538 
+z
+" transform="scale(0.015625)"/>
+      <path id="Rubik-SemiBold-31" d="M 1773 0 
+Q 1709 0 1661 45 
+Q 1613 90 1613 160 
+L 1613 3341 
+L 691 2630 
+Q 634 2586 573 2598 
+Q 512 2611 467 2669 
+L 147 3085 
+Q 109 3142 118 3206 
+Q 128 3270 186 3309 
+L 1645 4435 
+Q 1683 4461 1718 4470 
+Q 1754 4480 1798 4480 
+L 2477 4480 
+Q 2541 4480 2585 4435 
+Q 2630 4390 2630 4320 
+L 2630 160 
+Q 2630 90 2585 45 
+Q 2541 0 2477 0 
+L 1773 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Rubik-SemiBold-46" d="M 634 0 
+Q 563 0 518 45 
+Q 474 90 474 160 
+L 474 4320 
+Q 474 4390 518 4435 
+Q 563 4480 634 4480 
+L 3488 4480 
+Q 3558 4480 3603 4435 
+Q 3648 4390 3648 4320 
+L 3648 3776 
+Q 3648 3706 3603 3661 
+Q 3558 3616 3488 3616 
+L 1472 3616 
+L 1472 2534 
+L 3360 2534 
+Q 3430 2534 3475 2489 
+Q 3520 2445 3520 2374 
+L 3520 1830 
+Q 3520 1766 3475 1721 
+Q 3430 1677 3360 1677 
+L 1472 1677 
+L 1472 160 
+Q 1472 90 1427 45 
+Q 1382 0 1312 0 
+L 634 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-SemiBold-30"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(66.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(148.699982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(170.799973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(222.899963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-31" transform="translate(244.999954 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(292.899948 0)"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- 72 -->
+    <g style="fill: #ffffff" transform="translate(505.375915 81.167273) scale(0.22 -0.22)">
+     <defs>
+      <path id="Rubik-Bold-37" d="M 902 0 
+Q 845 0 806 41 
+Q 768 83 768 141 
+Q 768 166 781 198 
+L 2259 3514 
+L 346 3514 
+Q 275 3514 227 3562 
+Q 179 3610 179 3680 
+L 179 4320 
+Q 179 4390 227 4435 
+Q 275 4480 346 4480 
+L 3334 4480 
+Q 3411 4480 3456 4435 
+Q 3501 4390 3501 4320 
+L 3501 3750 
+Q 3501 3654 3481 3590 
+Q 3462 3526 3430 3462 
+L 1952 154 
+Q 1933 115 1881 57 
+Q 1830 0 1728 0 
+L 902 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Rubik-Bold-32" d="M 429 0 
+Q 358 0 310 48 
+Q 262 96 262 160 
+L 262 614 
+Q 262 659 288 752 
+Q 314 845 422 928 
+L 1088 1581 
+Q 1600 1971 1929 2243 
+Q 2259 2515 2419 2726 
+Q 2579 2938 2579 3123 
+Q 2579 3341 2467 3485 
+Q 2355 3629 2080 3629 
+Q 1894 3629 1772 3549 
+Q 1651 3469 1584 3341 
+Q 1517 3213 1491 3078 
+Q 1466 2995 1405 2963 
+Q 1344 2931 1274 2931 
+L 474 2931 
+Q 416 2931 377 2969 
+Q 339 3008 339 3066 
+Q 346 3373 470 3645 
+Q 595 3917 822 4121 
+Q 1050 4326 1366 4444 
+Q 1683 4563 2080 4563 
+Q 2624 4563 3005 4387 
+Q 3386 4211 3584 3900 
+Q 3782 3590 3782 3174 
+Q 3782 2861 3644 2589 
+Q 3507 2317 3254 2070 
+Q 3002 1824 2656 1562 
+L 2067 966 
+L 3712 966 
+Q 3782 966 3830 921 
+Q 3878 877 3878 806 
+L 3878 160 
+Q 3878 96 3830 48 
+Q 3782 0 3712 0 
+L 429 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-Bold-37"/>
+     <use xlink:href="#Rubik-Bold-32" transform="translate(57.299988 0)"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <!-- 1M / 0F -->
+    <g style="fill: #ffffff" transform="translate(492.293806 109.456364) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-31"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(47.899994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(129.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(151.899979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(203.999969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-30" transform="translate(226.09996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(292.899948 0)"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- 4 -->
+    <g style="fill: #0f172a" transform="translate(348.030201 181.530909) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-34"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <!-- 0M / 2F -->
+    <g style="fill: #0f172a" transform="translate(327.845592 209.82) scale(0.15 -0.15)">
+     <defs>
+      <path id="Rubik-SemiBold-32" d="M 435 0 
+Q 365 0 320 45 
+Q 275 90 275 160 
+L 275 544 
+Q 275 595 304 681 
+Q 333 768 435 851 
+L 1280 1690 
+Q 1747 2048 2038 2297 
+Q 2330 2547 2470 2752 
+Q 2611 2957 2611 3149 
+Q 2611 3398 2473 3561 
+Q 2336 3725 2029 3725 
+Q 1824 3725 1686 3638 
+Q 1549 3552 1472 3411 
+Q 1395 3270 1370 3104 
+Q 1350 3021 1289 2989 
+Q 1229 2957 1165 2957 
+L 486 2957 
+Q 422 2957 384 2998 
+Q 346 3040 346 3091 
+Q 352 3386 470 3648 
+Q 589 3910 806 4115 
+Q 1024 4320 1331 4438 
+Q 1638 4557 2029 4557 
+Q 2566 4557 2931 4381 
+Q 3296 4205 3481 3897 
+Q 3667 3590 3667 3187 
+Q 3667 2880 3542 2617 
+Q 3418 2355 3181 2115 
+Q 2944 1875 2618 1619 
+L 1862 864 
+L 3603 864 
+Q 3674 864 3718 819 
+Q 3763 774 3763 704 
+L 3763 160 
+Q 3763 90 3718 45 
+Q 3674 0 3603 0 
+L 435 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-SemiBold-30"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(66.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(148.699982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(170.799973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(222.899963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-32" transform="translate(244.999954 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(308.399948 0)"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <!-- 54 -->
+    <g style="fill: #ffffff" transform="translate(449.782031 181.530909) scale(0.22 -0.22)">
+     <defs>
+      <path id="Rubik-Bold-35" d="M 2048 -70 
+Q 1446 -70 1043 118 
+Q 640 307 432 611 
+Q 224 915 211 1267 
+Q 211 1325 249 1363 
+Q 288 1402 346 1402 
+L 1203 1402 
+Q 1286 1402 1334 1370 
+Q 1382 1338 1408 1280 
+Q 1466 1133 1562 1037 
+Q 1658 941 1779 896 
+Q 1901 851 2054 851 
+Q 2234 851 2387 928 
+Q 2541 1005 2633 1155 
+Q 2726 1306 2726 1517 
+Q 2726 1709 2640 1849 
+Q 2554 1990 2403 2073 
+Q 2253 2157 2054 2157 
+Q 1901 2157 1805 2121 
+Q 1709 2086 1645 2035 
+Q 1581 1984 1529 1949 
+Q 1478 1914 1414 1914 
+L 576 1914 
+Q 518 1914 476 1955 
+Q 435 1997 435 2054 
+L 666 4288 
+Q 678 4384 736 4432 
+Q 794 4480 877 4480 
+L 3443 4480 
+Q 3514 4480 3562 4435 
+Q 3610 4390 3610 4320 
+L 3610 3718 
+Q 3610 3648 3562 3603 
+Q 3514 3558 3443 3558 
+L 1587 3558 
+L 1504 2733 
+Q 1645 2822 1833 2886 
+Q 2022 2950 2355 2950 
+Q 2656 2950 2934 2844 
+Q 3213 2739 3433 2547 
+Q 3654 2355 3779 2089 
+Q 3904 1824 3904 1491 
+Q 3904 1037 3683 685 
+Q 3462 333 3046 131 
+Q 2630 -70 2048 -70 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-Bold-35"/>
+     <use xlink:href="#Rubik-Bold-34" transform="translate(64.599991 0)"/>
+    </g>
+   </g>
+   <g id="text_8">
+    <!-- 1M / 1F -->
+    <g style="fill: #ffffff" transform="translate(439.282031 209.82) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-31"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(47.899994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(129.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(151.899979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(203.999969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-31" transform="translate(226.09996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(273.999954 0)"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <!-- 30 -->
+    <g style="fill: #0f172a" transform="translate(558.527455 181.530909) scale(0.22 -0.22)">
+     <defs>
+      <path id="Rubik-Bold-33" d="M 2080 -64 
+Q 1587 -64 1232 54 
+Q 877 173 653 361 
+Q 429 550 320 764 
+Q 211 979 205 1178 
+Q 205 1235 246 1273 
+Q 288 1312 346 1312 
+L 1184 1312 
+Q 1254 1312 1299 1283 
+Q 1344 1254 1382 1190 
+Q 1434 1069 1533 992 
+Q 1632 915 1773 886 
+Q 1914 858 2080 858 
+Q 2406 858 2588 1008 
+Q 2771 1158 2771 1421 
+Q 2771 1696 2598 1814 
+Q 2426 1933 2106 1933 
+L 1395 1933 
+Q 1325 1933 1280 1977 
+Q 1235 2022 1235 2093 
+L 1235 2451 
+Q 1235 2528 1267 2585 
+Q 1299 2643 1338 2669 
+L 2387 3558 
+L 608 3558 
+Q 544 3558 496 3603 
+Q 448 3648 448 3718 
+L 448 4320 
+Q 448 4390 496 4435 
+Q 544 4480 608 4480 
+L 3552 4480 
+Q 3622 4480 3670 4435 
+Q 3718 4390 3718 4320 
+L 3718 3776 
+Q 3718 3706 3686 3651 
+Q 3654 3597 3616 3565 
+L 2643 2662 
+L 2688 2650 
+Q 3059 2605 3344 2457 
+Q 3629 2310 3795 2038 
+Q 3962 1766 3962 1350 
+Q 3962 915 3715 598 
+Q 3469 282 3046 109 
+Q 2624 -64 2080 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Rubik-Bold-30" d="M 2170 -64 
+Q 1709 -64 1373 67 
+Q 1037 198 813 428 
+Q 589 659 473 966 
+Q 358 1274 339 1626 
+Q 333 1798 329 2019 
+Q 326 2240 329 2467 
+Q 333 2694 339 2874 
+Q 358 3226 476 3530 
+Q 595 3834 822 4061 
+Q 1050 4288 1386 4416 
+Q 1722 4544 2170 4544 
+Q 2624 4544 2960 4416 
+Q 3296 4288 3520 4061 
+Q 3744 3834 3865 3530 
+Q 3987 3226 4006 2874 
+Q 4013 2694 4016 2467 
+Q 4019 2240 4016 2019 
+Q 4013 1798 4006 1626 
+Q 3987 1274 3868 966 
+Q 3750 659 3529 428 
+Q 3309 198 2973 67 
+Q 2637 -64 2170 -64 
+z
+M 2170 864 
+Q 2502 864 2652 1078 
+Q 2803 1293 2810 1658 
+Q 2822 1843 2825 2048 
+Q 2829 2253 2825 2457 
+Q 2822 2662 2810 2835 
+Q 2803 3187 2652 3404 
+Q 2502 3622 2170 3629 
+Q 1843 3622 1692 3404 
+Q 1542 3187 1530 2835 
+Q 1530 2662 1526 2457 
+Q 1523 2253 1526 2048 
+Q 1530 1843 1530 1658 
+Q 1542 1293 1696 1078 
+Q 1850 864 2170 864 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-Bold-33"/>
+     <use xlink:href="#Rubik-Bold-30" transform="translate(65.899994 0)"/>
+    </g>
+   </g>
+   <g id="text_10">
+    <!-- 2M / 0F -->
+    <g style="fill: #0f172a" transform="translate(545.559877 209.82) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-32"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(63.399994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(145.299988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(167.399979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(219.499969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-30" transform="translate(241.59996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(308.399948 0)"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <!-- 2 -->
+    <g style="fill: #0f172a" transform="translate(293.964286 281.894545) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-32"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <!-- 0M / 3F -->
+    <g style="fill: #0f172a" transform="translate(273.34202 310.183636) scale(0.15 -0.15)">
+     <defs>
+      <path id="Rubik-SemiBold-33" d="M 2035 -64 
+Q 1562 -64 1222 51 
+Q 883 166 665 345 
+Q 448 525 339 739 
+Q 230 954 224 1152 
+Q 224 1210 262 1248 
+Q 301 1286 358 1286 
+L 1062 1286 
+Q 1133 1286 1177 1257 
+Q 1222 1229 1261 1158 
+Q 1312 1011 1427 921 
+Q 1542 832 1699 797 
+Q 1856 762 2035 762 
+Q 2394 762 2598 928 
+Q 2803 1094 2803 1395 
+Q 2803 1702 2611 1836 
+Q 2419 1971 2067 1971 
+L 1382 1971 
+Q 1318 1971 1273 2016 
+Q 1229 2061 1229 2125 
+L 1229 2438 
+Q 1229 2515 1257 2566 
+Q 1286 2618 1318 2643 
+L 2419 3654 
+L 614 3654 
+Q 544 3654 499 3699 
+Q 454 3744 454 3808 
+L 454 4320 
+Q 454 4390 499 4435 
+Q 544 4480 614 4480 
+L 3456 4480 
+Q 3526 4480 3571 4435 
+Q 3616 4390 3616 4320 
+L 3616 3859 
+Q 3616 3789 3590 3741 
+Q 3565 3693 3526 3667 
+L 2483 2637 
+L 2547 2630 
+Q 2925 2592 3219 2445 
+Q 3514 2298 3683 2026 
+Q 3853 1754 3853 1338 
+Q 3853 902 3616 588 
+Q 3379 275 2969 105 
+Q 2560 -64 2035 -64 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-SemiBold-30"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(66.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(148.699982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(170.799973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(222.899963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-33" transform="translate(244.999954 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(309.399948 0)"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <!-- 10 -->
+    <g style="fill: #0f172a" transform="translate(397.024085 281.894545) scale(0.22 -0.22)">
+     <defs>
+      <path id="Rubik-Bold-31" d="M 1773 0 
+Q 1709 0 1661 48 
+Q 1613 96 1613 160 
+L 1613 3206 
+L 736 2534 
+Q 678 2490 617 2502 
+Q 557 2515 512 2573 
+L 134 3066 
+Q 96 3123 105 3190 
+Q 115 3258 179 3296 
+L 1651 4435 
+Q 1690 4461 1725 4470 
+Q 1760 4480 1805 4480 
+L 2605 4480 
+Q 2675 4480 2720 4435 
+Q 2765 4390 2765 4320 
+L 2765 160 
+Q 2765 96 2720 48 
+Q 2675 0 2605 0 
+L 1773 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-Bold-31"/>
+     <use xlink:href="#Rubik-Bold-30" transform="translate(49.699997 0)"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <!-- 1M / 2F -->
+    <g style="fill: #0f172a" transform="translate(383.69096 310.183636) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-31"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(47.899994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(129.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(151.899979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(203.999969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-32" transform="translate(226.09996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(289.499954 0)"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <!-- 28 -->
+    <g style="fill: #ffffff" transform="translate(504.231228 281.894545) scale(0.22 -0.22)">
+     <defs>
+      <path id="Rubik-Bold-38" d="M 2163 -64 
+Q 1690 -64 1334 48 
+Q 979 160 748 352 
+Q 518 544 403 800 
+Q 288 1056 288 1344 
+Q 288 1696 464 1965 
+Q 640 2234 909 2381 
+Q 685 2528 566 2749 
+Q 448 2970 448 3264 
+Q 448 3622 633 3910 
+Q 819 4198 1196 4371 
+Q 1574 4544 2163 4544 
+Q 2746 4544 3123 4374 
+Q 3501 4205 3683 3917 
+Q 3866 3629 3866 3270 
+Q 3866 2982 3750 2755 
+Q 3635 2528 3418 2381 
+Q 3706 2240 3875 1965 
+Q 4045 1690 4045 1338 
+Q 4045 954 3837 634 
+Q 3629 314 3213 125 
+Q 2797 -64 2163 -64 
+z
+M 2163 755 
+Q 2368 755 2531 825 
+Q 2694 896 2790 1027 
+Q 2886 1158 2886 1344 
+Q 2886 1530 2790 1658 
+Q 2694 1786 2531 1856 
+Q 2368 1926 2163 1926 
+Q 1958 1926 1792 1856 
+Q 1626 1786 1530 1658 
+Q 1434 1530 1434 1344 
+Q 1434 1158 1530 1027 
+Q 1626 896 1792 825 
+Q 1958 755 2163 755 
+z
+M 2163 2701 
+Q 2342 2701 2489 2768 
+Q 2637 2835 2720 2947 
+Q 2803 3059 2803 3213 
+Q 2803 3366 2723 3481 
+Q 2643 3597 2496 3661 
+Q 2349 3725 2163 3725 
+Q 1978 3725 1834 3661 
+Q 1690 3597 1606 3481 
+Q 1523 3366 1523 3213 
+Q 1523 3059 1606 2944 
+Q 1690 2829 1834 2765 
+Q 1978 2701 2163 2701 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-Bold-32"/>
+     <use xlink:href="#Rubik-Bold-38" transform="translate(64.999985 0)"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <!-- 2M / 1F -->
+    <g style="fill: #ffffff" transform="translate(492.548103 310.183636) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-32"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(63.399994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(145.299988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(167.399979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(219.499969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-31" transform="translate(241.59996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(289.499954 0)"/>
+    </g>
+   </g>
+   <g id="text_17">
+    <!-- 10 -->
+    <g style="fill: #0f172a" transform="translate(614.738371 281.894545) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-31"/>
+     <use xlink:href="#Rubik-Bold-30" transform="translate(49.699997 0)"/>
+    </g>
+   </g>
+   <g id="text_18">
+    <!-- 3M / 0F -->
+    <g style="fill: #0f172a" transform="translate(599.913449 310.183636) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-33"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(64.399994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(146.299988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(168.399979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(220.499969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-30" transform="translate(242.59996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(309.399948 0)"/>
+    </g>
+   </g>
+   <g id="text_19">
+    <!-- 0 -->
+    <g style="fill: #94a3b8" transform="translate(239.205714 382.258182) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-30"/>
+    </g>
+   </g>
+   <g id="text_20">
+    <!-- 0M / 4F -->
+    <g style="fill: #94a3b8" transform="translate(218.741183 410.547273) scale(0.15 -0.15)">
+     <defs>
+      <path id="Rubik-SemiBold-34" d="M 2509 0 
+Q 2445 0 2400 45 
+Q 2355 90 2355 160 
+L 2355 928 
+L 339 928 
+Q 275 928 230 973 
+Q 186 1018 186 1088 
+L 186 1606 
+Q 186 1651 205 1702 
+Q 224 1754 256 1798 
+L 2131 4371 
+Q 2214 4480 2368 4480 
+L 3181 4480 
+Q 3245 4480 3289 4435 
+Q 3334 4390 3334 4320 
+L 3334 1779 
+L 3904 1779 
+Q 3981 1779 4022 1734 
+Q 4064 1690 4064 1626 
+L 4064 1088 
+Q 4064 1018 4019 973 
+Q 3974 928 3910 928 
+L 3334 928 
+L 3334 160 
+Q 3334 90 3289 45 
+Q 3245 0 3181 0 
+L 2509 0 
+z
+M 1178 1747 
+L 2374 1747 
+L 2374 3430 
+L 1178 1747 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-SemiBold-30"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(66.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(148.699982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(170.799973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(222.899963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-34" transform="translate(244.999954 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(311.699951 0)"/>
+    </g>
+   </g>
+   <g id="text_21">
+    <!-- 4 -->
+    <g style="fill: #0f172a" transform="translate(348.030201 382.258182) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-34"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <!-- 1M / 3F -->
+    <g style="fill: #0f172a" transform="translate(329.187388 410.547273) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-31"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(47.899994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(129.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(151.899979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(203.999969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-33" transform="translate(226.09996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(290.499954 0)"/>
+    </g>
+   </g>
+   <g id="text_23">
+    <!-- 15 -->
+    <g style="fill: #0f172a" transform="translate(451.827344 382.258182) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-31"/>
+     <use xlink:href="#Rubik-Bold-35" transform="translate(49.699997 0)"/>
+    </g>
+   </g>
+   <g id="text_24">
+    <!-- 2M / 2F -->
+    <g style="fill: #0f172a" transform="translate(436.957031 410.547273) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-32"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(63.399994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(145.299988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(167.399979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(219.499969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-32" transform="translate(241.59996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(304.999954 0)"/>
+    </g>
+   </g>
+   <g id="text_25">
+    <!-- 6 -->
+    <g style="fill: #0f172a" transform="translate(566.09683 382.258182) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-36"/>
+    </g>
+   </g>
+   <g id="text_26">
+    <!-- 3M / 1F -->
+    <g style="fill: #0f172a" transform="translate(546.901674 410.547273) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-33"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(64.399994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(146.299988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(168.399979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(220.499969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-31" transform="translate(242.59996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(290.499954 0)"/>
+    </g>
+   </g>
+   <g id="text_27">
+    <!-- 2 -->
+    <g style="fill: #0f172a" transform="translate(674.964286 382.258182) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-32"/>
+    </g>
+   </g>
+   <g id="text_28">
+    <!-- 4M / 0F -->
+    <g style="fill: #0f172a" transform="translate(654.169754 410.547273) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-34"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(66.699997 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(148.599991 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(170.699982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(222.799973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-30" transform="translate(244.899963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(311.699951 0)"/>
+    </g>
+   </g>
+   <g id="text_29">
+    <!-- 1 -->
+    <g style="fill: #0f172a" transform="translate(186.789799 482.621818) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-31"/>
+    </g>
+   </g>
+   <g id="text_30">
+    <!-- 0M / 5F -->
+    <g style="fill: #0f172a" transform="translate(164.575112 510.910909) scale(0.15 -0.15)">
+     <defs>
+      <path id="Rubik-SemiBold-35" d="M 2003 -70 
+Q 1427 -70 1036 115 
+Q 646 301 444 601 
+Q 243 902 230 1242 
+Q 230 1299 268 1337 
+Q 307 1376 365 1376 
+L 1088 1376 
+Q 1165 1376 1213 1341 
+Q 1261 1306 1286 1248 
+Q 1350 1075 1456 966 
+Q 1562 858 1702 806 
+Q 1843 755 2003 755 
+Q 2208 755 2381 841 
+Q 2554 928 2656 1094 
+Q 2758 1261 2758 1504 
+Q 2758 1715 2662 1875 
+Q 2566 2035 2393 2124 
+Q 2221 2214 2003 2214 
+Q 1837 2214 1731 2176 
+Q 1626 2138 1555 2083 
+Q 1485 2029 1427 1987 
+Q 1370 1946 1299 1946 
+L 589 1946 
+Q 531 1946 489 1987 
+Q 448 2029 448 2086 
+L 672 4294 
+Q 685 4384 739 4432 
+Q 794 4480 870 4480 
+L 3354 4480 
+Q 3424 4480 3469 4435 
+Q 3514 4390 3514 4320 
+L 3514 3808 
+Q 3514 3744 3469 3699 
+Q 3424 3654 3354 3654 
+L 1504 3654 
+L 1408 2714 
+Q 1536 2797 1725 2864 
+Q 1914 2931 2253 2931 
+Q 2560 2931 2838 2832 
+Q 3117 2733 3334 2541 
+Q 3552 2349 3677 2083 
+Q 3802 1818 3802 1478 
+Q 3802 1018 3584 669 
+Q 3366 320 2963 125 
+Q 2560 -70 2003 -70 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-SemiBold-30"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(66.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(148.699982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(170.799973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(222.899963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-35" transform="translate(244.999954 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(308.199951 0)"/>
+    </g>
+   </g>
+   <g id="text_31">
+    <!-- 3 -->
+    <g style="fill: #0f172a" transform="translate(293.864598 482.621818) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-33"/>
+    </g>
+   </g>
+   <g id="text_32">
+    <!-- 1M / 4F -->
+    <g style="fill: #0f172a" transform="translate(274.586551 510.910909) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-31"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(47.899994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(129.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(151.899979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(203.999969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-34" transform="translate(226.09996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(292.799957 0)"/>
+    </g>
+   </g>
+   <g id="text_33">
+    <!-- 4 -->
+    <g style="fill: #0f172a" transform="translate(402.458772 482.621818) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-34"/>
+    </g>
+   </g>
+   <g id="text_34">
+    <!-- 2M / 3F -->
+    <g style="fill: #0f172a" transform="translate(382.45346 510.910909) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-32"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(63.399994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(145.299988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(167.399979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(219.499969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-33" transform="translate(241.59996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(305.999954 0)"/>
+    </g>
+   </g>
+   <g id="text_35">
+    <!-- 4 -->
+    <g style="fill: #0f172a" transform="translate(511.315915 482.621818) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-34"/>
+    </g>
+   </g>
+   <g id="text_36">
+    <!-- 3M / 2F -->
+    <g style="fill: #0f172a" transform="translate(491.310603 510.910909) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-33"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(64.399994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(146.299988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(168.399979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(220.499969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-32" transform="translate(242.59996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(305.999954 0)"/>
+    </g>
+   </g>
+   <g id="text_37">
+    <!-- 7 -->
+    <g style="fill: #0f172a" transform="translate(621.383058 482.621818) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-37"/>
+    </g>
+   </g>
+   <g id="text_38">
+    <!-- 4M / 1F -->
+    <g style="fill: #0f172a" transform="translate(601.15798 510.910909) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-34"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(66.699997 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(148.599991 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(170.699982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(222.799973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-31" transform="translate(244.899963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(292.799957 0)"/>
+    </g>
+   </g>
+   <g id="text_39">
+    <!-- 2 -->
+    <g style="fill: #0f172a" transform="translate(729.392857 482.621818) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-32"/>
+    </g>
+   </g>
+   <g id="text_40">
+    <!-- 5M / 0F -->
+    <g style="fill: #0f172a" transform="translate(708.860826 510.910909) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-35"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(63.199997 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(145.099991 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(167.199982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(219.299973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-30" transform="translate(241.399963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(308.199951 0)"/>
+    </g>
+   </g>
+   <g id="text_41">
+    <!-- 0 -->
+    <g style="fill: #94a3b8" transform="translate(130.348571 582.985455) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-30"/>
+    </g>
+   </g>
+   <g id="text_42">
+    <!-- 0M / 6F -->
+    <g style="fill: #94a3b8" transform="translate(110.102009 611.274545) scale(0.15 -0.15)">
+     <defs>
+      <path id="Rubik-SemiBold-36" d="M 2080 -64 
+Q 1517 -64 1104 141 
+Q 691 346 464 707 
+Q 237 1069 237 1523 
+Q 237 1715 294 1907 
+Q 352 2099 435 2268 
+Q 518 2438 604 2572 
+Q 691 2707 749 2790 
+L 1901 4352 
+Q 1933 4384 1984 4432 
+Q 2035 4480 2125 4480 
+L 2842 4480 
+Q 2899 4480 2937 4438 
+Q 2976 4397 2976 4339 
+Q 2976 4314 2969 4291 
+Q 2963 4269 2950 4256 
+L 2067 3046 
+Q 2118 3059 2185 3065 
+Q 2253 3072 2304 3072 
+Q 2611 3059 2896 2944 
+Q 3181 2829 3405 2627 
+Q 3629 2426 3760 2150 
+Q 3891 1875 3891 1536 
+Q 3891 1107 3670 742 
+Q 3450 378 3043 157 
+Q 2637 -64 2080 -64 
+z
+M 2067 762 
+Q 2278 762 2457 848 
+Q 2637 934 2745 1107 
+Q 2854 1280 2854 1523 
+Q 2854 1773 2745 1942 
+Q 2637 2112 2457 2198 
+Q 2278 2285 2067 2285 
+Q 1856 2285 1677 2198 
+Q 1498 2112 1389 1942 
+Q 1280 1773 1280 1523 
+Q 1280 1280 1392 1107 
+Q 1504 934 1680 848 
+Q 1856 762 2067 762 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Rubik-SemiBold-30"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(66.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(148.699982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(170.799973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(222.899963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-36" transform="translate(244.999954 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(308.799942 0)"/>
+    </g>
+   </g>
+   <g id="text_43">
+    <!-- 0 -->
+    <g style="fill: #94a3b8" transform="translate(239.205714 582.985455) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-30"/>
+    </g>
+   </g>
+   <g id="text_44">
+    <!-- 1M / 5F -->
+    <g style="fill: #94a3b8" transform="translate(220.42048 611.274545) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-31"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(47.899994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(129.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(151.899979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(203.999969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-35" transform="translate(226.09996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(289.299957 0)"/>
+    </g>
+   </g>
+   <g id="text_45">
+    <!-- 1 -->
+    <g style="fill: #0f172a" transform="translate(350.075513 582.985455) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-31"/>
+    </g>
+   </g>
+   <g id="text_46">
+    <!-- 2M / 4F -->
+    <g style="fill: #0f172a" transform="translate(327.852623 611.274545) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-32"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(63.399994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(145.299988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(167.399979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(219.499969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-34" transform="translate(241.59996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(308.299957 0)"/>
+    </g>
+   </g>
+   <g id="text_47">
+    <!-- 3 -->
+    <g style="fill: #0f172a" transform="translate(457.150312 582.985455) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-33"/>
+    </g>
+   </g>
+   <g id="text_48">
+    <!-- 3M / 3F -->
+    <g style="fill: #0f172a" transform="translate(436.807031 611.274545) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-33"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(64.399994 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(146.299988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(168.399979 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(220.499969 0)"/>
+     <use xlink:href="#Rubik-SemiBold-33" transform="translate(242.59996 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(306.999954 0)"/>
+    </g>
+   </g>
+   <g id="text_49">
+    <!-- 1 -->
+    <g style="fill: #0f172a" transform="translate(567.789799 582.985455) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-31"/>
+    </g>
+   </g>
+   <g id="text_50">
+    <!-- 4M / 2F -->
+    <g style="fill: #0f172a" transform="translate(545.566908 611.274545) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-34"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(66.699997 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(148.599991 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(170.699982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(222.799973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-32" transform="translate(244.899963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(308.299957 0)"/>
+    </g>
+   </g>
+   <g id="text_51">
+    <!-- 4 -->
+    <g style="fill: #0f172a" transform="translate(674.601629 582.985455) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-34"/>
+    </g>
+   </g>
+   <g id="text_52">
+    <!-- 5M / 1F -->
+    <g style="fill: #0f172a" transform="translate(655.849051 611.274545) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-35"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(63.199997 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(145.099991 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(167.199982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(219.299973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-31" transform="translate(241.399963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(289.299957 0)"/>
+    </g>
+   </g>
+   <g id="text_53">
+    <!-- 0 -->
+    <g style="fill: #94a3b8" transform="translate(783.491429 582.985455) scale(0.22 -0.22)">
+     <use xlink:href="#Rubik-Bold-30"/>
+    </g>
+   </g>
+   <g id="text_54">
+    <!-- 6M / 0F -->
+    <g style="fill: #94a3b8" transform="translate(763.244866 611.274545) scale(0.15 -0.15)">
+     <use xlink:href="#Rubik-SemiBold-36"/>
+     <use xlink:href="#Rubik-SemiBold-4d" transform="translate(63.799988 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(145.699982 0)"/>
+     <use xlink:href="#Rubik-SemiBold-2f" transform="translate(167.799973 0)"/>
+     <use xlink:href="#Rubik-SemiBold-20" transform="translate(219.899963 0)"/>
+     <use xlink:href="#Rubik-SemiBold-30" transform="translate(241.999954 0)"/>
+     <use xlink:href="#Rubik-SemiBold-46" transform="translate(308.799942 0)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p29f76b6039">
+   <rect x="7.2" y="7.2" width="914.4" height="662.4"/>
+  </clipPath>
+ </defs>
+</svg>
