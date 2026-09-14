@@ -9,8 +9,15 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="icon" href="img/logos/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
     
 </head>
 
@@ -19,9 +26,10 @@
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="research.html">Research</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="teaching.html" class="active">Teaching</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
         </ul>
         <hr class="hr-menu">
     </nav>
@@ -29,27 +37,39 @@
     <div class="main-text">
 
         <h1>Teaching</h1>
-<h2>2024/2025</h2>
-<ul>
-<li>Algebra liniowa (ćwiczenia) / Linear algebra (tutorials)</li>
-<li>Rachunek prawdopodobieństwa (ćwiczenia) / Probability theory (tutorials)</li>
-</ul>
-<h2>2023/2024</h2>
-<ul>
-<li>Algebra liniowa (ćwiczenia) / Linear algebra (tutorials)</li>
-<li>Rachunek prawdopodobieństwa (ćwiczenia) / Probability theory (tutorials)</li>
-<li>Analiza matematyczna II (ćwiczenia) / Calculus II (tutorials) <a href="https://github.com/michaszko/analiza-II-zadania">[LINK]</a></li>
-</ul>
-<h2>2022/2023</h2>
-<ul>
-<li>Rachunek prawdopodobieństwa (lab) / Probability theory (labs)</li>
+<p>Teaching is a big part of my life. Since my masters I have been
+teaching in some form: first as a primary school teacher, later as an
+academic teacher. Meanwhile I have been giving private classes and
+preaparing students for the matura exam or for the competitions. I
+have been working both with students who stuggle to learn physics and
+with studnets who are aiming for the olympic win.</p>
+<hr>
+<h1>University Teaching (MIM UW)</h1>
+<ul class="cv-list">
+<li class="cv-item"><div class="cv-header"><span class="cv-title"><span class="cv-title-text"><strong>Linear Algebra (tutorials)</strong></span></span><span class="cv-date" style="--year-t: 0.80;"><span class="date-item" style="--year-t: 0.40;">2023</span><span class="date-sep" style="--year-t: 0.50;">/</span><span class="date-item" style="--year-t: 0.60;">2024</span><span class="date-sep" style="--year-t: 0.60;"> | </span><span class="date-item" style="--year-t: 0.60;">2024</span><span class="date-sep" style="--year-t: 0.70;">/</span><span class="date-item" style="--year-t: 0.80;">2025</span></span></div><div class="cv-details"><div class="cv-row cv-location">MIM UW, University of Warsaw</div><div class="cv-row">Covered systems of linear equations, vector spaces, and matrix
+decompositions (LDU, SVD). Emphasized orthogonality, projections,
+least squares, and spectral theory with applications to
+diagonalization and PCA.</div></div></li>
+<li class="cv-item"><div class="cv-header"><span class="cv-title"><span class="cv-title-text"><strong>Probability Theory (tutorials and labs)</strong></span></span><span class="cv-date" style="--year-t: 0.80;"><span class="date-item" style="--year-t: 0.20;">2022</span><span class="date-sep" style="--year-t: 0.30;">/</span><span class="date-item" style="--year-t: 0.40;">2023</span><span class="date-sep" style="--year-t: 0.40;"> | </span><span class="date-item" style="--year-t: 0.40;">2023</span><span class="date-sep" style="--year-t: 0.50;">/</span><span class="date-item" style="--year-t: 0.60;">2024</span><span class="date-sep" style="--year-t: 0.60;"> | </span><span class="date-item" style="--year-t: 0.60;">2024</span><span class="date-sep" style="--year-t: 0.70;">/</span><span class="date-item" style="--year-t: 0.80;">2025</span></span></div><div class="cv-details"><div class="cv-row cv-location">MIM UW, University of Warsaw</div><div class="cv-row">Covered probability spaces, conditional probability, and discrete
+and continuous random variables with their distributions. Emphasized
+concentration inequalities, limit theorems, Markov chains, and Monte
+Carlo sampling.</div></div></li>
+<li class="cv-item"><div class="cv-header"><span class="cv-title"><span class="cv-title-text"><strong>Calculus II (tutorials)</strong></span></span><span class="cv-date" style="--year-t: 0.60;"><span class="date-item" style="--year-t: 0.20;">2022</span><span class="date-sep" style="--year-t: 0.30;">/</span><span class="date-item" style="--year-t: 0.40;">2023</span><span class="date-sep" style="--year-t: 0.40;"> | </span><span class="date-item" style="--year-t: 0.40;">2023</span><span class="date-sep" style="--year-t: 0.50;">/</span><span class="date-item" style="--year-t: 0.60;">2024</span></span></div><div class="cv-details"><div class="cv-row cv-location">MIM UW, University of Warsaw</div><div class="cv-row">Covered series convergence, Taylor expansions, and the Riemann
+integral before advancing to multivariable calculus. Emphasized
+partial derivatives, Jacobian matrices, Lagrange multipliers, and
+multidimensional Lebesgue integration with Fubini&#39;s theorem. · <a
+class="pub-link"
+href="https://github.com/michaszko/analiza-II-zadania"
+target="_blank"><i class="fa fa-github"></i> Problem sets &amp;
+solutions</a></div></div></li>
 </ul>
 <hr>
-<h1>Other</h1>
-<h2>2023 ⁠–⁠ 2024</h2>
-<p>preparing high school students for final exam in physics <a href="https://instytutmaturalny.com/">[LINK]</a></p>
-<h2>2018 ⁠–⁠ 2022</h2>
-<p>teaching physics, chemistry and computer science in a primary school (age 12-14) <a href="https://nurt.edu.pl/">[LINK]</a></p>
+<h1>High School &amp; STEM Education</h1>
+<ul class="cv-list">
+<li class="cv-item"><div class="cv-header"><span class="cv-title"><span class="cv-title-text"><strong>Physics Instructor</strong></span></span><span class="cv-date" style="--year-t: 0.60;"><span class="date-item" style="--year-t: 0.40;">2023</span><span class="date-sep" style="--year-t: 0.50;"> – </span><span class="date-item" style="--year-t: 0.60;">2024</span></span></div><div class="cv-details"><div class="cv-row cv-location"><a href="https://instytutmaturalny.com/">Instytut Maturalny</a>, Warsaw, Poland</div><div class="cv-row">Intensive preparation class for the national Matura exam in physics.</div></div></li>
+<li class="cv-item"><div class="cv-header"><span class="cv-title"><span class="cv-title-text"><strong>School Teacher (Physics, Chemistry, Computer Science)</strong></span></span><span class="cv-date" style="--year-t: 0.00;"><span class="date-item" style="--year-t: 0.00;">2018</span><span class="date-sep" style="--year-t: 0.00;"> – </span><span class="date-item" style="--year-t: 0.00;">2021</span></span></div><div class="cv-details"><div class="cv-row cv-location"><a href="https://nurt.edu.pl/">Nurt / Iskry School</a>, Wrocław, Poland</div><div class="cv-row">Taught <strong>physics, chemistry and computer science</strong> to primary
+school students (ages 12–14).</div></div></li>
+</ul>
 
     </div>
 
@@ -59,6 +79,14 @@
             <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
         </div>
     </footer>
+    <script>
+        function toggleTheme() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            const next = isDark ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.theme = next;
+        }
+    </script>
 </body>
 
 </html>

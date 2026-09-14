@@ -9,8 +9,15 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="icon" href="img/logos/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
     
 </head>
 
@@ -20,8 +27,9 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="teaching.html">Teaching</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
         </ul>
         <hr class="hr-menu">
     </nav>
@@ -58,6 +66,14 @@
             <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
         </div>
     </footer>
+    <script>
+        function toggleTheme() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            const next = isDark ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.theme = next;
+        }
+    </script>
 </body>
 
 </html>

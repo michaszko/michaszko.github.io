@@ -9,8 +9,15 @@
     <link rel="stylesheet" href="../css/fonts.css" />
     <link rel="icon" href="../img/logos/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
 <style>
     .map-container {
@@ -33,8 +40,9 @@
             <li><a href="../index.html">Home</a></li>
             <li><a href="../research.html">Research</a></li>
             <li><a href="../teaching.html">Teaching</a></li>
-            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../projects.html" class="active">Projects</a></li>
             <li><a href="../contact.html">Contact</a></li>
+            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
         </ul>
         <hr class="hr-menu">
     </nav>
@@ -44,23 +52,23 @@
         <p style="margin-top: -20px;">
             20 October 2025
         </p>
-        <hr style="border-top: 1px solid #F06543; width: 70%;">
+        <hr class="hr-post">
 
         <p>New academic year started in October. With it, the Doctoral School of the University of Warsaw has published the results of acceptance of doctoral candidates. I wanted to understand what is the structure of each doctoral school and of each field. Here are my observations.</p>
 <h3>First look</h3>
 <p>First I want to talk shortly about the structure of the doctoral schools<sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup>. At the University of Warsaw we have 4 of them:</p>
 <ul>
-<li>Interdisciplinary Doctoral School</li>
-<li>Doctoral School of Humanities (DSH)</li>
-<li>Doctoral School of Social Sciences (DSSS)</li>
-<li>Doctoral School of Exact and Natural Sciences (DSENS)</li>
+<li class="cv-item-simple">Interdisciplinary Doctoral School</li>
+<li class="cv-item-simple">Doctoral School of Humanities (DSH)</li>
+<li class="cv-item-simple">Doctoral School of Social Sciences (DSSS)</li>
+<li class="cv-item-simple">Doctoral School of Exact and Natural Sciences (DSENS)</li>
 </ul>
 <p>We will not consider the Interdisciplinary Doctoral School as in order to get there you need to be accepted into another doctoral school.</p>
 <p>Each Doctoral School covers several disciplines, and each discipline has its own recruitment committee. However, candidates are admitted based on more or less the same performance indicators:</p>
 <ul>
-<li>Entry exam (DSENS) / Project proposal(DSH &amp; DSSS) ( <sup>40</sup>⁄<sub>100</sub> points )</li>
-<li>Scientific backgroud ( <sup>20</sup>⁄<sub>100</sub> points [SDH &amp; DSSS]; <sup>15+5</sup>⁄<sub>100</sub> points [DSENS])</li>
-<li>Initial interview ( <sup>40</sup>⁄<sub>100</sub> points )</li>
+<li class="cv-item-simple">Entry exam (DSENS) / Project proposal(DSH &amp; DSSS) ( <sup>40</sup>⁄<sub>100</sub> points )</li>
+<li class="cv-item-simple">Scientific backgroud ( <sup>20</sup>⁄<sub>100</sub> points [SDH &amp; DSSS]; <sup>15+5</sup>⁄<sub>100</sub> points [DSENS])</li>
+<li class="cv-item-simple">Initial interview ( <sup>40</sup>⁄<sub>100</sub> points )</li>
 </ul>
 <p>Total number of points is 100, each dyscipline has its own number of places and they accept top candidates.</p>
 <p>I used official, public records that show both student performance and acceptance status. It also includes the candidates&#39; names, and therefore their gender and probable ethnicity, which I will go deeper into later. Since the data was published in poorly formatted PDF tables, it had to be extracted manually.</p>
@@ -93,11 +101,11 @@
 <p><img src="../img/doctoral_schools/results_split.svg" alt="km" title="" class="img-blog"></p>
 <p>Observations:</p>
 <ul>
-<li>The fairest exams were in Math, Computer Science, and Physics. While other exams saw candidates&#39; scores clumped together in clusters, these exams successfully distributed points across the full range.</li>
-<li>The worst exam was at the Biology, but more about it later</li>
-<li>Most of the candidates maxed out the activity part</li>
-<li>Most of Laywers have less than 50% for the activity</li>
-<li>Humanities have a good spread in all the categories</li>
+<li class="cv-item-simple">The fairest exams were in Math, Computer Science, and Physics. While other exams saw candidates&#39; scores clumped together in clusters, these exams successfully distributed points across the full range.</li>
+<li class="cv-item-simple">The worst exam was at the Biology, but more about it later</li>
+<li class="cv-item-simple">Most of the candidates maxed out the activity part</li>
+<li class="cv-item-simple">Most of Laywers have less than 50% for the activity</li>
+<li class="cv-item-simple">Humanities have a good spread in all the categories</li>
 </ul>
 <hr style="border-top: 2px solid #456990; width: 70%; margin:auto;"><h3>Anomalies</h3>
 <p>There is few anomalies I want to point out.</p>
@@ -130,6 +138,14 @@
             <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
         </div>
     </footer>
+    <script>
+        function toggleTheme() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            const next = isDark ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.theme = next;
+        }
+    </script>
 </body>
 
 </html>

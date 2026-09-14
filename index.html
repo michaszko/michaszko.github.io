@@ -9,32 +9,63 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="icon" href="img/logos/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
     
 </head>
 
 <body>
     <nav>
         <ul class="menu">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="teaching.html">Teaching</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
         </ul>
         <hr class="hr-menu">
     </nav>
 
     <div class="main-text">
 
-        <img src="img/logos/me.JPG" alt="ja" class="img-right"><h1>Hello!</h1>
-<p>My name is Michał Siemaszko.</p>
-<p>My name is pronounced as [Me How]</p>
-<p>I&#39;m a PhD student at the University of Warsaw.</p>
-<p>My profesional interests are quantum machine learning.</p>
-<p>My personal interest are data visualisation and typography.</p>
-<p>This website serves as my online CV and my personal blog, where I occasionally describe small projects I&#39;m working on.</p>
+        <img src="img/logos/me.JPG" alt="Michał Siemaszko" class="img-right"><h1>Hello!</h1>
+<p>My name is Michał Siemaszko .</p>
+<p>It&#39;s pronounced as [MEE-how She-ma-shko].</p>
+<p>I am a PhD candidate in Computer Science at the University of Warsaw,
+working in the <a href="https://web.archive.org/web/20250517204156/https://www.stobinska-group.eu/czlonkowie-grupy/">Quantum Information Technologies Research
+Group</a>
+ under the supervision of prof. Magdalena Stobińska.</p>
+<h3>What I do</h3>
+<p>My research focuses on <strong>quantum machine learning</strong>. In particular, I
+work on time-series prediction in photonic architectures. Recently I&#39;m
+working with the experiemntal group in <strong>Vienna</strong> who has access to
+the quantum photonic memristor. Earlier in my PhD, I spent time at the
+European Space Agency (<strong>ESA Φ-lab</strong>) in Frascati, developing quantum
+recurrent neural networks for satellite Earth observation data. This
+year I spent 1 month in <strong>OIST</strong> (Okinawa Institute of Science and
+Technology) under the supervision of prof. Bill Munro.</p>
+<p>Beyond quantum computing, I love <strong>data analysis</strong> and <strong>data
+visualizations</strong>. I enjoy scraping quirky or overlooked public
+datasets and building custom visualizations from scratch. For more
+check the <em>Project</em> card.</p>
+<!-- <p> -->
+<!--   <a class="badge" href="cv.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Download CV (PDF)</a> -->
+<!--   <a class="badge" href="research.html"><i class="fa fa-flask"></i> Research</a> -->
+<!--   <a class="badge" href="projects.html"><i class="fa fa-bar-chart"></i> Projects & Data</a> -->
+<!-- </p> --><!-- --- --><!-- ### Highlights -->
+<!---->
+<!-- - **2026**: Visiting researcher in Okinawa, Japan [TODO: specify host lab/institution, e.g. OIST?]. -->
+<!-- - **2025/2026**: New preprint on *Experimental neuromorphic computing based on quantum memristor* submitted to PRX Quantum. -->
+<!-- - **2024/2025**: Received top student evaluations and nominated for the Best Teacher Award at the University of Warsaw. -->
+<!-- - **2024**: Co-organized the *Skłodowska Quantum Conference* in Warsaw. -->
 
     </div>
 
@@ -44,6 +75,14 @@
             <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
         </div>
     </footer>
+    <script>
+        function toggleTheme() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            const next = isDark ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.theme = next;
+        }
+    </script>
 </body>
 
 </html>

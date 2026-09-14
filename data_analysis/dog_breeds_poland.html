@@ -9,8 +9,15 @@
     <link rel="stylesheet" href="../css/fonts.css" />
     <link rel="icon" href="../img/logos/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
     
 </head>
 
@@ -20,8 +27,9 @@
             <li><a href="../index.html">Home</a></li>
             <li><a href="../research.html">Research</a></li>
             <li><a href="../teaching.html">Teaching</a></li>
-            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../projects.html" class="active">Projects</a></li>
             <li><a href="../contact.html">Contact</a></li>
+            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
         </ul>
         <hr class="hr-menu">
     </nav>
@@ -31,17 +39,17 @@
         <p style="margin-top: -20px;">
             29 August 2024
         </p>
-        <hr style="border-top: 1px solid #F06543; width: 70%;">
+        <hr class="hr-post">
 
         <p>There is a lot of interesting details hidden in official data of Polish Kennel Club ... TBC</p>
 <h3>Source of data</h3>
 <p>The data used for this analysis was once available on the website <em><a href="https://www.zkwp.pl/sprawozdania/spr%5C_hod%5C_%7Byear%7D.pdf">https://www.zkwp.pl/sprawozdania/spr\_hod\_{year}.pdf</a></em> , where <em>year</em> ranges from 2009 to 2023. Unfortunately, this website is not available anymore. To overcome this we can use the archived version of those websites using <a href="https://web.archive.org/">Web Archive</a>. Fortunately, all of the years are available. Now we need to download all PDFs and convert them to .csv files. For that I have use <a href="https://github.com/tabulapdf/tabula-java"><em>tabula-java</em></a> tool. No tool is perfect, so after that some corrections has to be made by hand. One remark: in 2020 the way of recording data has changed. Before all breeds were in alphabetical order, after they are first grouped into breeds group and the alphabetically. However, for our statistical analysis it does not change anything.</p>
 <p>Once we have complete and corrected .csv files we can take a look at it. We see 7 columns, which are:</p>
 <ul>
-<li>total number of dogs (bitches)</li>
-<li>including breeding dogs (bitches)</li>
-<li>puppies dogs (bitches)</li>
-<li>litters</li>
+<li class="cv-item-simple">total number of dogs (bitches)</li>
+<li class="cv-item-simple">including breeding dogs (bitches)</li>
+<li class="cv-item-simple">puppies dogs (bitches)</li>
+<li class="cv-item-simple">litters</li>
 </ul>
 <h3>Data</h3>
 <p>First let us look at the total number of dogs registered in Poland. <img src="../img/dog_breeds_poland/dogs_total.svg" alt="cities" title="" class="img-blog"> We can observe here an interesting trend. We see first a substantial decline in number of registered dogs, with the lowest point in 2013. After this there is a rebound and steady (linear) grow until 2020. From 2020 to 2022 there is once again a linear grow, but twice as fast as it was before. During the pandemic more people got interested in breeding dogs. In 2023, for the first time in 10 years, there is a decline. The dots were added to the plot to highlight those key moments in recent history.<br>It is easy to determine what exactly happened between 2011 and 2014. It could be internal issue (e.g. bad decisions of a president of a Kennel Club) or external (e.g. new law).<br>Not only total number of dogs have this trend. All categories behave similarly.</p>
@@ -49,10 +57,10 @@
 <p>How many breeds are present in Poland? Let&#39;s take a look at breed with at least one dog registered. <img src="../img/dog_breeds_poland/register_breeds.svg" alt="register\_breeds" title="" class="img-blog"> There is a clear linear trend. In 2009 there were 260 breeds registered and in 2023 it is 380, which is 45% grow! It means that each year we have around 8 new breeds present in Poland.</p>
 <p>Some other interesting statistics:</p>
 <ul>
-<li>a breeding bitch has two partners on average</li>
-<li>in an average litter 4.9 puppies are born</li>
-<li>in a year around 45% of breeding bitches litters</li>
-<li>in other words, each bitch litters every 2 years</li>
+<li class="cv-item-simple">a breeding bitch has two partners on average</li>
+<li class="cv-item-simple">in an average litter 4.9 puppies are born</li>
+<li class="cv-item-simple">in a year around 45% of breeding bitches litters</li>
+<li class="cv-item-simple">in other words, each bitch litters every 2 years</li>
 </ul>
 <h3>Breeds</h3>
 <p>Now let&#39;s analyze each breed separately. First, we take a look at Top10 popular breed acrros the years. <img src="../img/dog_breeds_poland/top_10_dogs.svg" alt="top\_10" title="" class="img-blog"> It is hard to read so let&#39;s try moving version: <img src="../img/dog_breeds_poland/psy.gif" alt="top\_10\_gif" title="" class="img-blog"></p>
@@ -65,6 +73,14 @@
             <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
         </div>
     </footer>
+    <script>
+        function toggleTheme() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            const next = isDark ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.theme = next;
+        }
+    </script>
 </body>
 
 </html>

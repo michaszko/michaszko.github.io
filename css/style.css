@@ -2,60 +2,73 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg-color: #E8E9EB;
+  --text-color: #456990;
+  --text-secondary: #333333;
+  --accent-coral: #F06543;
+  --accent-amber: #F09D51;
+  --year-dark: #8c351b;
+  --year-bright: #F06543;
+  --menu-active-bg: #E0DFD5;
+  --border-subtle: #cccccc;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1d21;
+  --text-color: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --link-color: #7da0c4;
+  --accent-coral: #F06543;
+  --accent-amber: #F09D51;
+  --year-dark: #b84a22;
+  --year-bright: #F06543;
+  --menu-active-bg: #2a2f38;
+  --border-subtle: #333c46;
+}
+
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
 body {
+  margin: 0;
   width: 100%;
-  margin: auto;
   line-height: 1.8em;
-  color: #456990;
-  background-color: #E8E9EB;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
-
-/* Backgroud image in navigation */
-/* nav {
-  background-image: url('../img/bg/warsaw_skyline.svg');
-  background-size: auto;
-  background-position: bottom;
-  background-repeat: repeat-x;
-  width: 100%;
-}
-
-@media screen and (max-width: 966px) {
-  nav {
-    background-size: 966px;
-  }
-} */
-
-/* @media screen and (max-width: 768px) {
-  nav {
-    background-size: 0px;
-  }
-} */
 
 nav {
   width: 100%;
-  margin-left: 0px;
-  padding-left: 0px;
-  padding-bottom: 0px;
   margin: auto;
 }
 
 /* Links */
 a {
-  color: #456990;
-  text-decoration: underline #F09D51;
+  color: var(--text-color);
+  text-decoration: underline var(--accent-amber);
 }
 
 a:hover {
-  color: #F09D51;
-  text-decoration: underline #456990;
+  color: var(--accent-amber);
+  text-decoration: underline var(--text-color);
 }
 
-/* Menu and footer */
+[data-theme="dark"] a {
+  color: var(--link-color);
+}
+
+[data-theme="dark"] a:hover {
+  color: var(--accent-amber);
+  text-decoration: underline var(--link-color);
+}
+
+/* Menu */
 .menu {
-  padding-top: 20px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 20px 0 14px 0;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -64,56 +77,110 @@ a:hover {
 .menu li {
   display: inline-flex;
   vertical-align: top;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: auto
+  padding: 0 10px;
+  margin: auto;
 }
 
 .menu a {
   text-decoration: none;
-  /* background: #E0DFD5; */
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 20px;
   border-radius: 5px;
-  color: #456990;
+  color: var(--text-color);
   font-weight: bold;
   font-size: larger;
-  max-lines: 1;
-  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.menu a:hover {
-  color: #F09D51;
-  background: #E0DFD5;
+.menu a:hover,
+.menu a.active {
+  color: var(--accent-amber);
+  background: var(--menu-active-bg);
+  text-decoration: none;
 }
 
+[data-theme="dark"] .menu a,
+[data-theme="dark"] .menu a:hover,
+[data-theme="dark"] .menu a.active {
+  text-decoration: none;
+}
+
+/* Theme toggle icon button - no background box, only icon color transition */
+.menu a.theme-toggle {
+  background: transparent !important;
+  color: var(--text-color);
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.menu a.theme-toggle:hover,
+.menu a.theme-toggle:focus,
+.menu a.theme-toggle:active {
+  background: transparent !important;
+  color: var(--accent-amber);
+  text-decoration: none;
+}
+
+[data-theme="dark"] .menu a.theme-toggle {
+  background: transparent !important;
+  color: var(--accent-amber);
+}
+
+[data-theme="dark"] .menu a.theme-toggle:hover,
+[data-theme="dark"] .menu a.theme-toggle:focus,
+[data-theme="dark"] .menu a.theme-toggle:active {
+  background: transparent !important;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+/* Theme toggle icon flip in dark mode (moon -> sun) */
+[data-theme="dark"] .fa-moon-o:before {
+  content: "\f185";
+}
+
+/* Social icons centered layout */
 .logos-social {
   width: 100%;
-  margin: auto;
+  margin: 2em auto;
   text-align: center;
-  /* font-size: 10px; */
-  /* margin-bottom: -20px; */
+}
+
+.logos-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .logos-social li {
-  display: inline-flex;
-  vertical-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: auto;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .logos-social a {
   text-decoration: none;
-  color: #456990;
+  color: var(--text-color);
   transition: color 0.3s ease;
-  font-size: 40px;
+  font-size: 38px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.logos-social a:hover {
-  color: #F09D51;
+.logos-social a:hover,
+[data-theme="dark"] .logos-social a:hover {
+  color: var(--accent-amber);
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -121,7 +188,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0;
+    padding: 10px 0 14px 0;
     width: 90%;
   }
 
@@ -139,22 +206,8 @@ a:hover {
   }
 }
 
-footer {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin: auto;
-}
-
-footer a {
-  text-decoration: none;
-  padding: 0;
-}
-
-/* My photo */
+/* Photo */
 .img-right {
-  /* max-width: 10%;
-  min-width: 50px; */
   width: 30%;
   float: right;
   padding: 10px;
@@ -167,13 +220,254 @@ li {
   padding-bottom: 10px;
 }
 
-/* Line */
+.main-text ul {
+  padding-left: 1.4em;
+  text-align: left;
+}
+
+.main-text ol {
+  text-align: left;
+}
+
+.main-text li::marker {
+  color: var(--accent-amber);
+}
+
+.main-text li > p {
+  margin: 0;
+  line-height: inherit;
+}
+
+/* ==========================================================================
+   CV & Structured Lists (Education, Research, Teaching, Talks, etc.)
+   ========================================================================== */
+
+.main-text ul.cv-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1.8em 0;
+}
+
+.cv-item {
+  margin-bottom: 2.2em; /* Generous space between categories/entries */
+  text-align: left;
+  position: relative;
+  list-style: none;
+}
+
+.cv-item:last-child {
+  margin-bottom: 1em;
+}
+
+/* Header row: Title on the left, Date on the right */
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.2rem;
+  margin-bottom: 0.35rem;
+}
+
+.cv-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  font-size: 1.05em;
+  color: var(--text-color);
+  line-height: 1.35;
+  flex: 1;
+  min-width: 0;
+}
+
+.cv-title strong {
+  color: var(--text-color);
+}
+
+/* Amber bullet indicator on the title */
+.cv-title::before {
+  content: "•";
+  color: var(--accent-amber);
+  font-size: 1.25em;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.cv-title-text {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Publication items: unbolded title */
+.cv-publication .cv-title {
+  font-weight: normal;
+}
+
+.cv-date {
+  font-size: 0.88em;
+  font-weight: 600;
+  color: var(--year-bright);
+  color: color-mix(in srgb, var(--year-bright) calc(var(--year-t, 1) * 100%), var(--year-dark));
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-align: right;
+  letter-spacing: 0.02em;
+}
+
+.date-item,
+.date-sep,
+.year-val {
+  color: var(--year-bright);
+  color: color-mix(in srgb, var(--year-bright) calc(var(--year-t, 1) * 100%), var(--year-dark));
+  font-weight: 600;
+}
+
+/* Indented details container with subtle accent guide */
+.cv-details {
+  margin-top: 0.35rem;
+  padding-left: 0.9rem;
+  margin-left: 0.4rem;
+  border-left: 2px solid rgba(240, 157, 81, 0.35);
+}
+
+/* Rows inside details (University, Topic, Supervisor, etc.) */
+.cv-row {
+  line-height: 1.45; /* Compact line-height so wrapped lines of long topics stay tight */
+  margin-bottom: 0.35rem; /* Clean, subtle space between different fields */
+  color: var(--text-color);
+}
+
+.cv-row:last-child {
+  margin-bottom: 0;
+}
+
+/* Underline for author name */
+u {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Location / venue row with map pin */
+.cv-location {
+  font-size: 0.95em;
+  color: var(--text-color);
+  margin-bottom: 0.35rem;
+}
+
+.cv-location::before {
+  content: "\f041"; /* FontAwesome fa-map-marker */
+  font-family: FontAwesome;
+  color: var(--accent-amber);
+  font-size: 0.95em;
+  margin-right: 0.45rem;
+  display: inline-block;
+}
+
+/* Simple single-line list items (e.g. Seasonal schools, Toolkit) */
+.cv-item-simple {
+  margin-bottom: 0.75em;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.cv-list .cv-item-simple {
+  list-style: none;
+  position: relative;
+}
+
+.cv-list .cv-item-simple::before {
+  content: "•";
+  color: var(--accent-amber);
+  font-size: 1.25em;
+  margin-right: 0.45rem;
+  line-height: 1;
+  display: inline-block;
+}
+
+/* Responsive adjustment for mobile */
+@media screen and (max-width: 600px) {
+  .cv-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+
+  .cv-date {
+    text-align: left;
+    margin-left: 1.2rem;
+    white-space: normal;
+  }
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--menu-active-bg);
+  color: var(--text-color);
+  text-decoration: none;
+  margin: 0 2px;
+  vertical-align: middle;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.badge:hover {
+  background: var(--accent-amber);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Publication links (DOI, arXiv, etc.): frameless links with icons */
+.pub-link,
+.cv-publication .badge {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: var(--text-color);
+  text-decoration: none;
+  margin: 0 0.4rem;
+  vertical-align: baseline;
+  transition: color 0.2s ease;
+}
+
+[data-theme="dark"] .pub-link,
+[data-theme="dark"] .cv-publication .badge {
+  color: var(--link-color);
+}
+
+.pub-link i,
+.cv-publication .badge i {
+  color: var(--accent-amber);
+  font-size: 0.9em;
+  transition: color 0.2s ease;
+}
+
+.pub-link:hover,
+.cv-publication .badge:hover {
+  background: transparent;
+  color: var(--accent-coral);
+  text-decoration: underline var(--accent-coral);
+  text-underline-offset: 2px;
+}
+
+.pub-link:hover i,
+.cv-publication .badge:hover i {
+  color: var(--accent-coral);
+}
+
+/* Horizontal lines */
 hr {
   display: block;
   height: 0px;
   border: 0;
-  border-top: 2px solid #F06543;
-  margin: 2em 0em 2em 0em;
+  border-top: 2px solid var(--accent-coral);
+  margin: 2em 0;
   padding: 0;
 }
 
@@ -181,21 +475,26 @@ hr {
   display: block;
   height: 0px;
   border: 0;
-  border-top: 3px solid #F06543;
-  margin: 0em 0em 0em 0em;
-  padding: 0px;
+  border-top: 3px solid var(--accent-coral);
+  margin: 0;
+  padding: 0;
 }
 
 .hr-blog {
   display: block;
   height: 0px;
   border: 0;
-  border-top: 2px solid #F09D51;
-  padding: 0px;
+  border-top: 2px solid var(--accent-amber);
+  padding: 0;
+  width: 70%;
+  margin: 2em auto;
+}
+
+.hr-post {
+  border: 0;
+  border-top: 1px solid var(--accent-coral);
   width: 70%;
   margin: auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
 }
 
 /* Headers */
@@ -221,7 +520,6 @@ h3 {
 strong {
   line-height: 1.2;
   font-size: large;
-  /* text-align: left; */
 }
 
 /* Images */
@@ -229,6 +527,23 @@ img {
   display: block;
   margin: auto;
 }
+
+.img-blog {
+  width: 95%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Smartly invert project charts and SVGs in dark mode */
+[data-theme="dark"] .img-blog,
+[data-theme="dark"] .map-container svg,
+[data-theme="dark"] #map-container svg {
+  filter: invert(0.92) hue-rotate(180deg);
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 0;
+}
+
 
 /* Main text */
 .main-text {
@@ -239,6 +554,7 @@ img {
   font-size: 110%;
   text-align: justify;
   text-justify: inter-word;
+  hyphens: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -247,12 +563,19 @@ img {
   }
 }
 
-/* Grid of logos in footer */
+/* Footer */
 footer {
   padding: 10px 0;
   position: relative;
   bottom: 0;
   width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 0;
 }
 
 .footer-content {
@@ -264,22 +587,9 @@ footer {
   padding: 0 20px;
 }
 
-.footer-social {
-  display: flex;
-  align-items: center;
-}
-
-.footer-logo {
-  height: 40px;
-  width: auto;
-  margin: 0 10px;
-  padding: 0;
-  display: block;
-}
-
 .footer-text {
   font-size: 14px;
-  color: #333;
+  color: var(--text-secondary);
   text-align: center;
   flex-grow: 1;
 }
@@ -289,22 +599,8 @@ footer {
     flex-direction: column;
   }
 
-  .footer-logos {
-    margin-bottom: 10px;
-    display: none;
-  }
-
-  .left-logos {
-    order: 1;
-  }
-
   .footer-text {
-    order: 2;
     margin: 10px 0;
-  }
-
-  .right-logos {
-    order: 1;
   }
 }
 
@@ -312,12 +608,6 @@ footer {
   float: right;
   font-weight: normal;
   font-size: 80%;
-}
-
-.img-blog {
-  width: 95%;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 .github-blog {
@@ -331,13 +621,13 @@ footer {
 }
 
 .compact {
-    margin: 0;
-    padding-left: 1.2em;
+  margin: 0;
+  padding-left: 1.2em;
 }
 
 .compact li {
-    margin: 0;
-    line-height: 1.2;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .footnote-ref, [data-footnote-ref] {
@@ -349,7 +639,7 @@ footer {
 .footnotes, [data-footnotes] {
   font-size: 0.9em;
   margin-top: 2em;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--border-subtle);
 }
 
 .footnotes li {

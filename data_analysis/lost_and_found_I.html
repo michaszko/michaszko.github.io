@@ -9,8 +9,15 @@
     <link rel="stylesheet" href="../css/fonts.css" />
     <link rel="icon" href="../img/logos/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
     
 </head>
 
@@ -20,8 +27,9 @@
             <li><a href="../index.html">Home</a></li>
             <li><a href="../research.html">Research</a></li>
             <li><a href="../teaching.html">Teaching</a></li>
-            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../projects.html" class="active">Projects</a></li>
             <li><a href="../contact.html">Contact</a></li>
+            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
         </ul>
         <hr class="hr-menu">
     </nav>
@@ -31,7 +39,7 @@
         <p style="margin-top: -20px;">
             29 August 2024
         </p>
-        <hr style="border-top: 1px solid #F06543; width: 70%;">
+        <hr class="hr-post">
 
         <p>Recently I was traveling with a polish InterCity train and I have left my water bottle behind. I have checked the website and I was surprised that there is an online table of things which have been left in trains. <a href="https://www.intercity.pl/pl/site/dla-pasazera/obsluga-klientow/odbior-zagubionego-bagazu.html">Here</a> you can find this website.</p>
 <p>This gave me an idea: I want to see where and what exactly people leave behind while traveling with trains. For this I have created a simple BASH script which downloads all the websites with the data, and extracts information about lost items. What I have left is the <em>.csv</em> file with dates, train numbers, stations where the item was found and the category of the item. Data is heavily flawed, since there is inconsistency in naming of the cities. Sometimes one can find <em>Wrocław Główny</em> and sometimes <em>Wrocław Gł.</em> and even <em>Wrocław</em>. I have taken care of it with <em>Vim</em> <em>scripting</em>.</p>
@@ -54,6 +62,14 @@
             <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
         </div>
     </footer>
+    <script>
+        function toggleTheme() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            const next = isDark ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.theme = next;
+        }
+    </script>
 </body>
 
 </html>
