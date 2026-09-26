@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lost and found</title>
+  <link rel="icon" type="image/png" href="https://www.intercity.pl/favicon.ico" sizes="196x196">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    :root {
+      --primary-color: #4a90e2;
+      --secondary-color: #f39c12;
+      --monthly-color: #9b59b6;
+      --yearly-color: #27ae60;
+      --bg-color: #ffffff;
+      --text-color: #2c3e50;
+      --font-family: 'Rubik', sans-serif;
+      --tooltip-bg: rgba(255, 255, 255, 0.95);
+      --grid-color: #e0e0e0;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background-color: #f8f9fa;
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      width: 100%;
+      padding: 2rem 0;
+      background: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-weight: 600;
+      font-size: 2.2rem;
+      color: var(--text-color);
+    }
+
+    #chart-container {
+      width: 90%;
+      max-width: 1200px;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      position: relative;
+      margin-bottom: 2rem;
+    }
+
+    #chart {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .tooltip {
+      position: absolute;
+      padding: 12px;
+      background: var(--tooltip-bg);
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: 8px;
+      pointer-events: none;
+      font-size: 0.9rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      backdrop-filter: blur(4px);
+      z-index: 100;
+      opacity: 0;
+      transition: opacity 0.2s;
+      transform: translate(-50%, -100%); /* Center horizontally and push above cursor */
+    }
+
+    .tooltip-date {
+      font-weight: bold;
+      margin-bottom: 4px;
+      color: var(--text-color);
+      border-bottom: 1px solid #eee;
+      padding-bottom: 4px;
+    }
+
+    .tooltip-value {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .legend {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      user-select: none;
+      transition: opacity 0.3s;
+    }
+
+    .legend-item.off {
+      opacity: 0.3;
+    }
+
+    .legend-color {
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+    }
+
+    .legend-item input {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Lost and Found in Polish Trains</h1>
+  </header>
+  
+  <main id="chart-container">
+    <svg id="chart"></svg>
+    
+    <div class="legend">
+      <label class="legend-item" id="label-daily">
+        <input type="checkbox" id="toggle-daily" checked>
+        <div class="legend-color" style="background: var(--primary-color); opacity: 0.4;"></div>
+        <span>Daily Data</span>
+      </label>
+      <label class="legend-item" id="label-trend">
+        <input type="checkbox" id="toggle-trend" checked>
+        <div class="legend-color" style="background: var(--secondary-color);"></div>
+        <span>7-day Trend</span>
+      </label>
+      <label class="legend-item off" id="label-monthly">
+        <input type="checkbox" id="toggle-monthly">
+        <div class="legend-color" style="border-top: 2px solid var(--monthly-color); background: none; width: 14px; height: 0;"></div>
+        <span>Monthly Average</span>
+      </label>
+      <label class="legend-item off" id="label-yearly">
+        <input type="checkbox" id="toggle-yearly">
+        <div class="legend-color" style="border-top: 2px solid var(--yearly-color); background: none; width: 14px; height: 0;"></div>
+        <span>Yearly Baseline</span>
+      </label>
+    </div>
+  </main>
+
+  <script src="lost_and_found.js" defer></script>
+  <div id="tooltip" class="tooltip"></div>
+</body>
+
+</html>
