@@ -4,68 +4,76 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MS | Contact</title>
+    <title>Contact · Michał Siemaszko</title>
+    <meta name="description" content="How to reach Michał Siemaszko at the Faculty of Mathematics, Informatics and Mechanics, University of Warsaw.">
+    <link rel="canonical" href="https://michaszko.github.io/contact.html">
+    <meta property="og:site_name" content="Michał Siemaszko">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact · Michał Siemaszko">
+    <meta property="og:description" content="How to reach Michał Siemaszko at the Faculty of Mathematics, Informatics and Mechanics, University of Warsaw.">
+    <meta property="og:url" content="https://michaszko.github.io/contact.html">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/icons.css" />
     <link rel="icon" href="img/logos/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+    <link rel="preload" href="fonts/rubik-latin.woff2" as="font" type="font/woff2" crossorigin>
     <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
+        (function () {
+            var theme = null;
+            try { theme = localStorage.getItem('theme'); } catch (e) { }
+            if (theme === 'dark' || (theme === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
     </script>
     
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <nav>
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="teaching.html">Teaching</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
+            <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+            <li><button type="button" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="icon icon-theme" aria-hidden="true"></i></button></li>
         </ul>
         <hr class="hr-menu">
     </nav>
 
-    <div class="main-text">
+    <main id="main" class="main-text">
 
         <p>Faculty of Mathematics, Informatics, and Mechanics (MIM UW)<br>University of Warsaw<br>Stefana Banacha 2, 02-097 Warszawa, Poland<br>Room: <strong>4030</strong></p>
-<p><i class="fa fa-envelope-o" aria-hidden="true"></i> <code>mm.siemaszko2[at]uw.edu.pl</code>  </p>
+<p><i class="icon icon-envelope-o" aria-hidden="true"></i> <code>mm.siemaszko2[at]uw.edu.pl</code>  </p>
 <!-- ### Curriculum Vitae -->
 <!---->
 <!-- <p style="margin-top: 10px;"> -->
-<!--   <a class="badge" href="cv.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Download Curriculum Vitae (PDF)</a> -->
+<!--   <a class="badge" href="cv.pdf" target="_blank"><i class="icon icon-file-pdf-o"></i> Download Curriculum Vitae (PDF)</a> -->
 <!-- </p> --><hr>
 <div class="logos-social">
     <ul>
-        <li class="cv-item-simple"><a href="https://www.github.com/michaszko" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></li>
-        <li class="cv-item-simple"><a href="https://www.linkedin.com/in/micha%C5%82-siemaszko-64007b205/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        <li class="cv-item-simple"><a href="https://scholar.google.com/citations?user=9_cd0osAAAAJ&hl=en&oi=ao" target="_blank" title="Google Scholar"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a></li>
-        <li class="cv-item-simple"><a href="https://orcid.org/0000-0002-4374-9340" target="_blank" title="ORCID" style="font-family: sans-serif; font-size: 32px; font-weight: bold; color: #A6CE39;">iD</a></li>
+        <li><a href="https://www.github.com/michaszko" target="_blank" title="GitHub" aria-label="GitHub"><i class="icon icon-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/micha%C5%82-siemaszko-64007b205/" target="_blank" title="LinkedIn" aria-label="LinkedIn"><i class="icon icon-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://scholar.google.com/citations?user=9_cd0osAAAAJ&hl=en&oi=ao" target="_blank" title="Google Scholar" aria-label="Google Scholar"><i class="icon icon-graduation-cap" aria-hidden="true"></i></a></li>
+        <li><a href="https://orcid.org/0000-0002-4374-9340" target="_blank" title="ORCID" aria-label="ORCID" style="font-family: sans-serif; font-size: 32px; font-weight: bold; color: #A6CE39;">iD</a></li>
     </ul>
 </div>
 
-    </div>
+    </main>
 
     <footer>
         <hr class="hr-menu">
         <div class="footer-content">
-            <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
+            <p class="footer-text">©2024-2026 Michał Siemaszko | All rights reserved.</p>
         </div>
     </footer>
     <script>
         function toggleTheme() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            const next = isDark ? 'light' : 'dark';
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', next);
-            localStorage.theme = next;
+            try { localStorage.setItem('theme', next); } catch (e) { }
         }
     </script>
 </body>

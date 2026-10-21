@@ -4,19 +4,27 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MS | Doctoral school of University of Warsaw</title>
+    <title>Doctoral school of University of Warsaw · Michał Siemaszko</title>
+    <meta name="description" content="New academic year started in October. With it, the Doctoral School of the University of Warsaw has published the results of acceptance of doctoral candidates.…">
+    <link rel="canonical" href="https://michaszko.github.io/data_analysis/doctoral_school.html">
+    <meta property="og:site_name" content="Michał Siemaszko">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Doctoral school of University of Warsaw · Michał Siemaszko">
+    <meta property="og:description" content="New academic year started in October. With it, the Doctoral School of the University of Warsaw has published the results of acceptance of doctoral candidates.…">
+    <meta property="og:url" content="https://michaszko.github.io/data_analysis/doctoral_school.html">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/icons.css" />
     <link rel="icon" href="../img/logos/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+    <link rel="preload" href="../fonts/rubik-latin.woff2" as="font" type="font/woff2" crossorigin>
     <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
+        (function () {
+            var theme = null;
+            try { theme = localStorage.getItem('theme'); } catch (e) { }
+            if (theme === 'dark' || (theme === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
     </script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
 <style>
@@ -35,61 +43,60 @@
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <nav>
         <ul class="menu">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../research.html">Research</a></li>
             <li><a href="../teaching.html">Teaching</a></li>
-            <li><a href="../projects.html" class="active">Projects</a></li>
+            <li><a href="../projects.html" class="active" aria-current="page">Projects</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
+            <li><button type="button" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="icon icon-theme" aria-hidden="true"></i></button></li>
         </ul>
         <hr class="hr-menu">
     </nav>
 
-    <div class="main-text">
+    <main id="main" class="main-text">
         <h1>Doctoral school of University of Warsaw</h1>
-        <p style="margin-top: -20px;">
-            20 October 2025
-        </p>
+        <p class="post-date date-colored" style="--year-t: 0.80;">20 October 2025</p>
         <hr class="hr-post">
 
         <p>New academic year started in October. With it, the Doctoral School of the University of Warsaw has published the results of acceptance of doctoral candidates. I wanted to understand what is the structure of each doctoral school and of each field. Here are my observations.</p>
 <h3>First look</h3>
 <p>First I want to talk shortly about the structure of the doctoral schools<sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup>. At the University of Warsaw we have 4 of them:</p>
 <ul>
-<li class="cv-item-simple">Interdisciplinary Doctoral School</li>
-<li class="cv-item-simple">Doctoral School of Humanities (DSH)</li>
-<li class="cv-item-simple">Doctoral School of Social Sciences (DSSS)</li>
-<li class="cv-item-simple">Doctoral School of Exact and Natural Sciences (DSENS)</li>
+<li>Interdisciplinary Doctoral School</li>
+<li>Doctoral School of Humanities (DSH)</li>
+<li>Doctoral School of Social Sciences (DSSS)</li>
+<li>Doctoral School of Exact and Natural Sciences (DSENS)</li>
 </ul>
 <p>We will not consider the Interdisciplinary Doctoral School as in order to get there you need to be accepted into another doctoral school.</p>
 <p>Each Doctoral School covers several disciplines, and each discipline has its own recruitment committee. However, candidates are admitted based on more or less the same performance indicators:</p>
 <ul>
-<li class="cv-item-simple">Entry exam (DSENS) / Project proposal(DSH &amp; DSSS) ( <sup>40</sup>⁄<sub>100</sub> points )</li>
-<li class="cv-item-simple">Scientific backgroud ( <sup>20</sup>⁄<sub>100</sub> points [SDH &amp; DSSS]; <sup>15+5</sup>⁄<sub>100</sub> points [DSENS])</li>
-<li class="cv-item-simple">Initial interview ( <sup>40</sup>⁄<sub>100</sub> points )</li>
+<li>Entry exam (DSENS) / Project proposal(DSH &amp; DSSS) ( <sup>40</sup>⁄<sub>100</sub> points )</li>
+<li>Scientific backgroud ( <sup>20</sup>⁄<sub>100</sub> points [SDH &amp; DSSS]; <sup>15+5</sup>⁄<sub>100</sub> points [DSENS])</li>
+<li>Initial interview ( <sup>40</sup>⁄<sub>100</sub> points )</li>
 </ul>
 <p>Total number of points is 100, each dyscipline has its own number of places and they accept top candidates.</p>
 <p>I used official, public records that show both student performance and acceptance status. It also includes the candidates&#39; names, and therefore their gender and probable ethnicity, which I will go deeper into later. Since the data was published in poorly formatted PDF tables, it had to be extracted manually.</p>
 <h3>Acceptance rate</h3>
 <p>Let&#39;s first take a look at the acceptance rate of each dyscipline.</p>
-<p><img src="../img/doctoral_schools/acceptance.svg" alt="km" title="" class="img-blog"></p>
+<p><img src="../img/doctoral_schools/acceptance.svg" alt="km" width="769" height="662" loading="lazy" decoding="async" class="img-blog"></p>
 <p>We can see a clear disparity in the results. On one end, the Law Faculty had the most applicants and, along with International Relations, the lowest acceptance rate (around 1/5). On the other end, disciplines like Earth Sciences, Astronomy, and Pedagogical Studies had acceptance rates as high as 3/5.</p>
 <p>Overall, it is harder to get into DSH and DSSS than into DSENS. This might suggest that natural science students have more job options outside academia. However, DSENS also offers the highest number of spots, which suggests these faculties generate the most funding.</p>
 <p>Now lets take a look at the acceptance rate splited into sex and ethnicity.</p>
 <h5>Sex division</h5>
-<p><img src="../img/doctoral_schools/acceptance_km.svg" alt="km" title="" class="img-blog"></p>
+<p><img src="../img/doctoral_schools/acceptance_km.svg" alt="km" width="769" height="668" loading="lazy" decoding="async" class="img-blog"></p>
 <p>It is clearly visible that there are many disciplines where the proportions of men and women are not the same. Most visible examples are Physics, Mathematics and Informatics, where it is mostly man who was applying and got accepted. Woman however dominate in the psychology department.</p>
 <p>On average, acceptance rates are similar for both men and women, suggesting no significant gender bias in the selection process.</p>
 <h5>Ethnicity division</h5>
-<p><img src="../img/doctoral_schools/acceptance_pl.svg" alt="km" title="" class="img-blog"></p>
+<p><img src="../img/doctoral_schools/acceptance_pl.svg" alt="km" width="769" height="666" loading="lazy" decoding="async" class="img-blog"></p>
 <p>I was surprised to see that relatively few foreign students were accepted overall. The only exception was International Relations, where international students actually outnumbered Polish admits. There are quite a few interesting observations to be made here.</p>
 <p>One of the most interesting findings comes from the Chemistry Department. Even though more foreign students applied than Polish ones, only 10% of them got in. In contrast, 76% of the accepted students were Polish. I will take a closer look at Chemistry later on.</p>
 <p>Most of the faculties had lower acceptance rate for foreign students than for Polish ones. Only two faculties accepted more foreign students than Polish ones: Astronomy and International Relations.</p>
 <h3>Distribution of points</h3>
 <p>Now let&#39;s take a look at the distribution of points for each dyscipline. First we look at the total points in each dyscypline and doctoral school. In addition the color indicate the status of <span style="color:#44BBA4;">recommended for admission </span>, <span style="color:#F09D51;">reserve list</span> and <span style="color:#d55f5f">rejected</span>.</p>
-<p><img src="../img/doctoral_schools/results_swarm.svg" alt="km" title="" class="img-blog"></p>
+<p><img src="../img/doctoral_schools/results_swarm.svg" alt="km" width="529" height="951" loading="lazy" decoding="async" class="img-blog"></p>
 <p>Here are some observations:</p>
 <ul>
 <li>Maths and Computer Science together with Physics have the most spread results</li>
@@ -98,25 +105,25 @@
 <li>There are no reserve candidates in the Law Department</li>
 </ul>
 <p>We can also examine the paritcular parts of the final points. The plot below shows the distribution split in 3 categories: Activity (0-20), Interview (0-40) and Exam/Proposal (0-40). The color coding is the same as in the previous plot.</p>
-<p><img src="../img/doctoral_schools/results_split.svg" alt="km" title="" class="img-blog"></p>
+<p><img src="../img/doctoral_schools/results_split.svg" alt="km" width="523" height="991" loading="lazy" decoding="async" class="img-blog"></p>
 <p>Observations:</p>
 <ul>
-<li class="cv-item-simple">The fairest exams were in Math, Computer Science, and Physics. While other exams saw candidates&#39; scores clumped together in clusters, these exams successfully distributed points across the full range.</li>
-<li class="cv-item-simple">The worst exam was at the Biology, but more about it later</li>
-<li class="cv-item-simple">Most of the candidates maxed out the activity part</li>
-<li class="cv-item-simple">Most of Laywers have less than 50% for the activity</li>
-<li class="cv-item-simple">Humanities have a good spread in all the categories</li>
+<li>The fairest exams were in Math, Computer Science, and Physics. While other exams saw candidates&#39; scores clumped together in clusters, these exams successfully distributed points across the full range.</li>
+<li>The worst exam was at the Biology, but more about it later</li>
+<li>Most of the candidates maxed out the activity part</li>
+<li>Most of Laywers have less than 50% for the activity</li>
+<li>Humanities have a good spread in all the categories</li>
 </ul>
 <hr style="border-top: 2px solid #456990; width: 70%; margin:auto;"><h3>Anomalies</h3>
 <p>There is few anomalies I want to point out.</p>
 <h5>Biology</h5>
 <p>The exam was too easy and the interviews didn&#39;t separate the candidates well. One person even got a perfect score on both but was still rejected. Because everyone scored so high, the activity score was the only thing that actually mattered.</p>
-<p><img src="../img/doctoral_schools/biology_max.svg" alt="km" title="" class="img-blog"></p>
+<p><img src="../img/doctoral_schools/biology_max.svg" alt="km" width="564" height="275" loading="lazy" decoding="async" class="img-blog"></p>
 <h5>Chemistry</h5>
 <p>Many international students were just outside of the acceptacne threshold and got rejected.</p>
-<p><img src="../img/doctoral_schools/chem_pl.svg" alt="km" title="" class="img-blog"></p>
+<p><img src="../img/doctoral_schools/chem_pl.svg" alt="km" width="563" height="275" loading="lazy" decoding="async" class="img-blog"></p>
 <p>It get even worse when we look at the individual categories.</p>
-<p><img src="../img/doctoral_schools/chem_pl_split.svg" alt="km" title="" class="img-blog"></p>
+<p><img src="../img/doctoral_schools/chem_pl_split.svg" alt="km" width="526" height="501" loading="lazy" decoding="async" class="img-blog"></p>
 <p>Activity and Interviews went quite well for Polish and non-Polish people, however the exam was too easy for Polish candidates. Most of the Polish people have more around 90% points from the exam, while non-Polish people have spread through the whole range.</p>
 <section class="footnotes" data-footnotes>
 <h2 id="footnote-label" class="sr-only">Footnotes</h2>
@@ -130,20 +137,19 @@
 </ol>
 </section>
 
-    </div>
+    </main>
 
     <footer>
         <hr class="hr-menu">
         <div class="footer-content">
-            <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
+            <p class="footer-text">©2024-2026 Michał Siemaszko | All rights reserved.</p>
         </div>
     </footer>
     <script>
         function toggleTheme() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            const next = isDark ? 'light' : 'dark';
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', next);
-            localStorage.theme = next;
+            try { localStorage.setItem('theme', next); } catch (e) { }
         }
     </script>
 </body>

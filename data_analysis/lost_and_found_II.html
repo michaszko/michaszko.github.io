@@ -4,67 +4,73 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MS | Lost and found in Polish trains II</title>
+    <title>Lost and found in Polish trains II · Michał Siemaszko</title>
+    <meta name="description" content="Summer has officially finished so its time to look at the data once more.">
+    <link rel="canonical" href="https://michaszko.github.io/data_analysis/lost_and_found_II.html">
+    <meta property="og:site_name" content="Michał Siemaszko">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Lost and found in Polish trains II · Michał Siemaszko">
+    <meta property="og:description" content="Summer has officially finished so its time to look at the data once more.">
+    <meta property="og:url" content="https://michaszko.github.io/data_analysis/lost_and_found_II.html">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/icons.css" />
     <link rel="icon" href="../img/logos/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+    <link rel="preload" href="../fonts/rubik-latin.woff2" as="font" type="font/woff2" crossorigin>
     <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
+        (function () {
+            var theme = null;
+            try { theme = localStorage.getItem('theme'); } catch (e) { }
+            if (theme === 'dark' || (theme === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
     </script>
     
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <nav>
         <ul class="menu">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../research.html">Research</a></li>
             <li><a href="../teaching.html">Teaching</a></li>
-            <li><a href="../projects.html" class="active">Projects</a></li>
+            <li><a href="../projects.html" class="active" aria-current="page">Projects</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
+            <li><button type="button" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="icon icon-theme" aria-hidden="true"></i></button></li>
         </ul>
         <hr class="hr-menu">
     </nav>
 
-    <div class="main-text">
+    <main id="main" class="main-text">
         <h1>Lost and found in Polish trains II</h1>
-        <p style="margin-top: -20px;">
-            6 October 2024
-        </p>
+        <p class="post-date date-colored" style="--year-t: 0.60;">6 October 2024</p>
         <hr class="hr-post">
 
         <p>Summer has officially finished so its time to look at the data once more.</p>
-<p>First thing I have looked into was the frequency items. <img src="../img/lost_and_found_II/number_of_lost_items.svg" alt="number\_of\_lost\_items" title="" class="img-blog"> Now we can see, that there was huge growth around the beginning of summer, but it does not seem to go down any time soon. It could suggest that the system of reporting has reached its saturation and it will stay like it for long.</p>
+<p>First thing I have looked into was the frequency items. <img src="../img/lost_and_found_II/number_of_lost_items.svg" alt="number\_of\_lost\_items" width="937" height="483" loading="lazy" decoding="async" class="img-blog"> Now we can see, that there was huge growth around the beginning of summer, but it does not seem to go down any time soon. It could suggest that the system of reporting has reached its saturation and it will stay like it for long.</p>
 <p>I have already mentioned the peak around the end of April, which is connected to the Polish national holidays. But now we can see a small peak around the end of September. It is not as significant as the previous peak, but it does also have a nice explanation. Namely academic year is starting so students are coming back to big cities, usually by trains. It also means that traveling season has ended for all. Lets see in few months if it is really the case.</p>
-<p>With more data it seems that more people travel on Fridays than Sundays. Tuesday is still the lowest in terms of number of lost items. <img src="../img/lost_and_found_II/day_of_week.svg" alt="day\_of\_week" title="" class="img-blog"></p>
-<p>I have also updated other figures. Not much has changed, but the trends I have already spotted are still visible. I only added the rolling week average and limit myself to 5 top cities. <img src="../img/lost_and_found_II/cities.svg" alt="cities" title="" class="img-blog"> <img src="../img/lost_and_found_II/items.svg" alt="cities" title="" class="img-blog"></p>
+<p>With more data it seems that more people travel on Fridays than Sundays. Tuesday is still the lowest in terms of number of lost items. <img src="../img/lost_and_found_II/day_of_week.svg" alt="day\_of\_week" width="796" height="466" loading="lazy" decoding="async" class="img-blog"></p>
+<p>I have also updated other figures. Not much has changed, but the trends I have already spotted are still visible. I only added the rolling week average and limit myself to 5 top cities. <img src="../img/lost_and_found_II/cities.svg" alt="cities" width="653" height="636" loading="lazy" decoding="async" class="img-blog"> <img src="../img/lost_and_found_II/items.svg" alt="cities" width="653" height="631" loading="lazy" decoding="async" class="img-blog"></p>
 <hr>
-<p><img src="../img/lost_and_found_II/lost_things_in_city.svg" alt="cities" title="" class="img-blog"> <img src="../img/lost_and_found_II/item_participation.svg" alt="cities" title="" class="img-blog"> <img src="../img/lost_and_found_II/city_participation.svg" alt="cities" title="" class="img-blog"></p>
+<p><img src="../img/lost_and_found_II/lost_things_in_city.svg" alt="cities" width="766" height="797" loading="lazy" decoding="async" class="img-blog"> <img src="../img/lost_and_found_II/item_participation.svg" alt="cities" width="766" height="797" loading="lazy" decoding="async" class="img-blog"> <img src="../img/lost_and_found_II/city_participation.svg" alt="cities" width="766" height="797" loading="lazy" decoding="async" class="img-blog"></p>
 <p>Maybe the next step should be to check local trains? Koleje Dolnośląskie have something similar, but its harder to get older items.</p>
 <p>MS</p>
 
-    </div>
+    </main>
 
     <footer>
         <hr class="hr-menu">
         <div class="footer-content">
-            <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
+            <p class="footer-text">©2024-2026 Michał Siemaszko | All rights reserved.</p>
         </div>
     </footer>
     <script>
         function toggleTheme() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            const next = isDark ? 'light' : 'dark';
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', next);
-            localStorage.theme = next;
+            try { localStorage.setItem('theme', next); } catch (e) { }
         }
     </script>
 </body>

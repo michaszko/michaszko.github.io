@@ -4,42 +4,49 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MS | The Crown of Warsaw</title>
+    <title>The Crown of Warsaw · Michał Siemaszko</title>
+    <meta name="description" content="Recently, I stumbled across an interesting website which lists people climbing the Crown of Warsaw . Apparently, in Warsaw there are hills people like to climb…">
+    <link rel="canonical" href="https://michaszko.github.io/data_analysis/korona.html">
+    <meta property="og:site_name" content="Michał Siemaszko">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="The Crown of Warsaw · Michał Siemaszko">
+    <meta property="og:description" content="Recently, I stumbled across an interesting website which lists people climbing the Crown of Warsaw . Apparently, in Warsaw there are hills people like to climb…">
+    <meta property="og:url" content="https://michaszko.github.io/data_analysis/korona.html">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/icons.css" />
     <link rel="icon" href="../img/logos/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+    <link rel="preload" href="../fonts/rubik-latin.woff2" as="font" type="font/woff2" crossorigin>
     <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
+        (function () {
+            var theme = null;
+            try { theme = localStorage.getItem('theme'); } catch (e) { }
+            if (theme === 'dark' || (theme === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
     </script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
 
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <nav>
         <ul class="menu">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../research.html">Research</a></li>
             <li><a href="../teaching.html">Teaching</a></li>
-            <li><a href="../projects.html" class="active">Projects</a></li>
+            <li><a href="../projects.html" class="active" aria-current="page">Projects</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
+            <li><button type="button" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="icon icon-theme" aria-hidden="true"></i></button></li>
         </ul>
         <hr class="hr-menu">
     </nav>
 
-    <div class="main-text">
+    <main id="main" class="main-text">
         <h1>The Crown of Warsaw</h1>
-        <p style="margin-top: -20px;">
-            20 August 2026
-        </p>
+        <p class="post-date date-colored" style="--year-t: 1.00;">20 August 2026</p>
         <hr class="hr-post">
 
         <p>Recently, I stumbled across an interesting website which lists people
@@ -52,12 +59,12 @@ quite steep and long), but surely not mountains. There are, however, a few
 hills which stand out in the landscape of Warsaw, to be more
 precise, 6 of them:</p>
 <ul>
-<li class="cv-item-simple">Górka Szczęśliwicka (152 m n.p.m.)</li>
-<li class="cv-item-simple">Wzgórze Trzech Szczytów (133,9 m n.p.m.)</li>
-<li class="cv-item-simple">Kopiec Moczydłowski (130 m n.p.m.)</li>
-<li class="cv-item-simple">Kopiec Powstania Warszawskiego (121 m n.p.m.)</li>
-<li class="cv-item-simple">Kopa Cwila (108 m n.p.m.)</li>
-<li class="cv-item-simple">Góra Gnojna (101 m n.p.m.)</li>
+<li>Górka Szczęśliwicka (152 m n.p.m.)</li>
+<li>Wzgórze Trzech Szczytów (133,9 m n.p.m.)</li>
+<li>Kopiec Moczydłowski (130 m n.p.m.)</li>
+<li>Kopiec Powstania Warszawskiego (121 m n.p.m.)</li>
+<li>Kopa Cwila (108 m n.p.m.)</li>
+<li>Góra Gnojna (101 m n.p.m.)</li>
 </ul>
 <p>Those are not really high points, but the view from them is quite
 beautiful.</p>
@@ -78,7 +85,7 @@ of August 2026, and here is the analysis.</p>
 In the plot below, we show all the climbers on the weekly calendar. The
 darker shade of blue means more people have finished climbing on
 that day.</p>
-<p><img src="../img/korona/timeline.svg" alt="timeline" title="" class="img-blog"></p>
+<p><img src="../img/korona/timeline.svg" alt="timeline" width="1536" height="845" loading="lazy" decoding="async" class="img-blog"></p>
 <p>There are no obvious patterns visible. However, there are a few spots worth
 commenting on. First is January and February 2026, where there are
 significantly more people climbing. This was caused by unusual weather
@@ -96,7 +103,7 @@ Let us first have a look at the gender distribution, but with
 distinctions based on the total number of climbers on a given day. The picture
 below shows the different combinations of F/M for a fixed number of
 climbers a day (in a row).</p>
-<p><img src="../img/korona/all_pyramid.svg" alt="all_pyramid" title="" class="img-blog"></p>
+<p><img src="../img/korona/all_pyramid.svg" alt="all_pyramid" width="1238" height="902" loading="lazy" decoding="async" class="img-blog"></p>
 <p>Most days where there is a single record (solo climbers) are male.
 However, for the days where there are only two people climbing,
 almost two-thirds are a female-male pair. The pattern holds for 3 and
@@ -112,7 +119,7 @@ about families, since they share the same surname!</p>
 <p>In the figure below, I have exactly the same plot as before, but limited
 to families only. Let&#39;s take a look at the statistical distribution of
 Polish families climbing the Crown of Warsaw.</p>
-<p><img src="../img/korona/family_pyramid.svg" alt="family_pyramid" title="" class="img-blog"></p>
+<p><img src="../img/korona/family_pyramid.svg" alt="family_pyramid" width="1248" height="634" loading="lazy" decoding="async" class="img-blog"></p>
 <p>We can see a similar pattern—families who are climbing are mostly equal,
 with a skew towards more males.</p>
 <h2>Geography</h2>
@@ -130,8 +137,8 @@ present the word clouds for the first names of all recorded climbers
 divided by gender. The bigger the name is, the more frequently it
 appears in the data. Color does not play any role here; it is purely
 for the visual aspect.</p>
-<p><img src="../img/korona/names_F.svg" alt="names_F" title="" class="img-blog">
-<img src="../img/korona/names_M.svg" alt="names_M" title="" class="img-blog"></p>
+<p><img src="../img/korona/names_F.svg" alt="names_F" width="1600" height="1000" loading="lazy" decoding="async" class="img-blog">
+<img src="../img/korona/names_M.svg" alt="names_M" width="1600" height="1000" loading="lazy" decoding="async" class="img-blog"></p>
 <p>We can see that for the male names, Michał and Piotr dominate the word
 cloud. For females, there are no obvious main names, but 4 names are more
 or less equal: Katarzyna, Anna, Marta, Magdalena. This distribution
@@ -157,20 +164,19 @@ attraction close to me. One day, I hope to be on the list as well.</p>
 </ol>
 </section>
 
-    </div>
+    </main>
 
     <footer>
         <hr class="hr-menu">
         <div class="footer-content">
-            <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
+            <p class="footer-text">©2024-2026 Michał Siemaszko | All rights reserved.</p>
         </div>
     </footer>
     <script>
         function toggleTheme() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            const next = isDark ? 'light' : 'dark';
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', next);
-            localStorage.theme = next;
+            try { localStorage.setItem('theme', next); } catch (e) { }
         }
     </script>
 </body>

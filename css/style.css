@@ -1,3 +1,44 @@
+/* Rubik (SIL Open Font License 1.1), self-hosted variable font, Latin + Latin Extended */
+/* latin-ext */
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url(../fonts/rubik-latin-ext-italic.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url(../fonts/rubik-latin-italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url(../fonts/rubik-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url(../fonts/rubik-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,25 +47,35 @@
   --bg-color: #E8E9EB;
   --text-color: #456990;
   --text-secondary: #333333;
+  --link-color: #456990;
+  --heading-color: #456990;
+  /* Decorative oranges: bullets, underlines, rules, icons. Too light for text. */
   --accent-coral: #F06543;
   --accent-amber: #F09D51;
-  --year-dark: #8c351b;
-  --year-bright: #F06543;
+  /* Orange for text (hover, active). >= 4.5:1 on the backgrounds below. */
+  --accent-text: #9C4A0C;
+  --on-accent: #ffffff;
+  /* Date scale: old = muted brown, new = vivid orange-red (mixed in oklch by --year-t). */
+  --date-old: #7A5C50;
+  --date-new: #B93A0B;
   --menu-active-bg: #E0DFD5;
   --border-subtle: #cccccc;
 }
 
 [data-theme="dark"] {
-  --bg-color: #1a1d21;
-  --text-color: #e2e8f0;
-  --text-secondary: #94a3b8;
-  --link-color: #7da0c4;
+  --bg-color: #1E2938;
+  --text-color: #A9BBD0;
+  --text-secondary: #8396AD;
+  --link-color: #8DB8E8;
+  --heading-color: #D5E0EC;
   --accent-coral: #F06543;
   --accent-amber: #F09D51;
-  --year-dark: #b84a22;
-  --year-bright: #F06543;
-  --menu-active-bg: #2a2f38;
-  --border-subtle: #333c46;
+  --accent-text: #F4A860;
+  --on-accent: #1E2938;
+  --date-old: #B08C7C;
+  --date-new: #F47A55;
+  --menu-active-bg: #2C3B52;
+  --border-subtle: #3B4B63;
 }
 
 html {
@@ -35,6 +86,7 @@ html {
 body {
   margin: 0;
   width: 100%;
+  font-family: 'Rubik', sans-serif;
   line-height: 1.8em;
   color: var(--text-color);
   background-color: var(--bg-color);
@@ -48,21 +100,12 @@ nav {
 
 /* Links */
 a {
-  color: var(--text-color);
+  color: var(--link-color);
   text-decoration: underline var(--accent-amber);
 }
 
 a:hover {
-  color: var(--accent-amber);
-  text-decoration: underline var(--text-color);
-}
-
-[data-theme="dark"] a {
-  color: var(--link-color);
-}
-
-[data-theme="dark"] a:hover {
-  color: var(--accent-amber);
+  color: var(--accent-text);
   text-decoration: underline var(--link-color);
 }
 
@@ -94,50 +137,34 @@ a:hover {
 
 .menu a:hover,
 .menu a.active {
-  color: var(--accent-amber);
+  color: var(--accent-text);
   background: var(--menu-active-bg);
   text-decoration: none;
 }
 
-[data-theme="dark"] .menu a,
-[data-theme="dark"] .menu a:hover,
-[data-theme="dark"] .menu a.active {
-  text-decoration: none;
-}
-
 /* Theme toggle icon button - no background box, only icon color transition */
-.menu a.theme-toggle {
-  background: transparent !important;
+.theme-toggle {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-weight: bold;
+  font-size: larger;
+  line-height: inherit;
+  cursor: pointer;
   color: var(--text-color);
   padding: 10px 15px;
-  text-decoration: none;
   transition: color 0.25s ease;
 }
 
-.menu a.theme-toggle:hover,
-.menu a.theme-toggle:focus,
-.menu a.theme-toggle:active {
-  background: transparent !important;
-  color: var(--accent-amber);
-  text-decoration: none;
+.theme-toggle:hover {
+  color: var(--accent-text);
 }
 
-[data-theme="dark"] .menu a.theme-toggle {
-  background: transparent !important;
-  color: var(--accent-amber);
-}
-
-[data-theme="dark"] .menu a.theme-toggle:hover,
-[data-theme="dark"] .menu a.theme-toggle:focus,
-[data-theme="dark"] .menu a.theme-toggle:active {
-  background: transparent !important;
-  color: var(--link-color);
-  text-decoration: none;
-}
-
-/* Theme toggle icon flip in dark mode (moon -> sun) */
-[data-theme="dark"] .fa-moon-o:before {
-  content: "\f185";
+:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 2px;
+  border-radius: 3px;
 }
 
 /* Social icons centered layout */
@@ -177,9 +204,8 @@ a:hover {
   justify-content: center;
 }
 
-.logos-social a:hover,
-[data-theme="dark"] .logos-social a:hover {
-  color: var(--accent-amber);
+.logos-social a:hover {
+  color: var(--accent-text);
   text-decoration: none;
 }
 
@@ -209,6 +235,7 @@ a:hover {
 /* Photo */
 .img-right {
   width: 30%;
+  height: auto;
   float: right;
   padding: 10px;
   margin: 0 auto;
@@ -216,8 +243,8 @@ a:hover {
   border-radius: 40%;
 }
 
-li {
-  padding-bottom: 10px;
+.main-text li {
+  padding-bottom: 0.4em;
 }
 
 .main-text ul {
@@ -305,19 +332,23 @@ li {
 .cv-date {
   font-size: 0.88em;
   font-weight: 600;
-  color: var(--year-bright);
-  color: color-mix(in srgb, var(--year-bright) calc(var(--year-t, 1) * 100%), var(--year-dark));
   white-space: nowrap;
   flex-shrink: 0;
   text-align: right;
   letter-spacing: 0.02em;
 }
 
+.cv-date,
 .date-item,
 .date-sep,
-.year-val {
-  color: var(--year-bright);
-  color: color-mix(in srgb, var(--year-bright) calc(var(--year-t, 1) * 100%), var(--year-dark));
+.date-colored {
+  color: var(--date-new);
+  color: color-mix(in oklch, var(--date-new) calc(var(--year-t, 1) * 100%), var(--date-old));
+}
+
+.date-item,
+.date-sep,
+.date-colored {
   font-weight: 600;
 }
 
@@ -326,7 +357,7 @@ li {
   margin-top: 0.35rem;
   padding-left: 0.9rem;
   margin-left: 0.4rem;
-  border-left: 2px solid rgba(240, 157, 81, 0.35);
+  border-left: 2px solid color-mix(in srgb, var(--accent-amber) 35%, transparent);
 }
 
 /* Rows inside details (University, Topic, Supervisor, etc.) */
@@ -354,33 +385,16 @@ u {
 }
 
 .cv-location::before {
-  content: "\f041"; /* FontAwesome fa-map-marker */
-  font-family: FontAwesome;
-  color: var(--accent-amber);
-  font-size: 0.95em;
-  margin-right: 0.45rem;
+  content: "";
+  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -1536 1024 1792'%3E%3Cpath transform='scale(1,-1)' d='M768 896q0 106 -75 181t-181 75t-181 -75t-75 -181t75 -181t181 -75t181 75t75 181zM1024 896q0 -109 -33 -179l-364 -774q-16 -33 -47.5 -52t-67.5 -19t-67.5 19t-46.5 52l-365 774q-33 70 -33 179q0 212 150 362t362 150t362 -150t150 -362z'/%3E%3C/svg%3E");
   display: inline-block;
-}
-
-/* Simple single-line list items (e.g. Seasonal schools, Toolkit) */
-.cv-item-simple {
-  margin-bottom: 0.75em;
-  line-height: 1.5;
-  text-align: left;
-}
-
-.cv-list .cv-item-simple {
-  list-style: none;
-  position: relative;
-}
-
-.cv-list .cv-item-simple::before {
-  content: "•";
-  color: var(--accent-amber);
-  font-size: 1.25em;
+  width: 0.75em;
+  height: 0.95em;
   margin-right: 0.45rem;
-  line-height: 1;
-  display: inline-block;
+  vertical-align: -0.1em;
+  background-color: var(--accent-amber);
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
 }
 
 /* Responsive adjustment for mobile */
@@ -413,8 +427,8 @@ u {
 }
 
 .badge:hover {
-  background: var(--accent-amber);
-  color: #ffffff;
+  background: var(--accent-text);
+  color: var(--on-accent);
   text-decoration: none;
 }
 
@@ -429,17 +443,13 @@ u {
   border-radius: 0;
   font-size: 0.9em;
   font-weight: 500;
-  color: var(--text-color);
+  color: var(--link-color);
   text-decoration: none;
   margin: 0 0.4rem;
   vertical-align: baseline;
   transition: color 0.2s ease;
 }
 
-[data-theme="dark"] .pub-link,
-[data-theme="dark"] .cv-publication .badge {
-  color: var(--link-color);
-}
 
 .pub-link i,
 .cv-publication .badge i {
@@ -451,7 +461,7 @@ u {
 .pub-link:hover,
 .cv-publication .badge:hover {
   background: transparent;
-  color: var(--accent-coral);
+  color: var(--accent-text);
   text-decoration: underline var(--accent-coral);
   text-underline-offset: 2px;
 }
@@ -498,28 +508,38 @@ hr {
 }
 
 /* Headers */
-h1 {
+h1,
+h2,
+h3 {
+  color: var(--heading-color);
   line-height: 1.2;
-  font-size: 180%;
   text-align: left;
+}
+
+h1 {
+  font-size: 180%;
   margin-bottom: 30px;
 }
 
 h2 {
-  line-height: 1.2;
-  font-size: 120%;
-  text-align: left;
+  font-size: 140%;
+  margin-top: 2em;
+  margin-bottom: 0.7em;
 }
 
 h3 {
-  line-height: 1.2;
-  font-size: 110%;
-  text-align: left;
+  font-size: 115%;
+  margin-top: 1.6em;
 }
 
-strong {
-  line-height: 1.2;
-  font-size: large;
+.main-text strong {
+  color: var(--heading-color);
+}
+
+/* Post header: title, then a date coloured on the same scale as the CV dates */
+.post-date {
+  margin-top: -20px;
+  font-weight: 600;
 }
 
 /* Images */
@@ -530,37 +550,32 @@ img {
 
 .img-blog {
   width: 95%;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
 }
 
-/* Smartly invert project charts and SVGs in dark mode */
+/* Invert project charts and SVGs in dark mode. `lighten` lets the (now near-black)
+   chart background take the page colour instead of showing as a dark box. */
 [data-theme="dark"] .img-blog,
 [data-theme="dark"] .map-container svg,
 [data-theme="dark"] #map-container svg {
   filter: invert(0.92) hue-rotate(180deg);
-  background-color: transparent;
-  border-radius: 6px;
-  padding: 0;
+  mix-blend-mode: lighten;
 }
 
 
 /* Main text */
 .main-text {
-  width: 705px;
-  padding: 10px;
+  width: 100%;
+  max-width: 705px;
+  padding: 10px 16px;
   margin: auto;
   line-height: 1.5;
   font-size: 110%;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
   hyphens: auto;
-}
-
-@media screen and (max-width: 768px) {
-  .main-text {
-    width: 90%;
-  }
 }
 
 /* Footer */
@@ -630,10 +645,13 @@ footer a {
   line-height: 1.2;
 }
 
+sup {
+  line-height: 0;
+}
+
 .footnote-ref, [data-footnote-ref] {
   text-decoration: none;
   font-size: 0.8em;
-  vertical-align: super;
 }
 
 .footnotes, [data-footnotes] {
@@ -665,4 +683,61 @@ footer a {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+/* Code, quotes and tables in posts */
+code,
+pre {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+
+
+pre {
+  background: var(--menu-active-bg);
+  padding: 0.9em 1.1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  line-height: 1.45;
+}
+
+
+blockquote {
+  margin: 1.5em 0;
+  padding: 0.1em 1.2em;
+  border-left: 3px solid var(--accent-amber);
+  color: var(--text-secondary);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1.5em auto;
+}
+
+th,
+td {
+  padding: 0.4em 0.9em;
+  border-bottom: 1px solid var(--border-subtle);
+  text-align: left;
+}
+
+th {
+  color: var(--heading-color);
+}
+
+/* Skip link: hidden until focused by keyboard */
+.skip-link {
+  position: absolute;
+  left: 8px;
+  top: -60px;
+  z-index: 10;
+  padding: 8px 14px;
+  background: var(--bg-color);
+  color: var(--accent-text);
+  border: 2px solid var(--accent-text);
+  border-radius: 5px;
+}
+
+.skip-link:focus {
+  top: 8px;
 }

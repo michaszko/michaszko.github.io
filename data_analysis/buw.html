@@ -4,41 +4,48 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MS | University of Warsaw library occupation</title>
+    <title>University of Warsaw library occupation · Michał Siemaszko</title>
+    <meta name="description" content="University of Warsaw has a very beautiful library located in the down town. It is rather modern and has amazing garden on the roof. And most importantly for…">
+    <link rel="canonical" href="https://michaszko.github.io/data_analysis/buw.html">
+    <meta property="og:site_name" content="Michał Siemaszko">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="University of Warsaw library occupation · Michał Siemaszko">
+    <meta property="og:description" content="University of Warsaw has a very beautiful library located in the down town. It is rather modern and has amazing garden on the roof. And most importantly for…">
+    <meta property="og:url" content="https://michaszko.github.io/data_analysis/buw.html">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/icons.css" />
     <link rel="icon" href="../img/logos/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+    <link rel="preload" href="../fonts/rubik-latin.woff2" as="font" type="font/woff2" crossorigin>
     <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
+        (function () {
+            var theme = null;
+            try { theme = localStorage.getItem('theme'); } catch (e) { }
+            if (theme === 'dark' || (theme === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
     </script>
     
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <nav>
         <ul class="menu">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../research.html">Research</a></li>
             <li><a href="../teaching.html">Teaching</a></li>
-            <li><a href="../projects.html" class="active">Projects</a></li>
+            <li><a href="../projects.html" class="active" aria-current="page">Projects</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
+            <li><button type="button" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="icon icon-theme" aria-hidden="true"></i></button></li>
         </ul>
         <hr class="hr-menu">
     </nav>
 
-    <div class="main-text">
+    <main id="main" class="main-text">
         <h1>University of Warsaw library occupation</h1>
-        <p style="margin-top: -20px;">
-            10 April 2026
-        </p>
+        <p class="post-date date-colored" style="--year-t: 1.00;">10 April 2026</p>
         <hr class="hr-post">
 
         <p>University of Warsaw has a very beautiful library located in the down
@@ -60,7 +67,7 @@ present the daily <em>student-hours</em> (SH) of the library which is defined
 as a unit of work where 1SH is 1 student working for 1 hour. This
 gives us the collective information for how many students visited the
 library given day but also how long the library was operational.</p>
-<p><img src="../img/buw/timeline_student_hours.svg" alt="timeline" title="" class="img-blog"></p>
+<p><img src="../img/buw/timeline_student_hours.svg" alt="timeline" width="960" height="480" loading="lazy" decoding="async" class="img-blog"></p>
 <p>We can clearly see the university season: May and June rise just
 before the exam session, quick drop in July, retake exams in
 September, winter holidays in December and the winter exam session in
@@ -69,7 +76,7 @@ global seasonal changes are to be expected.</p>
 <p>What can be more surprising are the more local seasonal changes. Let&#39;s
 take a look at the weekly distribution of students, where plot the
 averaged normalized week and the standard deviation.</p>
-<p><img src="../img/buw/weekly_occupancy_profile.svg" alt="weekend" title="" class="img-blog"></p>
+<p><img src="../img/buw/weekly_occupancy_profile.svg" alt="weekend" width="960" height="480" loading="lazy" decoding="async" class="img-blog"></p>
 <p>What is obvious by looking at the data is low Fridays occupancy. We
 can see clear trend where from Monday till Wednesday we do not see
 much deviation, then we see on Thursday and Friday the drop, but to my
@@ -87,7 +94,7 @@ the library occupancy number – nearby faculties and university classes.</p>
 are not holidays nether the exam session. We can smooth each day with
 a moving average of 3h and compared this smooth-out signal to the
 original one. We plot the difference between those two below:</p>
-<p><img src="../img/buw/dips_residuals.svg" alt="oscilations" title="" class="img-blog"></p>
+<p><img src="../img/buw/dips_residuals.svg" alt="oscilations" width="960" height="480" loading="lazy" decoding="async" class="img-blog"></p>
 <p>We can see the gaps every 1.5h which is exactly the duration of the
 classes in the University of Warsaw. We can see both students who are
 leaving for the classes and around 10~15 minutes later we see the
@@ -101,7 +108,7 @@ murdered an administrative worker on the main campus. It was a tragic
 event, no one expected it. As the attack was close to the library of
 the UW (~10 minutes walk) the library was closed earlier that day and it
 was closed the next day. Let&#39;s take a look at that very day.</p>
-<p><img src="../img/buw/homicide_day.svg" alt="homicide" title="" class="img-blog"></p>
+<p><img src="../img/buw/homicide_day.svg" alt="homicide" width="960" height="480" loading="lazy" decoding="async" class="img-blog"></p>
 <p>The incident took place at 6:40PM. The library was behaving as usual
 till 9PM where it was suddenly closed with more than 250 students
 inside. The library counter went offline at 9PM so we cannot track how
@@ -133,20 +140,19 @@ predictable.</p>
 </ol>
 </section>
 
-    </div>
+    </main>
 
     <footer>
         <hr class="hr-menu">
         <div class="footer-content">
-            <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
+            <p class="footer-text">©2024-2026 Michał Siemaszko | All rights reserved.</p>
         </div>
     </footer>
     <script>
         function toggleTheme() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            const next = isDark ? 'light' : 'dark';
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', next);
-            localStorage.theme = next;
+            try { localStorage.setItem('theme', next); } catch (e) { }
         }
     </script>
 </body>

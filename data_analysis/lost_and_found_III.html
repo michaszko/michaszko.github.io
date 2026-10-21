@@ -4,68 +4,74 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MS | Lost and found in Polish trains III</title>
+    <title>Lost and found in Polish trains III · Michał Siemaszko</title>
+    <meta name="description" content="We are at the edge of summer now. It&#39;s time to check how the lost items are doing. I wanted to make this post kinda interacitve so the plots will be updated…">
+    <link rel="canonical" href="https://michaszko.github.io/data_analysis/lost_and_found_III.html">
+    <meta property="og:site_name" content="Michał Siemaszko">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Lost and found in Polish trains III · Michał Siemaszko">
+    <meta property="og:description" content="We are at the edge of summer now. It&#39;s time to check how the lost items are doing. I wanted to make this post kinda interacitve so the plots will be updated…">
+    <meta property="og:url" content="https://michaszko.github.io/data_analysis/lost_and_found_III.html">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/icons.css" />
     <link rel="icon" href="../img/logos/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+    <link rel="preload" href="../fonts/rubik-latin.woff2" as="font" type="font/woff2" crossorigin>
     <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
+        (function () {
+            var theme = null;
+            try { theme = localStorage.getItem('theme'); } catch (e) { }
+            if (theme === 'dark' || (theme === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
     </script>
     
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <nav>
         <ul class="menu">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../research.html">Research</a></li>
             <li><a href="../teaching.html">Teaching</a></li>
-            <li><a href="../projects.html" class="active">Projects</a></li>
+            <li><a href="../projects.html" class="active" aria-current="page">Projects</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
+            <li><button type="button" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="icon icon-theme" aria-hidden="true"></i></button></li>
         </ul>
         <hr class="hr-menu">
     </nav>
 
-    <div class="main-text">
+    <main id="main" class="main-text">
         <h1>Lost and found in Polish trains III</h1>
-        <p style="margin-top: -20px;">
-            15 June 2025
-        </p>
+        <p class="post-date date-colored" style="--year-t: 0.80;">15 June 2025</p>
         <hr class="hr-post">
 
         <p>We are at the edge of summer now. It&#39;s time to check how the lost items are doing. I wanted to make this post <em>kinda</em> interacitve so the plots will be updated every midnight (I hope).</p>
-<p>Once again I give the standard plot of number of lost items a day. <img src="https://mimuw.edu.pl/~ms441798/LF/img/number_of_lost_items.svg" alt="number\_of\_lost\_items" title="" class="img-blog"> It is still hard to say anything about the seasonality. The number of lost items is still slowly growing, although the grow slows down. I hope we will see the plateou soon.</p>
+<p>Once again I give the standard plot of number of lost items a day. <img src="https://mimuw.edu.pl/~ms441798/LF/img/number_of_lost_items.svg" alt="number\_of\_lost\_items" loading="lazy" decoding="async" class="img-blog"> It is still hard to say anything about the seasonality. The number of lost items is still slowly growing, although the grow slows down. I hope we will see the plateou soon.</p>
 <p>Some interesitng peaks are still visible. For istance, there is visible dip in the middle of November (11th of November is a Independece Day in Poland and this year we had a loooong weekend) and in the second half of December (25th of December is a Christmas Day and most people travel back home). Easter is not really visible since in Poland we get only one day free which is Monday after the Easter Sunday.</p>
-<p>Friday ultimalty wins with the other days of the week and the significant loser is still Tuesday. Pro-tip: if you don&#39;t want to lose your belonings - travel on Tuesday. <img src="https://mimuw.edu.pl/~ms441798/LF/img/day_of_week.svg" alt="day\_of\_week" title="" class="img-blog"></p>
-<p>The rest of the figures gets updated, but the overall picture is still the same. Kraków and cloaths still dominate. <img src="https://mimuw.edu.pl/~ms441798/LF/img/cities.svg" alt="cities" title="" class="img-blog"> <img src="https://mimuw.edu.pl/~ms441798/LF/img/items.svg" alt="cities" title="" class="img-blog"></p>
+<p>Friday ultimalty wins with the other days of the week and the significant loser is still Tuesday. Pro-tip: if you don&#39;t want to lose your belonings - travel on Tuesday. <img src="https://mimuw.edu.pl/~ms441798/LF/img/day_of_week.svg" alt="day\_of\_week" loading="lazy" decoding="async" class="img-blog"></p>
+<p>The rest of the figures gets updated, but the overall picture is still the same. Kraków and cloaths still dominate. <img src="https://mimuw.edu.pl/~ms441798/LF/img/cities.svg" alt="cities" loading="lazy" decoding="async" class="img-blog"> <img src="https://mimuw.edu.pl/~ms441798/LF/img/items.svg" alt="cities" loading="lazy" decoding="async" class="img-blog"></p>
 <hr>
-<p><img src="https://mimuw.edu.pl/~ms441798/LF/img/lost_things_in_city.svg" alt="cities" title="" class="img-blog"> <img src="https://mimuw.edu.pl/~ms441798/LF/img/item_participation.svg" alt="cities" title="" class="img-blog"> <img src="https://mimuw.edu.pl/~ms441798/LF/img/city_participation.svg" alt="cities" title="" class="img-blog"></p>
+<p><img src="https://mimuw.edu.pl/~ms441798/LF/img/lost_things_in_city.svg" alt="cities" loading="lazy" decoding="async" class="img-blog"> <img src="https://mimuw.edu.pl/~ms441798/LF/img/item_participation.svg" alt="cities" loading="lazy" decoding="async" class="img-blog"> <img src="https://mimuw.edu.pl/~ms441798/LF/img/city_participation.svg" alt="cities" loading="lazy" decoding="async" class="img-blog"></p>
 <p>One more thing: we have never plotted this data on the map. Now we do! It is clearly visible where are the InterCity rails and big cities.</p>
 <p><a href="https://mimuw.edu.pl/~ms441798/LF/img/lost_and_found_map.html">Open Map</a></p>
 <p>MS</p>
 
-    </div>
+    </main>
 
     <footer>
         <hr class="hr-menu">
         <div class="footer-content">
-            <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
+            <p class="footer-text">©2024-2026 Michał Siemaszko | All rights reserved.</p>
         </div>
     </footer>
     <script>
         function toggleTheme() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            const next = isDark ? 'light' : 'dark';
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', next);
-            localStorage.theme = next;
+            try { localStorage.setItem('theme', next); } catch (e) { }
         }
     </script>
 </body>

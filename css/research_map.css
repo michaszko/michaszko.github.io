@@ -1,0 +1,340 @@
+/* ==========================================================================
+   Research Travel Map Styles - Eckert IV Projection
+   ========================================================================== */
+
+.map-page-header {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.map-subtitle {
+  font-size: 1.05em;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-top: -15px;
+  margin-bottom: 25px;
+}
+
+/* Map Wrapper & Canvas */
+.map-viewport-wrapper {
+  position: relative;
+  width: 100%;
+  background: #edf1f5;
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="dark"] .map-viewport-wrapper {
+  background: #13161b;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+#research-map-svg {
+  display: block;
+  width: 100%;
+  height: 520px;
+  cursor: grab;
+  user-select: none;
+}
+
+#research-map-svg:active {
+  cursor: grabbing;
+}
+
+/* Map SVG Elements */
+.map-land {
+  fill: #ded9d0;
+  stroke: #c2bcb0;
+  stroke-width: 0.6px;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+  transition: fill 0.2s ease;
+}
+
+[data-theme="dark"] .map-land {
+  fill: #222730;
+  stroke: #333a46;
+}
+
+.map-land.visited {
+  fill: #d5cdbf;
+  stroke: var(--accent-amber);
+  stroke-width: 0.9px;
+  vector-effect: non-scaling-stroke;
+}
+
+[data-theme="dark"] .map-land.visited {
+  fill: #2a3240;
+  stroke: var(--accent-amber);
+  stroke-width: 0.9px;
+  vector-effect: non-scaling-stroke;
+}
+
+/* City Markers */
+.city-marker {
+  cursor: pointer;
+}
+
+.marker-halo {
+  fill: var(--accent-coral);
+  fill-opacity: 0.22;
+  stroke: var(--accent-coral);
+  stroke-width: 1px;
+  animation: pulse-ring 2.4s infinite ease-out;
+  pointer-events: none;
+}
+
+@keyframes pulse-ring {
+  0% {
+    r: 6px;
+    opacity: 0.85;
+  }
+  70% {
+    r: 16px;
+    opacity: 0;
+  }
+  100% {
+    r: 16px;
+    opacity: 0;
+  }
+}
+
+.marker-dot {
+  fill: var(--accent-coral);
+  stroke: #ffffff;
+  stroke-width: 1.8px;
+  transition: all 0.2s ease;
+}
+
+[data-theme="dark"] .marker-dot {
+  stroke: #1a1d21;
+}
+
+.city-marker:hover .marker-dot,
+.city-marker.active .marker-dot {
+  fill: var(--accent-amber);
+  stroke-width: 2.5px;
+}
+
+.marker-label {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  fill: var(--text-color);
+  paint-order: stroke fill;
+  stroke: var(--bg-color);
+  stroke-width: 3.5px;
+  stroke-linejoin: round;
+  pointer-events: none;
+  transition: fill 0.2s ease;
+}
+
+[data-theme="dark"] .marker-label {
+  stroke: #161a20;
+}
+
+.city-marker:hover .marker-label,
+.city-marker.active .marker-label {
+  fill: var(--accent-coral);
+}
+
+[data-theme="dark"] .city-marker:hover .marker-label,
+[data-theme="dark"] .city-marker.active .marker-label {
+  fill: var(--accent-amber);
+}
+
+/* Tooltip Overlay */
+.map-tooltip {
+  position: absolute;
+  pointer-events: none;
+  padding: 8px 12px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 20;
+  max-width: 250px;
+}
+
+[data-theme="dark"] .map-tooltip {
+  background: #1e222b;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+
+.map-tooltip h4 {
+  margin: 0 0 3px 0;
+  font-size: 0.95rem;
+  color: var(--accent-coral);
+}
+
+[data-theme="dark"] .map-tooltip h4 {
+  color: var(--accent-amber);
+}
+
+.map-tooltip p {
+  margin: 2px 0;
+  line-height: 1.35;
+  font-size: 0.85em;
+}
+
+/* City Detail Card */
+.city-detail-panel {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--menu-active-bg);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  text-align: left;
+  transition: all 0.25s ease;
+}
+
+[data-theme="dark"] .city-detail-panel {
+  background: #181d24;
+}
+
+.city-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.city-detail-title {
+  font-size: 1.35rem;
+  font-weight: bold;
+  color: var(--heading-color);
+}
+
+.city-detail-years {
+  font-size: 0.95rem;
+  color: var(--accent-coral);
+  font-weight: 600;
+}
+
+[data-theme="dark"] .city-detail-years {
+  color: var(--accent-amber);
+}
+
+.city-detail-role {
+  font-size: 1.02rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 0.75rem;
+}
+
+.city-events-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.city-event-item {
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.city-event-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent-amber);
+  font-size: 1.1rem;
+}
+
+.city-event-category {
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  color: var(--accent-coral);
+  background: rgba(217, 83, 79, 0.12);
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-right: 6px;
+}
+
+[data-theme="dark"] .city-event-category {
+  color: var(--accent-amber);
+  background: rgba(224, 138, 0, 0.16);
+}
+
+/* Places Directory Grid */
+.places-directory {
+  margin-top: 2.5rem;
+  text-align: left;
+}
+
+.places-directory h3 {
+  font-size: 1.3rem;
+  color: var(--heading-color);
+  margin-bottom: 1rem;
+}
+
+.places-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 0.9rem;
+}
+
+.place-card {
+  padding: 0.85rem 1rem;
+  background: var(--bg-color);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.place-card:hover {
+  border-color: var(--accent-amber);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.place-card.active {
+  border-color: var(--accent-coral);
+  border-left: 4px solid var(--accent-coral);
+  background: var(--menu-active-bg);
+}
+
+[data-theme="dark"] .place-card.active {
+  border-color: var(--accent-amber);
+  border-left: 4px solid var(--accent-amber);
+}
+
+.place-card-name {
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: var(--heading-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.place-card-country {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.35rem;
+}
+
+.place-card-summary {
+  font-size: 0.84rem;
+  line-height: 1.35;
+  color: var(--text-color);
+}

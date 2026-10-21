@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research Map · Michał Siemaszko</title>
+    <meta name="description" content="An interactive map of research visits, degrees, conferences, talks, and seasonal schools across Europe, Japan, and Singapore based on my academic curriculum…">
+    <link rel="canonical" href="https://michaszko.github.io/research_map.html">
+    <meta name="robots" content="noindex">
+    <meta property="og:site_name" content="Michał Siemaszko">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Research Map · Michał Siemaszko">
+    <meta property="og:description" content="An interactive map of research visits, degrees, conferences, talks, and seasonal schools across Europe, Japan, and Singapore based on my academic curriculum…">
+    <meta property="og:url" content="https://michaszko.github.io/research_map.html">
+    <meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/icons.css" />
+    <link rel="icon" href="img/logos/favicon.ico">
+    <link rel="preload" href="fonts/rubik-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <script>
+        (function () {
+            var theme = null;
+            try { theme = localStorage.getItem('theme'); } catch (e) { }
+            if (theme === 'dark' || (theme === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
+    </script>
+    <script src="other/d3.v7.min.js"></script>
+<script>
+  if (typeof d3 === 'undefined') {
+    document.write('<script src="https://d3js.org/d3.v7.min.js"><\/script>');
+  }
+</script>
+<script src="other/d3-geo-projection.v4.min.js"></script>
+<script>
+  if (typeof d3 !== 'undefined' && typeof d3.geoEckert4 === 'undefined') {
+    document.write('<script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4"><\/script>');
+  }
+</script>
+<script src="other/research_map_data.js"></script>
+<link rel="stylesheet" href="css/research_map.css">
+
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html" class="active" aria-current="page">Research</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button type="button" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="icon icon-theme" aria-hidden="true"></i></button></li>
+        </ul>
+        <hr class="hr-menu">
+    </nav>
+
+    <main id="main" class="main-text">
+
+        <h1>Research Travel &amp; Academic Map</h1>
+<p>An interactive map of research visits, degrees, conferences, talks, and seasonal schools across Europe, Japan, and Singapore based on my academic curriculum vitae.</p>
+<div class="map-viewport-wrapper">
+  <svg id="research-map-svg"></svg>
+  <div id="map-tooltip" class="map-tooltip"></div>
+</div><div id="city-detail-panel" class="city-detail-panel">
+  <!-- Active city details loaded dynamically -->
+</div><div class="places-directory">
+  <h3>Visited Research Locations (15)</h3>
+  <div id="places-grid" class="places-grid">
+    <!-- Place cards loaded dynamically -->
+  </div>
+</div><p style="margin-top: 2.5rem; text-align: left;">
+  <a href="research.html" class="pub-link"><i class="icon icon-arrow-left"></i> Back to Research Overview</a>
+</p><script src="other/research_map.js"></script>
+
+    </main>
+
+    <footer>
+        <hr class="hr-menu">
+        <div class="footer-content">
+            <p class="footer-text">©2024-2026 Michał Siemaszko | All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        function toggleTheme() {
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('theme', next); } catch (e) { }
+        }
+    </script>
+</body>
+
+</html>

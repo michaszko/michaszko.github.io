@@ -4,76 +4,81 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MS | Projects</title>
+    <title>Projects · Michał Siemaszko</title>
+    <meta name="description" content="Data analysis projects by Michał Siemaszko. Quirky public datasets turned into custom visualizations.">
+    <link rel="canonical" href="https://michaszko.github.io/projects.html">
+    <meta property="og:site_name" content="Michał Siemaszko">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projects · Michał Siemaszko">
+    <meta property="og:description" content="Data analysis projects by Michał Siemaszko. Quirky public datasets turned into custom visualizations.">
+    <meta property="og:url" content="https://michaszko.github.io/projects.html">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/icons.css" />
     <link rel="icon" href="img/logos/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+    <link rel="preload" href="fonts/rubik-latin.woff2" as="font" type="font/woff2" crossorigin>
     <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
+        (function () {
+            var theme = null;
+            try { theme = localStorage.getItem('theme'); } catch (e) { }
+            if (theme === 'dark' || (theme === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
     </script>
     
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <nav>
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="teaching.html">Teaching</a></li>
-            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="projects.html" class="active" aria-current="page">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
+            <li><button type="button" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="icon icon-theme" aria-hidden="true"></i></button></li>
         </ul>
         <hr class="hr-menu">
     </nav>
 
-    <div class="main-text">
+    <main id="main" class="main-text">
 
-        <h1>Data analysis</h1>
-<h2>Crown of Warsaw <span class="date">10 October 2026</span></h2>
+        <h1>Projects</h1>
+<h2>Data analysis</h2>
+<h3>Crown of Warsaw <span class="date date-colored" style="--year-t: 1.00;">20 August 2026</span></h3>
 <p>Who climbs the six tallest hills in Warsaw? <a href="data_analysis/korona.html"><strong>More</strong></a></p>
-<hr class="hr-blog"><h2>Asbestos distribution in Poland and old borders <span class="date">10 May 2026</span></h2>
-<p>Surprising borders on the map with the asbestos distribution in Poland. <a href="data_analysis/asbestos.html"><strong>More</strong></a></p>
-<hr class="hr-blog"><h2>Postal codes in Poland <span class="date">10 May 2026</span></h2>
+<hr class="hr-blog"><h3>Postal codes in Poland <span class="date date-colored" style="--year-t: 1.00;">10 May 2026</span></h3>
 <p>How many codes each region uses. <a href="data_analysis/postal_codes.html"><strong>More</strong></a></p>
-<hr class="hr-blog"><h2>Doctoral School University of Warsaw <span class="date">03 March 2026</span></h2>
-<p>Results are here. Lets look who got accepted. <a href="data_analysis/doctoral_school.html"><strong>More</strong></a></p>
-<hr class="hr-blog"><h2>Polish Academy of Sciences - Finances <span class="date">05 August 2025</span></h2>
-<p>One year has passed and now its time for the last look at the data. <a href="data_analysis/pan_money.html"><strong>More</strong></a></p>
-<hr class="hr-blog"><h2>Lost and found in trains - part III <span class="date">15 June 2025</span></h2>
-<p>One year has passed and now its time for the last look at the data. <a href="data_analysis/lost_and_found_III.html"><strong>More</strong></a></p>
-<hr class="hr-blog"><h2>Lost and found in trains - part II <span class="date">6 October 2024</span></h2>
+<hr class="hr-blog"><h3>Asbestos distribution in Poland and old borders <span class="date date-colored" style="--year-t: 1.00;">10 April 2026</span></h3>
+<p>Surprising borders on the map with the asbestos distribution in Poland. <a href="data_analysis/asbestos.html"><strong>More</strong></a></p>
+<hr class="hr-blog"><h3>Doctoral School University of Warsaw <span class="date date-colored" style="--year-t: 0.80;">20 October 2025</span></h3>
+<p>Results are here. Let&#39;s look at who got accepted. <a href="data_analysis/doctoral_school.html"><strong>More</strong></a></p>
+<hr class="hr-blog"><h3>Polish Academy of Sciences - Finances <span class="date date-colored" style="--year-t: 0.80;">5 August 2025</span></h3>
+<p>Why a country needs the Polish Academy of Sciences, and what its finances look like. <a href="data_analysis/pan_money.html"><strong>More</strong></a></p>
+<hr class="hr-blog"><h3>Lost and found in trains - part III <span class="date date-colored" style="--year-t: 0.80;">15 June 2025</span></h3>
+<p>One year has passed and now it&#39;s time for the last look at the data. <a href="data_analysis/lost_and_found_III.html"><strong>More</strong></a></p>
+<hr class="hr-blog"><h3>Lost and found in trains - part II <span class="date date-colored" style="--year-t: 0.60;">6 October 2024</span></h3>
 <p>Summer has finished, so we can check what is the trend of things found in polish trains. <a href="data_analysis/lost_and_found_II.html"><strong>More</strong></a></p>
-<hr class="hr-blog"><h2>Dog breeds in Poland <span class="date">1 September 2024</span></h2>
+<hr class="hr-blog"><h3>Dog breeds in Poland <span class="date date-colored" style="--year-t: 0.60;">29 August 2024</span></h3>
 <p>Analyzing official documents from between 2009 - 2023 reveals trends in dog breeds and total number of dogs. <a href="data_analysis/dog_breeds_poland.html"><strong>More</strong></a></p>
-<hr class="hr-blog"><h2>Lost and found in trains - part I <span class="date">29 August 2024</span></h2>
-<p>Recently I was traveling with a polish InterCity train and I have left my water bottle behind. I have checked the website and I was surprised that there is an online table of things which have been left in trains. <a href="data_analysis/lost_and_found_I.html"><strong>More</strong></a></p>
-<hr>
-<h1>Other</h1>
-<h2>Skłodowska Quantum Conference <span class="date">4 October 2024</span></h2>
-<p>We have just finished the Skłodowska Quantum Conference. It was a great experience to learn many new things. <a href="other/qurie.html"><strong>More</strong></a></p>
+<hr class="hr-blog"><h3>Lost and found in trains - part I <span class="date date-colored" style="--year-t: 0.60;">29 August 2024</span></h3>
+<p>Recently I was traveling with a Polish InterCity train and I have left my water bottle behind. I have checked the website and I was surprised that there is an online table of things which have been left in trains. <a href="data_analysis/lost_and_found_I.html"><strong>More</strong></a></p>
 
-    </div>
+    </main>
 
     <footer>
         <hr class="hr-menu">
         <div class="footer-content">
-            <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
+            <p class="footer-text">©2024-2026 Michał Siemaszko | All rights reserved.</p>
         </div>
     </footer>
     <script>
         function toggleTheme() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            const next = isDark ? 'light' : 'dark';
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', next);
-            localStorage.theme = next;
+            try { localStorage.setItem('theme', next); } catch (e) { }
         }
     </script>
 </body>

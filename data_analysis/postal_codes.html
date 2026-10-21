@@ -4,19 +4,27 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MS | Postal codes in Poland</title>
+    <title>Postal codes in Poland · Michał Siemaszko</title>
+    <meta name="description" content="Recently I got interested in the structure of Polish postal codes. I also wanted to find the database of all postal codes and try to visualize them. Here is my…">
+    <link rel="canonical" href="https://michaszko.github.io/data_analysis/postal_codes.html">
+    <meta property="og:site_name" content="Michał Siemaszko">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Postal codes in Poland · Michał Siemaszko">
+    <meta property="og:description" content="Recently I got interested in the structure of Polish postal codes. I also wanted to find the database of all postal codes and try to visualize them. Here is my…">
+    <meta property="og:url" content="https://michaszko.github.io/data_analysis/postal_codes.html">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/icons.css" />
     <link rel="icon" href="../img/logos/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+    <link rel="preload" href="../fonts/rubik-latin.woff2" as="font" type="font/woff2" crossorigin>
     <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
+        (function () {
+            var theme = null;
+            try { theme = localStorage.getItem('theme'); } catch (e) { }
+            if (theme === 'dark' || (theme === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
     </script>
     <style>
     .code {
@@ -35,23 +43,22 @@
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <nav>
         <ul class="menu">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../research.html">Research</a></li>
             <li><a href="../teaching.html">Teaching</a></li>
-            <li><a href="../projects.html" class="active">Projects</a></li>
+            <li><a href="../projects.html" class="active" aria-current="page">Projects</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li><a href="javascript:void(0)" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="fa fa-moon-o"></i></a></li>
+            <li><button type="button" onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme"><i class="icon icon-theme" aria-hidden="true"></i></button></li>
         </ul>
         <hr class="hr-menu">
     </nav>
 
-    <div class="main-text">
+    <main id="main" class="main-text">
         <h1>Postal codes in Poland</h1>
-        <p style="margin-top: -20px;">
-            10 May 2026
-        </p>
+        <p class="post-date date-colored" style="--year-t: 1.00;">10 May 2026</p>
         <hr class="hr-post">
 
         <p>Recently I got interested in the structure of <strong>Polish postal codes</strong>. I also wanted to find the database of all postal codes and try to visualize them. Here is my quick attempt to do it.</p>
@@ -67,7 +74,7 @@
 <p>I wanted to visualize all the postal codes in one, small and coherent picture. I came up with the idea to plot the matrix 100 x 100, where on x-axis we have two first numbers of a postal code and on the y-axis we have last two numbers. By this we keep the natural structure of the postal codes intact. The problem is with the 3rd number which does not have really any meaning. So I did two plots.</p>
 <h4>3rd number sum</h4>
 <p>First let&#39;s take a look at the codes of the form <span style="color:#44BBA4;font-weight: bold">XX</span>-<span style="font-weight: bold;font-size: 24px">&#9744;</span><span style="color:#F09D51;font-weight: bold">YY</span>, where <span style="color:#44BBA4;font-weight: bold">XX</span> are plotted on the x-axis and <span style="color:#F09D51;font-weight: bold">YY</span> on the y-axis. The color indicates the number of postal. Color of each cell corresponds to the number of postal codes with this beginning and end.</p>
-<p><img src="../img/postal_codes/heatmap_sum.svg" alt="" title="" class="img-blog"></p>
+<p><img src="../img/postal_codes/heatmap_sum.svg" alt="" width="465" height="558" loading="lazy" decoding="async" class="img-blog"></p>
 <p>We obtain interesting plot; lets try to explain what do we see. First, the dark big patch on the left is Warsaw and neighbor cities. Since it is highly populated area we see that almost all possible codes are used.</p>
 <p>Secondly, every 5 cells we see rather dark vertical strip. It means that this code belongs to a bigger city or a bigger region. Bigger strips can be seen at 30 (Kraków), 50 (Wrocław), 70 (Szczecin), 60 (Poznań), 70 (Szczecin), 80 (Gdańsk) and 90 (Łódź). What is interesting is that most of the cities use 2 stripes except Wrocław and Łódź, which uses 5, similarly to Warsaw. It make sense since those three make up the biggest cities in the country. It also means that the postal codes are not that <em>densely</em> packed in those cities, meaning that there is some room to squeeze a postal number with different 3rd number.</p>
 <p>Third, we can see regions where people are more spread. There are many
@@ -77,7 +84,7 @@ Poland). There is much more villages so it means more than average
 post offices with different postal codes.</p>
 <h4>3rd number separate</h4>
 <p>Now let&#39;s take a look at the same plot but for each 3rd digit separately. We use different colors to help the viewer to distinguish them.</p>
-<p><img src="../img/postal_codes/pna_heatmap.svg" alt="" title="" class="img-blog"></p>
+<p><img src="../img/postal_codes/pna_heatmap.svg" alt="" width="369" height="946" loading="lazy" decoding="async" class="img-blog"></p>
 <p>Once again, few observations:</p>
 <ul>
 <li>We see horizontal stripes for lower numbers. It means that small post offices outside the big cities like to use <em>round</em> last two digits together with low 3rd digit</li>
@@ -97,20 +104,19 @@ post offices with different postal codes.</p>
 </ol>
 </section>
 
-    </div>
+    </main>
 
     <footer>
         <hr class="hr-menu">
         <div class="footer-content">
-            <p class="footer-text">©2024-2026 Michał Siemaszko | All right reserved. </p>
+            <p class="footer-text">©2024-2026 Michał Siemaszko | All rights reserved.</p>
         </div>
     </footer>
     <script>
         function toggleTheme() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            const next = isDark ? 'light' : 'dark';
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', next);
-            localStorage.theme = next;
+            try { localStorage.setItem('theme', next); } catch (e) { }
         }
     </script>
 </body>

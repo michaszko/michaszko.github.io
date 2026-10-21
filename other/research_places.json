@@ -1,0 +1,380 @@
+[
+  {
+    "id": "warsaw",
+    "name": "Warsaw",
+    "country": "Poland",
+    "region": "europe",
+    "coords": [
+      21.0122,
+      52.2297
+    ],
+    "role": "PhD Candidate \u00b7 Organizer \u00b7 Speaker",
+    "years": "2021 \u2013 2027",
+    "events": [
+      {
+        "year": "2021 \u2013 2027",
+        "category": "Education",
+        "title": "PhD in Computer Science",
+        "detail": "University of Warsaw (MIM UW). Supervised by Prof. Magdalena Stobi\u0144ska."
+      },
+      {
+        "year": "03/2026",
+        "category": "Talk",
+        "title": "Quantum Infinity for You",
+        "detail": "Talk: Introduction to gate-based quantum computing at FUW."
+      },
+      {
+        "year": "10/2025",
+        "category": "Talk",
+        "title": "Quantum Information Seminar",
+        "detail": "Talk: Neuromorphic computing with quantum memristors at FUW."
+      },
+      {
+        "year": "05/2025",
+        "category": "Conference",
+        "title": "QUACC+ (Quantum Certification Conference+)",
+        "detail": "Poster: Time series prediction with photonic quantum memristors."
+      },
+      {
+        "year": "12/2025",
+        "category": "School",
+        "title": "Winter Innovation School",
+        "detail": "Doctoral school winter school in Warsaw."
+      },
+      {
+        "year": "06/2024",
+        "category": "Talk",
+        "title": "Masovian Symposium on Quantum, Optical & Atomic Physics",
+        "detail": "Poster: Time series prediction with quantum memristor."
+      },
+      {
+        "year": "06/2024",
+        "category": "School",
+        "title": "Mid-Infrared Quantum Sensing School",
+        "detail": "Summer school at Faculty of Physics, University of Warsaw."
+      },
+      {
+        "year": "10/2024",
+        "category": "Organization",
+        "title": "Sk\u0142odowska Quantum Conference",
+        "detail": "Co-organizer; created website, badges, and program schedule."
+      },
+      {
+        "year": "11/2022",
+        "category": "Talk",
+        "title": "Information Theory Seminar",
+        "detail": "Talk: Introduction to quantum computing at MIM UW."
+      }
+    ]
+  },
+  {
+    "id": "wroclaw",
+    "name": "Wroc\u0142aw",
+    "country": "Poland",
+    "region": "europe",
+    "coords": [
+      17.0385,
+      51.1079
+    ],
+    "role": "B.Sc. & M.Sc. Studies \u00b7 Research Assistant",
+    "years": "2015 \u2013 2021",
+    "events": [
+      {
+        "year": "2018 \u2013 2021",
+        "category": "Education",
+        "title": "M.Sc. in Theoretical Physics",
+        "detail": "University of Wroc\u0142aw. Thesis: Strong correlations in open quantum systems (Grade: 5.0/5.0)."
+      },
+      {
+        "year": "2017 \u2013 2019",
+        "category": "Research",
+        "title": "Research Assistant",
+        "detail": "NuWro Monte Carlo neutrino generator development, published in Physical Review C."
+      },
+      {
+        "year": "2015 \u2013 2018",
+        "category": "Education",
+        "title": "B.Sc. in Theoretical & Experimental Physics",
+        "detail": "University of Wroc\u0142aw. Thesis on MINERvA data & NuWro (Grade: 5.0/5.0)."
+      }
+    ]
+  },
+  {
+    "id": "krakow",
+    "name": "Krak\u00f3w",
+    "country": "Poland",
+    "region": "europe",
+    "coords": [
+      19.945,
+      50.0647
+    ],
+    "role": "Research Intern",
+    "years": "2017",
+    "events": [
+      {
+        "year": "07/2017",
+        "category": "Research",
+        "title": "Research Internship",
+        "detail": "Institute of Nuclear Physics PAS. Analyzing collider physics data; won Audience Award for best presentation."
+      }
+    ]
+  },
+  {
+    "id": "vienna",
+    "name": "Vienna",
+    "country": "Austria",
+    "region": "europe",
+    "coords": [
+      16.3738,
+      48.2082
+    ],
+    "role": "Visiting Researcher \u00b7 Seasonal Schools",
+    "years": "2022 \u2013 2025",
+    "events": [
+      {
+        "year": "2023 \u2013 2025",
+        "category": "Research",
+        "title": "Short Scientific Visits",
+        "detail": "University of Vienna (Philip Walther group), collaborating on photonic quantum memristors (PRX Quantum)."
+      },
+      {
+        "year": "04/2025",
+        "category": "School",
+        "title": "Quantum ML: Theory Meets Experiments",
+        "detail": "Workshop and school at University of Vienna."
+      },
+      {
+        "year": "08/2022 \u2013 09/2022",
+        "category": "School",
+        "title": "VCQ & AppQInfo Summer School",
+        "detail": "Summer school on quantum science and quantum technologies."
+      }
+    ]
+  },
+  {
+    "id": "frascati",
+    "name": "Frascati (Rome)",
+    "country": "Italy",
+    "region": "europe",
+    "coords": [
+      12.6784,
+      41.808
+    ],
+    "role": "Visiting Researcher",
+    "years": "2022",
+    "events": [
+      {
+        "year": "02/2022 \u2013 06/2022",
+        "category": "Research",
+        "title": "ESA \u03a6-lab Visiting Researcher",
+        "detail": "European Space Agency (ESRIN). Developed quantum recurrent neural networks (CV-QRNN) for satellite Earth observation."
+      }
+    ]
+  },
+  {
+    "id": "trento",
+    "name": "Trento",
+    "country": "Italy",
+    "region": "europe",
+    "coords": [
+      11.1217,
+      46.0748
+    ],
+    "role": "Seasonal School",
+    "years": "2023",
+    "events": [
+      {
+        "year": "07/2023",
+        "category": "School",
+        "title": "Summer School: Mathematical Foundations of Quantum ML",
+        "detail": "Summer school at University of Trento."
+      }
+    ]
+  },
+  {
+    "id": "naples",
+    "name": "Naples",
+    "country": "Italy",
+    "region": "europe",
+    "coords": [
+      14.2681,
+      40.8518
+    ],
+    "role": "Conference Speaker",
+    "years": "2022",
+    "events": [
+      {
+        "year": "11/2022",
+        "category": "Talk",
+        "title": "QTML 2022 (Quantum Techniques in Machine Learning)",
+        "detail": "Contributed talk: Rapid training of quantum recurrent neural networks."
+      }
+    ]
+  },
+  {
+    "id": "grenoble",
+    "name": "Grenoble",
+    "country": "France",
+    "region": "europe",
+    "coords": [
+      5.7245,
+      45.1885
+    ],
+    "role": "Conference Presenter",
+    "years": "2022",
+    "events": [
+      {
+        "year": "09/2022",
+        "category": "Conference",
+        "title": "ECML-PKDD 2022",
+        "detail": "European Conference on Machine Learning. Poster: Rapid training of quantum recurrent neural networks."
+      }
+    ]
+  },
+  {
+    "id": "porquerolles",
+    "name": "Porquerolles",
+    "country": "France",
+    "region": "europe",
+    "coords": [
+      6.2045,
+      43.0004
+    ],
+    "role": "Seasonal School",
+    "years": "2022",
+    "events": [
+      {
+        "year": "07/2022",
+        "category": "School",
+        "title": "Esquisses Summer School",
+        "detail": "Summer school in \u00celes d\u2019Hy\u00e8res, France."
+      }
+    ]
+  },
+  {
+    "id": "san_sebastian",
+    "name": "San Sebastian",
+    "country": "Spain",
+    "region": "europe",
+    "coords": [
+      -1.9812,
+      43.3183
+    ],
+    "role": "Conference Presenter",
+    "years": "2024",
+    "events": [
+      {
+        "year": "05/2024",
+        "category": "Conference",
+        "title": "QUANTUMatter 2024",
+        "detail": "Poster: Time series processing with quantum memristor."
+      }
+    ]
+  },
+  {
+    "id": "groningen",
+    "name": "Groningen",
+    "country": "The Netherlands",
+    "region": "europe",
+    "coords": [
+      6.5665,
+      53.2194
+    ],
+    "role": "Erasmus Exchange",
+    "years": "2019",
+    "events": [
+      {
+        "year": "02/2019 \u2013 07/2019",
+        "category": "Education",
+        "title": "Erasmus Programme",
+        "detail": "University of Groningen. One semester studying theoretical physics."
+      }
+    ]
+  },
+  {
+    "id": "sinaia",
+    "name": "Sinaia",
+    "country": "Romania",
+    "region": "europe",
+    "coords": [
+      25.5513,
+      45.3524
+    ],
+    "role": "Seasonal School",
+    "years": "2019",
+    "events": [
+      {
+        "year": "09/2019",
+        "category": "School",
+        "title": "VIII International Pontecorvo Neutrino Physics School",
+        "detail": "Advanced neutrino physics school in the Carpathian Mountains."
+      }
+    ]
+  },
+  {
+    "id": "tokai",
+    "name": "Tokai",
+    "country": "Japan",
+    "region": "japan",
+    "coords": [
+      140.5694,
+      36.4674
+    ],
+    "role": "Collaboration Talks",
+    "years": "2018 \u2013 2019",
+    "events": [
+      {
+        "year": "04/2019",
+        "category": "Talk",
+        "title": "T2K Collaboration Meeting",
+        "detail": "Talk: Data-driven adjustments of the spectral function model in NuWro at J-PARC."
+      },
+      {
+        "year": "12/2018",
+        "category": "Talk",
+        "title": "T2K Collaboration Meeting",
+        "detail": "Talk: Investigating data discrepancies in NuWro with the spectral function model at J-PARC."
+      }
+    ]
+  },
+  {
+    "id": "okinawa",
+    "name": "Okinawa",
+    "country": "Japan",
+    "region": "japan",
+    "coords": [
+      127.846,
+      26.495
+    ],
+    "role": "Visiting Researcher",
+    "years": "2026",
+    "events": [
+      {
+        "year": "06/2026 \u2013 07/2026",
+        "category": "Research",
+        "title": "OIST Visiting Researcher",
+        "detail": "Okinawa Institute of Science and Technology. Collaborating with Bill Munro on photonic quantum memristors."
+      }
+    ]
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "region": "singapore",
+    "coords": [
+      103.8198,
+      1.3521
+    ],
+    "role": "Conference Presenter",
+    "years": "2025",
+    "events": [
+      {
+        "year": "11/2025",
+        "category": "Conference",
+        "title": "QTML 2025 (Quantum Techniques in Machine Learning)",
+        "detail": "Poster: Quantum reservoir computing with multiple photonic memristors at CQT."
+      }
+    ]
+  }
+]
